@@ -1,0 +1,301 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 1740,
+  "figures_count": 11,
+  "tables_count": 15,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        215,
+        465,
+        518,
+        516
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1099,
+        25,
+        1266,
+        44
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1099,
+        25,
+        1266,
+        43
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        1098,
+        25,
+        1267,
+        44
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1098,
+        25,
+        1266,
+        44
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1098,
+        25,
+        1266,
+        44
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1099,
+        25,
+        1266,
+        44
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1098,
+        25,
+        1266,
+        44
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1098,
+        25,
+        1266,
+        44
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1099,
+        25,
+        1267,
+        44
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        866,
+        380,
+        1182,
+        483
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/fig_11.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": [
+        720,
+        72,
+        1178,
+        624
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        164,
+        142,
+        671,
+        662
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        430,
+        144,
+        668,
+        659
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        167,
+        144,
+        403,
+        659
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        434,
+        143,
+        671,
+        658
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        71,
+        200,
+        721,
+        641
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        151,
+        137,
+        670,
+        680
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        144,
+        145,
+        384,
+        678
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        408,
+        145,
+        648,
+        678
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        141,
+        137,
+        667,
+        662
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        3,
+        201,
+        768,
+        618
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        110,
+        149,
+        354,
+        674
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        374,
+        148,
+        626,
+        676
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        108,
+        148,
+        630,
+        676
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        6,
+        224,
+        758,
+        619
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】/table_10.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/女性护理品牌：手机平台-品牌营销合作案例【卫生巾】【跨界营销】"
+}

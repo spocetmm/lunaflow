@@ -1,0 +1,1874 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 21463,
+  "figures_count": 94,
+  "tables_count": 75,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        1176,
+        838,
+        1237,
+        858
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        194,
+        603,
+        422,
+        646
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        1040,
+        40,
+        1230,
+        97
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        703,
+        814,
+        864,
+        858
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        262,
+        458,
+        364,
+        577
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        725,
+        820,
+        828,
+        849
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        956,
+        885,
+        965,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        956,
+        884,
+        966,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        315,
+        884,
+        326,
+        897
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        39,
+        59,
+        177,
+        144
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        859,
+        50,
+        1067,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        956,
+        884,
+        965,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        316,
+        885,
+        325,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        37,
+        803,
+        227,
+        821
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        859,
+        50,
+        1067,
+        66
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        956,
+        884,
+        965,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        316,
+        884,
+        325,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        678,
+        853,
+        875,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        219,
+        50,
+        427,
+        66
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        954,
+        885,
+        968,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        316,
+        885,
+        325,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        679,
+        853,
+        875,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        953,
+        885,
+        968,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        313,
+        885,
+        327,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        679,
+        853,
+        875,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        313,
+        885,
+        328,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        38,
+        853,
+        235,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        958,
+        885,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        314,
+        885,
+        328,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        37,
+        803,
+        227,
+        820
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        318,
+        884,
+        333,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        959,
+        885,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        38,
+        853,
+        171,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        958,
+        885,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_11.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        318,
+        884,
+        333,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_11.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        679,
+        853,
+        812,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        958,
+        885,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        318,
+        885,
+        332,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        679,
+        854,
+        811,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        39,
+        853,
+        171,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        318,
+        885,
+        333,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_13.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        958,
+        885,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        958,
+        885,
+        973,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        318,
+        885,
+        333,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        39,
+        853,
+        171,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        958,
+        885,
+        973,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        318,
+        885,
+        333,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        39,
+        814,
+        600,
+        845
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        679,
+        814,
+        1240,
+        845
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        678,
+        814,
+        1240,
+        864
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        39,
+        814,
+        600,
+        863
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        959,
+        885,
+        973,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        318,
+        885,
+        333,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        679,
+        854,
+        811,
+        867
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        699,
+        146,
+        727,
+        173
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        958,
+        885,
+        973,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_17.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        318,
+        885,
+        332,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_17.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        39,
+        854,
+        171,
+        867
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        953,
+        885,
+        968,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_18.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        314,
+        885,
+        328,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_18.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        37,
+        803,
+        227,
+        821
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        313,
+        885,
+        328,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        953,
+        884,
+        968,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        313,
+        884,
+        328,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        953,
+        885,
+        968,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        680,
+        815,
+        1239,
+        845
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        679,
+        853,
+        811,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        314,
+        885,
+        328,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        953,
+        885,
+        968,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        954,
+        885,
+        968,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        313,
+        885,
+        327,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        38,
+        853,
+        171,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        314,
+        885,
+        328,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        953,
+        885,
+        968,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        679,
+        853,
+        811,
+        867
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        40,
+        679,
+        86,
+        726
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        679,
+        130,
+        725,
+        175
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        679,
+        495,
+        726,
+        544
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        679,
+        313,
+        726,
+        359
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        39,
+        853,
+        171,
+        868
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        958,
+        884,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_24.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        314,
+        885,
+        328,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_24.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        37,
+        803,
+        227,
+        821
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        318,
+        884,
+        333,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        958,
+        885,
+        973,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        958,
+        884,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        318,
+        885,
+        333,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        958,
+        884,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        318,
+        884,
+        332,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        318,
+        884,
+        333,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        958,
+        884,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_28.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        958,
+        884,
+        973,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_29.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        318,
+        884,
+        333,
+        896
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_29.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        313,
+        885,
+        328,
+        895
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/fig_30.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": [
+        262,
+        458,
+        364,
+        577
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        183,
+        311,
+        460,
+        390
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_1.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        676,
+        462,
+        1241,
+        632
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        678,
+        672,
+        1241,
+        853
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        676,
+        453,
+        1242,
+        635
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        679,
+        389,
+        1248,
+        598
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        679,
+        389,
+        1249,
+        598
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        679,
+        491,
+        1241,
+        687
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        33,
+        291,
+        606,
+        545
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        703,
+        438,
+        1210,
+        539
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        703,
+        743,
+        1212,
+        842
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        701,
+        565,
+        773,
+        637
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        697,
+        230,
+        772,
+        301
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        64,
+        365,
+        572,
+        474
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        65,
+        606,
+        573,
+        709
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        58,
+        156,
+        132,
+        230
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        678,
+        191,
+        1252,
+        851
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        38,
+        189,
+        614,
+        851
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        692,
+        758,
+        797,
+        825
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        694,
+        443,
+        791,
+        503
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        49,
+        598,
+        155,
+        664
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        50,
+        440,
+        156,
+        506
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        693,
+        370,
+        791,
+        432
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        694,
+        192,
+        788,
+        252
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        694,
+        514,
+        790,
+        575
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        693,
+        585,
+        790,
+        645
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        45,
+        715,
+        157,
+        833
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        46,
+        757,
+        157,
+        826
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        682,
+        135,
+        1246,
+        253
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        677,
+        332,
+        1252,
+        500
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        38,
+        353,
+        609,
+        573
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        679,
+        351,
+        1249,
+        546
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        36,
+        388,
+        609,
+        585
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        39,
+        232,
+        604,
+        656
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        699,
+        318,
+        726,
+        340
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_16.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        988,
+        458,
+        1205,
+        624
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1038,
+        603,
+        1243,
+        780
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        353,
+        457,
+        558,
+        614
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        327,
+        376,
+        590,
+        575
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        683,
+        742,
+        772,
+        794
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        680,
+        182,
+        1248,
+        266
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        689,
+        390,
+        757,
+        480
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        855,
+        677,
+        1091,
+        835
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        40,
+        303,
+        119,
+        454
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        363,
+        326,
+        608,
+        440
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        41,
+        132,
+        610,
+        212
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        41,
+        474,
+        609,
+        556
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        680,
+        131,
+        1249,
+        213
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        693,
+        356,
+        730,
+        394
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        693,
+        469,
+        731,
+        507
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        690,
+        487,
+        1243,
+        806
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        54,
+        198,
+        597,
+        610
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        669,
+        199,
+        1249,
+        848
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        55,
+        580,
+        321,
+        704
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        678,
+        188,
+        1252,
+        849
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        44,
+        748,
+        356,
+        840
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        407,
+        305,
+        598,
+        439
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        930,
+        627,
+        1178,
+        740
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        746,
+        485,
+        898,
+        601
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        114,
+        226,
+        181,
+        316
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        482,
+        360,
+        530,
+        451
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        477,
+        632,
+        535,
+        723
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        119,
+        500,
+        186,
+        588
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        687,
+        643,
+        910,
+        741
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        51,
+        529,
+        418,
+        734
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        678,
+        189,
+        1258,
+        852
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        870,
+        574,
+        938,
+        668
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        38,
+        611,
+        606,
+        833
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        685,
+        576,
+        1252,
+        840
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        105,
+        195,
+        254,
+        304
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        111,
+        477,
+        253,
+        588
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        685,
+        577,
+        1252,
+        840
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_28.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        39,
+        188,
+        618,
+        852
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_29.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        679,
+        190,
+        1245,
+        431
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_29.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        679,
+        438,
+        896,
+        847
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025中国避孕用具发展洞察白皮书/table_29.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/2025中国避孕用具发展洞察白皮书"
+}

@@ -1,0 +1,345 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 4634,
+  "figures_count": 9,
+  "tables_count": 21,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        69,
+        53,
+        289,
+        113
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        55,
+        167,
+        245,
+        210
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        48,
+        639,
+        324,
+        667
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/fig_1.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        54,
+        188,
+        77,
+        216
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/fig_12.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        111,
+        362,
+        132,
+        388
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        111,
+        595,
+        136,
+        616
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        772,
+        397,
+        940,
+        563
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        110,
+        498,
+        134,
+        524
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1013,
+        397,
+        1183,
+        564
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/fig_19.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": [
+        663,
+        101,
+        1208,
+        653
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        763,
+        3,
+        1278,
+        719
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_2.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        94,
+        349,
+        330,
+        518
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        671,
+        385,
+        781,
+        534
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        792,
+        387,
+        895,
+        522
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        667,
+        382,
+        901,
+        591
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        57,
+        111,
+        1210,
+        712
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        42,
+        176,
+        1206,
+        717
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        948,
+        415,
+        1251,
+        615
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_8.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        46,
+        227,
+        1219,
+        720
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        50,
+        292,
+        1219,
+        717
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        47,
+        295,
+        1218,
+        712
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        54,
+        188,
+        77,
+        216
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        47,
+        321,
+        591,
+        646
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        720,
+        290,
+        1171,
+        675
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        130,
+        367,
+        557,
+        665
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        41,
+        415,
+        467,
+        653
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        866,
+        696,
+        1189,
+        719
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        861,
+        374,
+        1221,
+        718
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_15.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1013,
+        397,
+        1183,
+        564
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        772,
+        397,
+        940,
+        563
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2024卫生巾品牌“标长实短”事件/table_19.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/2024卫生巾品牌“标长实短”事件"
+}

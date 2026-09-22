@@ -1,0 +1,1060 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 4781,
+  "figures_count": 44,
+  "tables_count": 51,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        1115,
+        21,
+        1262,
+        56
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1117,
+        21,
+        1263,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_2.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1118,
+        22,
+        1263,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_5.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1117,
+        21,
+        1263,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        0,
+        20,
+        178,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1117,
+        22,
+        1262,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1116,
+        21,
+        1262,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        0,
+        20,
+        181,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_9.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1119,
+        22,
+        1263,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        0,
+        18,
+        285,
+        69
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        1118,
+        22,
+        1262,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1117,
+        22,
+        1264,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        198,
+        21,
+        697,
+        70
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_14.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1116,
+        22,
+        1262,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        1118,
+        22,
+        1262,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        1118,
+        22,
+        1263,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_18.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        0,
+        20,
+        180,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1118,
+        22,
+        1262,
+        53
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        0,
+        20,
+        180,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_19.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        1115,
+        21,
+        1262,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        1118,
+        22,
+        1263,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        1118,
+        22,
+        1263,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_23.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        1118,
+        21,
+        1265,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        0,
+        20,
+        178,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        1118,
+        22,
+        1262,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        0,
+        20,
+        176,
+        66
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        393,
+        677,
+        492,
+        693
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        1116,
+        22,
+        1262,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        1117,
+        22,
+        1262,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        0,
+        20,
+        180,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_28.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        1118,
+        22,
+        1262,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_30.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        0,
+        20,
+        179,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_30.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        1118,
+        21,
+        1263,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_31.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        1118,
+        21,
+        1264,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_32.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        0,
+        20,
+        179,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_32.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        1118,
+        21,
+        1264,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_33.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        0,
+        20,
+        179,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_33.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        1118,
+        22,
+        1263,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_34.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        0,
+        20,
+        180,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_34.webp"
+    },
+    {
+      "page": 36,
+      "bbox": [
+        1116,
+        21,
+        1262,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_36.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        1118,
+        22,
+        1263,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_37.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        1118,
+        22,
+        1263,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_39.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        0,
+        20,
+        178,
+        67
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_39.webp"
+    },
+    {
+      "page": 40,
+      "bbox": [
+        1116,
+        21,
+        1263,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/fig_40.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "bbox": [
+        20,
+        120,
+        485,
+        710
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_2.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        502,
+        63,
+        1264,
+        693
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        157,
+        157,
+        355,
+        306
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        45,
+        268,
+        659,
+        691
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        706,
+        269,
+        904,
+        689
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        540,
+        101,
+        1134,
+        691
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        157,
+        158,
+        355,
+        306
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        855,
+        105,
+        1130,
+        690
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        441,
+        243,
+        866,
+        666
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        112,
+        242,
+        320,
+        666
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        980,
+        243,
+        1185,
+        667
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_9.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        118,
+        234,
+        1151,
+        514
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_17.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        22,
+        200,
+        1219,
+        660
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        81,
+        137,
+        1254,
+        713
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_20.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        193,
+        302,
+        1097,
+        417
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        67,
+        52,
+        1174,
+        690
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        673,
+        179,
+        910,
+        686
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        371,
+        180,
+        607,
+        686
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        938,
+        179,
+        1177,
+        688
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        404,
+        556,
+        577,
+        682
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        105,
+        177,
+        609,
+        690
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        108,
+        179,
+        344,
+        691
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        125,
+        384,
+        322,
+        557
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        675,
+        174,
+        1173,
+        689
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        255,
+        174,
+        502,
+        271
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        822,
+        178,
+        1073,
+        302
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        820,
+        341,
+        1067,
+        696
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        822,
+        178,
+        1073,
+        302
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        237,
+        172,
+        510,
+        698
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        60,
+        204,
+        1252,
+        601
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        117,
+        178,
+        365,
+        703
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        112,
+        173,
+        1117,
+        701
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_28.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        38,
+        252,
+        662,
+        643
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_30.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        647,
+        321,
+        927,
+        667
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_31.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        344,
+        320,
+        620,
+        666
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_31.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        30,
+        321,
+        324,
+        668
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_31.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        945,
+        322,
+        1251,
+        668
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_31.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        949,
+        326,
+        1252,
+        632
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_32.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        643,
+        326,
+        925,
+        631
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_32.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        342,
+        325,
+        620,
+        632
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_32.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        30,
+        326,
+        323,
+        632
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_32.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        948,
+        318,
+        1251,
+        632
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_33.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        643,
+        319,
+        924,
+        632
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_33.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        344,
+        319,
+        622,
+        632
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_33.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        31,
+        318,
+        323,
+        632
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_33.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        68,
+        247,
+        1203,
+        422
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_34.webp"
+    },
+    {
+      "page": 36,
+      "bbox": [
+        43,
+        122,
+        388,
+        687
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_36.webp"
+    },
+    {
+      "page": 36,
+      "bbox": [
+        468,
+        119,
+        755,
+        687
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_36.webp"
+    },
+    {
+      "page": 36,
+      "bbox": [
+        874,
+        115,
+        1160,
+        686
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_36.webp"
+    },
+    {
+      "page": 36,
+      "bbox": [
+        460,
+        103,
+        1162,
+        691
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_36.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        62,
+        110,
+        1196,
+        665
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/自由点卫生巾品牌新媒体运营规划方案/table_37.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/自由点卫生巾品牌新媒体运营规划方案"
+}

@@ -1,0 +1,807 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 4556,
+  "figures_count": 49,
+  "tables_count": 23,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        28,
+        29,
+        202,
+        101
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        985,
+        31,
+        1252,
+        85
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1083,
+        29,
+        1255,
+        99
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        990,
+        644,
+        1253,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1085,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        992,
+        645,
+        1252,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1028,
+        605,
+        1213,
+        622
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        991,
+        645,
+        1252,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        990,
+        645,
+        1253,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1108,
+        619,
+        1212,
+        635
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        990,
+        644,
+        1254,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1084,
+        30,
+        1255,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        990,
+        644,
+        1253,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1084,
+        30,
+        1255,
+        99
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        991,
+        644,
+        1253,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1083,
+        30,
+        1255,
+        99
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        990,
+        644,
+        1253,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        991,
+        644,
+        1253,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1084,
+        30,
+        1255,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        99
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_11.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        991,
+        644,
+        1253,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1084,
+        31,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        992,
+        645,
+        1252,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_13.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        991,
+        644,
+        1253,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        992,
+        646,
+        1252,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        992,
+        645,
+        1253,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        991,
+        644,
+        1253,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        1085,
+        31,
+        1253,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_17.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        993,
+        645,
+        1252,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_17.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        809,
+        561,
+        1217,
+        628
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_18.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        992,
+        646,
+        1253,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1084,
+        31,
+        1254,
+        99
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        992,
+        645,
+        1253,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        1084,
+        30,
+        1254,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        991,
+        645,
+        1253,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        1083,
+        30,
+        1255,
+        99
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        990,
+        644,
+        1253,
+        697
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        31,
+        30,
+        200,
+        98
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        988,
+        32,
+        1250,
+        83
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        987,
+        30,
+        1252,
+        85
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        28,
+        29,
+        201,
+        100
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/fig_23.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 3,
+      "bbox": [
+        66,
+        151,
+        434,
+        600
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        811,
+        153,
+        1205,
+        454
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        47,
+        122,
+        1215,
+        640
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        84,
+        155,
+        1194,
+        602
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        58,
+        197,
+        1218,
+        554
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_7.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        438,
+        124,
+        1279,
+        594
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        6,
+        3,
+        707,
+        717
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        49,
+        147,
+        1212,
+        624
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        56,
+        152,
+        1216,
+        412
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        54,
+        159,
+        1216,
+        423
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_13.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        832,
+        159,
+        1211,
+        422
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_13.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        652,
+        479,
+        1213,
+        538
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        70,
+        143,
+        512,
+        626
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_14.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        0,
+        160,
+        396,
+        559
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        63,
+        139,
+        768,
+        626
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        68,
+        316,
+        484,
+        641
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_18.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        790,
+        141,
+        1206,
+        450
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_18.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        790,
+        141,
+        1207,
+        449
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        462,
+        135,
+        816,
+        302
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        83,
+        135,
+        435,
+        302
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        846,
+        136,
+        1200,
+        302
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        104,
+        159,
+        1162,
+        647
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_20.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        60,
+        438,
+        1258,
+        719
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/药店如何打造更年期女性“第二客厅”/table_22.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/药店如何打造更年期女性“第二客厅”"
+}

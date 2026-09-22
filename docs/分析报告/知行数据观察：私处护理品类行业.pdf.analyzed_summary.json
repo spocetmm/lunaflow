@@ -1,0 +1,708 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 7677,
+  "figures_count": 33,
+  "tables_count": 30,
+  "figures": [
+    {
+      "page": 2,
+      "bbox": [
+        1123,
+        12,
+        1225,
+        90
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        50,
+        24,
+        599,
+        53
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1163,
+        14,
+        1257,
+        87
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1167,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1163,
+        14,
+        1257,
+        87
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        80
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        1167,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        1167,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        1163,
+        14,
+        1257,
+        87
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        1165,
+        13,
+        1253,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_18.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        28,
+        24,
+        458,
+        69
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        1167,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        1167,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        1167,
+        15,
+        1253,
+        55
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        1199,
+        7,
+        1268,
+        61
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        28,
+        39,
+        139,
+        62
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        761,
+        673,
+        1219,
+        699
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        26,
+        674,
+        174,
+        698
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        1200,
+        8,
+        1267,
+        61
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        28,
+        39,
+        139,
+        62
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        1162,
+        14,
+        1257,
+        87
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/fig_28.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "bbox": [
+        59,
+        629,
+        1216,
+        719
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_2.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        95,
+        299,
+        1173,
+        627
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        38,
+        288,
+        792,
+        681
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        38,
+        243,
+        812,
+        674
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_7.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        32,
+        250,
+        397,
+        680
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        434,
+        248,
+        797,
+        679
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        838,
+        254,
+        1209,
+        680
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        16,
+        280,
+        850,
+        681
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        25,
+        267,
+        866,
+        681
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        915,
+        246,
+        1216,
+        669
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        26,
+        286,
+        624,
+        680
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        60,
+        259,
+        1238,
+        716
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_14.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        45,
+        469,
+        675,
+        703
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        158,
+        255,
+        559,
+        410
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        22,
+        290,
+        1219,
+        696
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        29,
+        295,
+        688,
+        684
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        692,
+        296,
+        1231,
+        704
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        651,
+        432,
+        825,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        855,
+        432,
+        1028,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        450,
+        433,
+        624,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        47,
+        280,
+        1219,
+        422
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        248,
+        432,
+        423,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        1056,
+        431,
+        1228,
+        603
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        46,
+        432,
+        220,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        41,
+        278,
+        1219,
+        697
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        628,
+        305,
+        1242,
+        665
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        27,
+        305,
+        606,
+        666
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        453,
+        298,
+        1236,
+        682
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        43,
+        188,
+        1219,
+        698
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_25.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        40,
+        152,
+        1219,
+        689
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/知行数据观察：私处护理品类行业/table_27.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/知行数据观察：私处护理品类行业"
+}

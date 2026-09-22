@@ -1,0 +1,1192 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 112224,
+  "figures_count": 73,
+  "tables_count": 34,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        667,
+        55,
+        848,
+        167
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        60,
+        60,
+        281,
+        107
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        630,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        215,
+        40,
+        320,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        123,
+        40,
+        197,
+        54
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        145,
+        39,
+        199,
+        92
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        630,
+        1229,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        630,
+        1229,
+        851,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_11.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        146,
+        39,
+        199,
+        92
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        629,
+        1227,
+        854,
+        1244
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        52,
+        907,
+        476,
+        922
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        111,
+        633,
+        198,
+        650
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        630,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        630,
+        1229,
+        853,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        52,
+        1076,
+        223,
+        1089
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        111,
+        214,
+        198,
+        231
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        630,
+        1229,
+        851,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        111,
+        494,
+        198,
+        511
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_24.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        101,
+        547,
+        196,
+        563
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        628,
+        1227,
+        853,
+        1244
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        100,
+        319,
+        197,
+        336
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_28.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_29.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        100,
+        582,
+        197,
+        598
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_29.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_30.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        630,
+        1229,
+        851,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_31.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        172,
+        517,
+        198,
+        542
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_31.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        145,
+        39,
+        200,
+        92
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_31.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_32.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        172,
+        533,
+        198,
+        558
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_32.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        172,
+        970,
+        198,
+        996
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_32.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        172,
+        43,
+        198,
+        69
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_32.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_33.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        172,
+        236,
+        198,
+        262
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_33.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        172,
+        639,
+        198,
+        664
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_33.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_34.webp"
+    },
+    {
+      "page": 35,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_35.webp"
+    },
+    {
+      "page": 36,
+      "bbox": [
+        630,
+        1228,
+        852,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_36.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        630,
+        1229,
+        852,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_37.webp"
+    },
+    {
+      "page": 38,
+      "bbox": [
+        630,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_38.webp"
+    },
+    {
+      "page": 38,
+      "bbox": [
+        47,
+        423,
+        67,
+        668
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_38.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        630,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_39.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        144,
+        40,
+        743,
+        59
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_39.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        51,
+        1002,
+        385,
+        1018
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_39.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        98,
+        39,
+        748,
+        64
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_39.webp"
+    },
+    {
+      "page": 40,
+      "bbox": [
+        630,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_40.webp"
+    },
+    {
+      "page": 41,
+      "bbox": [
+        630,
+        1229,
+        851,
+        1242
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_41.webp"
+    },
+    {
+      "page": 42,
+      "bbox": [
+        630,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_42.webp"
+    },
+    {
+      "page": 43,
+      "bbox": [
+        629,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_43.webp"
+    },
+    {
+      "page": 44,
+      "bbox": [
+        629,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_44.webp"
+    },
+    {
+      "page": 45,
+      "bbox": [
+        629,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_45.webp"
+    },
+    {
+      "page": 46,
+      "bbox": [
+        630,
+        1228,
+        853,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_46.webp"
+    },
+    {
+      "page": 47,
+      "bbox": [
+        683,
+        32,
+        870,
+        229
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_47.webp"
+    },
+    {
+      "page": 47,
+      "bbox": [
+        684,
+        36,
+        869,
+        152
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_47.webp"
+    },
+    {
+      "page": 47,
+      "bbox": [
+        685,
+        178,
+        868,
+        226
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/fig_47.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 3,
+      "bbox": [
+        216,
+        355,
+        358,
+        500
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        543,
+        356,
+        687,
+        501
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        52,
+        285,
+        852,
+        815
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_4.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        52,
+        324,
+        852,
+        790
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        33,
+        108,
+        866,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        78,
+        808,
+        837,
+        1137
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        52,
+        401,
+        851,
+        912
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        49,
+        123,
+        853,
+        811
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        0,
+        968,
+        906,
+        1278
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        63,
+        297,
+        469,
+        623
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        45,
+        710,
+        858,
+        1108
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        52,
+        373,
+        852,
+        780
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        71,
+        120,
+        840,
+        687
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        249,
+        517,
+        677,
+        685
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        0,
+        828,
+        904,
+        1277
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_17.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        49,
+        557,
+        859,
+        1135
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        423,
+        845,
+        481,
+        901
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        694,
+        844,
+        752,
+        901
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        694,
+        586,
+        752,
+        642
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        229,
+        292,
+        638,
+        706
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        50,
+        634,
+        860,
+        1017
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_21.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        46,
+        168,
+        867,
+        546
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        46,
+        681,
+        867,
+        1069
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        0,
+        740,
+        906,
+        1278
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        46,
+        454,
+        865,
+        840
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        52,
+        463,
+        853,
+        772
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        45,
+        175,
+        866,
+        564
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_28.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        46,
+        728,
+        865,
+        1113
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_29.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        172,
+        43,
+        198,
+        69
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_32.webp"
+    },
+    {
+      "page": 38,
+      "bbox": [
+        253,
+        974,
+        648,
+        1002
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_38.webp"
+    },
+    {
+      "page": 38,
+      "bbox": [
+        81,
+        276,
+        850,
+        962
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_38.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        48,
+        586,
+        859,
+        972
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_39.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        45,
+        150,
+        860,
+        481
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_39.webp"
+    },
+    {
+      "page": 40,
+      "bbox": [
+        72,
+        106,
+        828,
+        545
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG/table_40.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/2026年女性健康投资前景分析报告：填补缺口与释放未开发市场潜力（英文版）-世界经济论坛BCG"
+}

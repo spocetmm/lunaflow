@@ -1,0 +1,542 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 6026,
+  "figures_count": 0,
+  "tables_count": 48,
+  "figures": [],
+  "tables": [
+    {
+      "page": 4,
+      "bbox": [
+        812,
+        154,
+        1129,
+        465
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        151,
+        100,
+        603,
+        622
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        213,
+        161,
+        427,
+        235
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        245,
+        462,
+        368,
+        548
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        218,
+        119,
+        1080,
+        646
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        60,
+        112,
+        1259,
+        569
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        466,
+        120,
+        1278,
+        691
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        6,
+        283,
+        53,
+        334
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        7,
+        410,
+        54,
+        472
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        7,
+        558,
+        53,
+        620
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        61,
+        426,
+        77,
+        442
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        61,
+        573,
+        78,
+        590
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        886,
+        214,
+        1205,
+        383
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        405,
+        186,
+        639,
+        344
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        935,
+        530,
+        983,
+        593
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        930,
+        442,
+        1208,
+        677
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        685,
+        446,
+        880,
+        617
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        679,
+        445,
+        883,
+        680
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        934,
+        451,
+        984,
+        513
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        935,
+        611,
+        983,
+        674
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        925,
+        95,
+        1170,
+        676
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_11.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        47,
+        92,
+        920,
+        679
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        971,
+        257,
+        1211,
+        686
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        82,
+        250,
+        314,
+        687
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        370,
+        254,
+        620,
+        680
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        108,
+        117,
+        1225,
+        691
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        848,
+        239,
+        1141,
+        529
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_13.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        3,
+        328,
+        1008,
+        649
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        65,
+        182,
+        1216,
+        697
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        44,
+        112,
+        1219,
+        700
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_17.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        169,
+        151,
+        1101,
+        609
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        46,
+        117,
+        1216,
+        717
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        81,
+        123,
+        1230,
+        704
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        80,
+        125,
+        1230,
+        695
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        753,
+        146,
+        980,
+        617
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        1001,
+        147,
+        1233,
+        616
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        751,
+        146,
+        1237,
+        619
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        21,
+        133,
+        1190,
+        650
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        832,
+        180,
+        1093,
+        633
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_24.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        507,
+        180,
+        773,
+        632
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        120,
+        102,
+        1198,
+        666
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        193,
+        184,
+        464,
+        646
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        45,
+        149,
+        865,
+        639
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        52,
+        145,
+        841,
+        616
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        50,
+        144,
+        877,
+        634
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_28.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        38,
+        128,
+        1218,
+        636
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_29.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        109,
+        99,
+        1145,
+        708
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_30.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        44,
+        94,
+        1218,
+        672
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案/table_31.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/新媒体运营方案：卫生棉条品牌小红书新媒体推广方案"
+}

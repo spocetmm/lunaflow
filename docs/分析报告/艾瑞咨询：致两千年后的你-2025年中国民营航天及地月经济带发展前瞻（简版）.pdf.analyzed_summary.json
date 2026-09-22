@@ -1,0 +1,785 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 3951,
+  "figures_count": 49,
+  "tables_count": 21,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        72,
+        84,
+        273,
+        180
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        76,
+        846,
+        289,
+        875
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1098,
+        42,
+        1246,
+        114
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1249,
+        928,
+        1261,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1093,
+        40,
+        1251,
+        116
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1247,
+        926,
+        1263,
+        946
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        1098,
+        41,
+        1246,
+        113
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        72,
+        927,
+        226,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        1063,
+        928,
+        1260,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        1248,
+        928,
+        1262,
+        944
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1098,
+        41,
+        1246,
+        113
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        72,
+        927,
+        226,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1063,
+        928,
+        1256,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1248,
+        928,
+        1262,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1097,
+        42,
+        1246,
+        113
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        72,
+        927,
+        226,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1063,
+        928,
+        1259,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1248,
+        929,
+        1261,
+        944
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1098,
+        41,
+        1246,
+        113
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        73,
+        928,
+        225,
+        944
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1063,
+        928,
+        1258,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1248,
+        928,
+        1262,
+        944
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        73,
+        897,
+        397,
+        917
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1093,
+        40,
+        1250,
+        116
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1246,
+        926,
+        1263,
+        946
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1098,
+        41,
+        1246,
+        113
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        72,
+        928,
+        226,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1063,
+        928,
+        1250,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1248,
+        928,
+        1262,
+        944
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1098,
+        41,
+        1246,
+        113
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        72,
+        927,
+        226,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1063,
+        928,
+        1264,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        1093,
+        40,
+        1250,
+        116
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_11.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        1244,
+        926,
+        1265,
+        946
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1097,
+        41,
+        1247,
+        114
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        72,
+        928,
+        226,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1063,
+        928,
+        1264,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1245,
+        928,
+        1265,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        1093,
+        40,
+        1250,
+        116
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_13.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        1245,
+        926,
+        1266,
+        946
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1098,
+        41,
+        1246,
+        113
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        72,
+        927,
+        226,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1063,
+        928,
+        1264,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1246,
+        928,
+        1265,
+        944
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        1098,
+        42,
+        1246,
+        114
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        1246,
+        928,
+        1265,
+        945
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1099,
+        42,
+        1246,
+        113
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1246,
+        929,
+        1264,
+        944
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        561,
+        263,
+        717,
+        340
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/fig_17.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "bbox": [
+        1,
+        3,
+        350,
+        959
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_2.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        645,
+        444,
+        1243,
+        876
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        33,
+        440,
+        624,
+        880
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        33,
+        440,
+        625,
+        880
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        85,
+        411,
+        639,
+        871
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        658,
+        440,
+        1192,
+        828
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_5.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        666,
+        392,
+        1231,
+        886
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_7.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        655,
+        476,
+        1202,
+        873
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        91,
+        539,
+        1201,
+        872
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        436,
+        439,
+        1252,
+        879
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        46,
+        479,
+        426,
+        872
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_10.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        90,
+        276,
+        1202,
+        866
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_12.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        96,
+        494,
+        600,
+        882
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        663,
+        525,
+        1163,
+        880
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        513,
+        498,
+        679,
+        660
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        830,
+        498,
+        998,
+        660
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        513,
+        724,
+        679,
+        886
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        830,
+        725,
+        996,
+        886
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        477,
+        211,
+        519,
+        252
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        477,
+        335,
+        521,
+        378
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        477,
+        271,
+        519,
+        312
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）/table_15.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/艾瑞咨询：致两千年后的你-2025年中国民营航天及地月经济带发展前瞻（简版）"
+}

@@ -1,0 +1,1621 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 84329,
+  "figures_count": 111,
+  "tables_count": 35,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        254,
+        140,
+        735,
+        177
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        377,
+        1182,
+        511,
+        1212
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        453,
+        1239,
+        465,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        453,
+        1239,
+        464,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        453,
+        1239,
+        464,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        453,
+        1239,
+        464,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        454,
+        1240,
+        464,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        454,
+        1239,
+        464,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        453,
+        1240,
+        464,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        453,
+        1240,
+        464,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        80,
+        931,
+        832,
+        974
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_28.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_29.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_30.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_31.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_32.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_33.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_34.webp"
+    },
+    {
+      "page": 35,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_35.webp"
+    },
+    {
+      "page": 36,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_36.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_37.webp"
+    },
+    {
+      "page": 38,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_38.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_39.webp"
+    },
+    {
+      "page": 40,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_40.webp"
+    },
+    {
+      "page": 41,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_41.webp"
+    },
+    {
+      "page": 42,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_42.webp"
+    },
+    {
+      "page": 43,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_43.webp"
+    },
+    {
+      "page": 44,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_44.webp"
+    },
+    {
+      "page": 45,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_45.webp"
+    },
+    {
+      "page": 46,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_46.webp"
+    },
+    {
+      "page": 47,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_47.webp"
+    },
+    {
+      "page": 48,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_48.webp"
+    },
+    {
+      "page": 49,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_49.webp"
+    },
+    {
+      "page": 50,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_50.webp"
+    },
+    {
+      "page": 51,
+      "bbox": [
+        449,
+        1239,
+        467,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_51.webp"
+    },
+    {
+      "page": 52,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_52.webp"
+    },
+    {
+      "page": 53,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_53.webp"
+    },
+    {
+      "page": 54,
+      "bbox": [
+        449,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_54.webp"
+    },
+    {
+      "page": 55,
+      "bbox": [
+        449,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_55.webp"
+    },
+    {
+      "page": 56,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_56.webp"
+    },
+    {
+      "page": 57,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_57.webp"
+    },
+    {
+      "page": 58,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_58.webp"
+    },
+    {
+      "page": 59,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_59.webp"
+    },
+    {
+      "page": 60,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_60.webp"
+    },
+    {
+      "page": 61,
+      "bbox": [
+        449,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_61.webp"
+    },
+    {
+      "page": 62,
+      "bbox": [
+        449,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_62.webp"
+    },
+    {
+      "page": 63,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_63.webp"
+    },
+    {
+      "page": 64,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_64.webp"
+    },
+    {
+      "page": 65,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_65.webp"
+    },
+    {
+      "page": 66,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_66.webp"
+    },
+    {
+      "page": 67,
+      "bbox": [
+        449,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_67.webp"
+    },
+    {
+      "page": 68,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_68.webp"
+    },
+    {
+      "page": 69,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_69.webp"
+    },
+    {
+      "page": 70,
+      "bbox": [
+        451,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_70.webp"
+    },
+    {
+      "page": 71,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_71.webp"
+    },
+    {
+      "page": 72,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_72.webp"
+    },
+    {
+      "page": 73,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_73.webp"
+    },
+    {
+      "page": 74,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_74.webp"
+    },
+    {
+      "page": 75,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_75.webp"
+    },
+    {
+      "page": 76,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_76.webp"
+    },
+    {
+      "page": 77,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_77.webp"
+    },
+    {
+      "page": 78,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_78.webp"
+    },
+    {
+      "page": 79,
+      "bbox": [
+        450,
+        1239,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_79.webp"
+    },
+    {
+      "page": 80,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_80.webp"
+    },
+    {
+      "page": 81,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_81.webp"
+    },
+    {
+      "page": 82,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_82.webp"
+    },
+    {
+      "page": 83,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_83.webp"
+    },
+    {
+      "page": 84,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_84.webp"
+    },
+    {
+      "page": 85,
+      "bbox": [
+        450,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_85.webp"
+    },
+    {
+      "page": 86,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_86.webp"
+    },
+    {
+      "page": 87,
+      "bbox": [
+        449,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_87.webp"
+    },
+    {
+      "page": 88,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_88.webp"
+    },
+    {
+      "page": 89,
+      "bbox": [
+        450,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_89.webp"
+    },
+    {
+      "page": 90,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_90.webp"
+    },
+    {
+      "page": 91,
+      "bbox": [
+        449,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_91.webp"
+    },
+    {
+      "page": 92,
+      "bbox": [
+        449,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_92.webp"
+    },
+    {
+      "page": 93,
+      "bbox": [
+        449,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_93.webp"
+    },
+    {
+      "page": 94,
+      "bbox": [
+        449,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_94.webp"
+    },
+    {
+      "page": 95,
+      "bbox": [
+        449,
+        1240,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_95.webp"
+    },
+    {
+      "page": 96,
+      "bbox": [
+        449,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_96.webp"
+    },
+    {
+      "page": 97,
+      "bbox": [
+        449,
+        1239,
+        467,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_97.webp"
+    },
+    {
+      "page": 98,
+      "bbox": [
+        449,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_98.webp"
+    },
+    {
+      "page": 99,
+      "bbox": [
+        450,
+        1240,
+        468,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_99.webp"
+    },
+    {
+      "page": 100,
+      "bbox": [
+        446,
+        1239,
+        471,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_100.webp"
+    },
+    {
+      "page": 101,
+      "bbox": [
+        446,
+        1239,
+        471,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_101.webp"
+    },
+    {
+      "page": 102,
+      "bbox": [
+        446,
+        1239,
+        471,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_102.webp"
+    },
+    {
+      "page": 103,
+      "bbox": [
+        446,
+        1239,
+        471,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_103.webp"
+    },
+    {
+      "page": 104,
+      "bbox": [
+        446,
+        1240,
+        471,
+        1253
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_104.webp"
+    },
+    {
+      "page": 105,
+      "bbox": [
+        446,
+        1239,
+        471,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_105.webp"
+    },
+    {
+      "page": 106,
+      "bbox": [
+        446,
+        1239,
+        471,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_106.webp"
+    },
+    {
+      "page": 107,
+      "bbox": [
+        446,
+        1239,
+        471,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_107.webp"
+    },
+    {
+      "page": 108,
+      "bbox": [
+        446,
+        1239,
+        471,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_108.webp"
+    },
+    {
+      "page": 109,
+      "bbox": [
+        446,
+        1239,
+        472,
+        1254
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/fig_109.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": [
+        0,
+        381,
+        904,
+        1082
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_1.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        96,
+        566,
+        713,
+        713
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_7.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        73,
+        281,
+        844,
+        702
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        73,
+        71,
+        843,
+        486
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_19.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        72,
+        229,
+        845,
+        643
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_25.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        68,
+        67,
+        848,
+        307
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_27.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        72,
+        433,
+        844,
+        889
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_29.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        73,
+        280,
+        841,
+        713
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_32.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        74,
+        276,
+        844,
+        735
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_39.webp"
+    },
+    {
+      "page": 49,
+      "bbox": [
+        67,
+        67,
+        847,
+        307
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_49.webp"
+    },
+    {
+      "page": 51,
+      "bbox": [
+        74,
+        495,
+        844,
+        980
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_51.webp"
+    },
+    {
+      "page": 59,
+      "bbox": [
+        106,
+        258,
+        798,
+        414
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_59.webp"
+    },
+    {
+      "page": 67,
+      "bbox": [
+        114,
+        229,
+        794,
+        819
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_67.webp"
+    },
+    {
+      "page": 72,
+      "bbox": [
+        67,
+        66,
+        848,
+        308
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_72.webp"
+    },
+    {
+      "page": 78,
+      "bbox": [
+        68,
+        66,
+        849,
+        307
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_78.webp"
+    },
+    {
+      "page": 85,
+      "bbox": [
+        75,
+        168,
+        843,
+        585
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_85.webp"
+    },
+    {
+      "page": 87,
+      "bbox": [
+        68,
+        67,
+        848,
+        308
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_87.webp"
+    },
+    {
+      "page": 90,
+      "bbox": [
+        69,
+        68,
+        305,
+        319
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_90.webp"
+    },
+    {
+      "page": 90,
+      "bbox": [
+        98,
+        363,
+        811,
+        428
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_90.webp"
+    },
+    {
+      "page": 91,
+      "bbox": [
+        97,
+        363,
+        810,
+        427
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_91.webp"
+    },
+    {
+      "page": 91,
+      "bbox": [
+        68,
+        68,
+        305,
+        319
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_91.webp"
+    },
+    {
+      "page": 92,
+      "bbox": [
+        97,
+        363,
+        811,
+        427
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_92.webp"
+    },
+    {
+      "page": 92,
+      "bbox": [
+        68,
+        68,
+        305,
+        319
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_92.webp"
+    },
+    {
+      "page": 93,
+      "bbox": [
+        98,
+        363,
+        811,
+        426
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_93.webp"
+    },
+    {
+      "page": 93,
+      "bbox": [
+        69,
+        68,
+        305,
+        320
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_93.webp"
+    },
+    {
+      "page": 94,
+      "bbox": [
+        99,
+        363,
+        810,
+        428
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_94.webp"
+    },
+    {
+      "page": 94,
+      "bbox": [
+        68,
+        68,
+        305,
+        319
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_94.webp"
+    },
+    {
+      "page": 95,
+      "bbox": [
+        97,
+        363,
+        811,
+        428
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_95.webp"
+    },
+    {
+      "page": 95,
+      "bbox": [
+        68,
+        68,
+        305,
+        320
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_95.webp"
+    },
+    {
+      "page": 96,
+      "bbox": [
+        97,
+        363,
+        810,
+        428
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_96.webp"
+    },
+    {
+      "page": 96,
+      "bbox": [
+        68,
+        68,
+        305,
+        319
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_96.webp"
+    },
+    {
+      "page": 97,
+      "bbox": [
+        98,
+        363,
+        810,
+        427
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_97.webp"
+    },
+    {
+      "page": 97,
+      "bbox": [
+        68,
+        68,
+        305,
+        319
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_97.webp"
+    },
+    {
+      "page": 98,
+      "bbox": [
+        97,
+        363,
+        810,
+        427
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_98.webp"
+    },
+    {
+      "page": 98,
+      "bbox": [
+        68,
+        68,
+        305,
+        320
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所/table_98.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/2026生育选择与生殖健康负担调研报告-深圳中山生殖与遗传研究所"
+}

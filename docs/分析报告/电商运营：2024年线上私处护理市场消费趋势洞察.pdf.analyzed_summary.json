@@ -1,0 +1,774 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 9771,
+  "figures_count": 32,
+  "tables_count": 37,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        1016,
+        639,
+        1206,
+        661
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        806,
+        638,
+        912,
+        661
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1022,
+        32,
+        1210,
+        110
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1155,
+        653,
+        1209,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1022,
+        32,
+        1211,
+        111
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1176,
+        664,
+        1190,
+        681
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        78,
+        123,
+        155,
+        196
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        1176,
+        665,
+        1189,
+        680
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1022,
+        32,
+        1209,
+        110
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1176,
+        665,
+        1189,
+        680
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1176,
+        665,
+        1190,
+        681
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_6.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1156,
+        649,
+        1268,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        11,
+        644,
+        157,
+        704
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1156,
+        650,
+        1268,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        8,
+        644,
+        757,
+        712
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        11,
+        644,
+        157,
+        703
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_11.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        1156,
+        649,
+        1270,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1156,
+        650,
+        1268,
+        695
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        1173,
+        665,
+        1194,
+        681
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_13.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        11,
+        644,
+        157,
+        703
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1173,
+        665,
+        1193,
+        681
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_16.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        11,
+        644,
+        157,
+        703
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1156,
+        650,
+        1268,
+        696
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        1172,
+        665,
+        1194,
+        681
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        11,
+        644,
+        157,
+        703
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        1172,
+        665,
+        1193,
+        681
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        1156,
+        650,
+        1268,
+        695
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        11,
+        643,
+        157,
+        703
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_23.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        1172,
+        665,
+        1193,
+        681
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_25.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        1172,
+        664,
+        1193,
+        682
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        1030,
+        118,
+        1216,
+        219
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_28.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        630,
+        644,
+        1217,
+        664
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/fig_30.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": [
+        348,
+        322,
+        671,
+        516
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_1.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        647,
+        356,
+        1209,
+        633
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1103,
+        358,
+        1197,
+        452
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        990,
+        360,
+        1087,
+        453
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1130,
+        213,
+        1224,
+        329
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        984,
+        509,
+        1081,
+        603
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        684,
+        113,
+        937,
+        191
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_3.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        85,
+        30,
+        706,
+        698
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        5,
+        29,
+        710,
+        718
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        46,
+        262,
+        1209,
+        720
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_7.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        69,
+        328,
+        1184,
+        638
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        69,
+        327,
+        1203,
+        638
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_9.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        74,
+        289,
+        1253,
+        702
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        652,
+        322,
+        1213,
+        643
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        76,
+        326,
+        639,
+        640
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_12.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        78,
+        263,
+        1111,
+        647
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        38,
+        225,
+        1217,
+        647
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        0,
+        28,
+        707,
+        718
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        39,
+        28,
+        706,
+        704
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        24,
+        113,
+        1213,
+        700
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        51,
+        120,
+        1211,
+        665
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        627,
+        223,
+        773,
+        426
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        647,
+        442,
+        774,
+        639
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        101,
+        31,
+        705,
+        569
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        363,
+        465,
+        602,
+        624
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        621,
+        143,
+        1263,
+        717
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        63,
+        461,
+        343,
+        626
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        0,
+        29,
+        707,
+        718
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        121,
+        312,
+        515,
+        622
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        552,
+        312,
+        1201,
+        641
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        71,
+        116,
+        1258,
+        718
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_24.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        72,
+        0,
+        1253,
+        720
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        46,
+        0,
+        1196,
+        720
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        29,
+        9,
+        1209,
+        720
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_28.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        60,
+        13,
+        1259,
+        706
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_29.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        914,
+        399,
+        1037,
+        537
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_30.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        1086,
+        398,
+        1211,
+        536
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2024年线上私处护理市场消费趋势洞察/table_30.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/电商运营：2024年线上私处护理市场消费趋势洞察"
+}

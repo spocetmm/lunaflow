@@ -1,0 +1,686 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 45035,
+  "figures_count": 40,
+  "tables_count": 21,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        376,
+        1144,
+        825,
+        1238
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        377,
+        1144,
+        825,
+        1238
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        433,
+        1192,
+        516,
+        1209
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        776,
+        1193,
+        796,
+        1208
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        263,
+        1221,
+        820,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        263,
+        1221,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        263,
+        1221,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        263,
+        1221,
+        820,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        263,
+        1221,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        263,
+        1221,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_11.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        263,
+        1221,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        263,
+        1220,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        263,
+        1220,
+        820,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        263,
+        1220,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        263,
+        1220,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_17.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        263,
+        1220,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        46,
+        1171,
+        164,
+        1184
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        263,
+        1220,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        263,
+        1220,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        46,
+        1171,
+        164,
+        1184
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        263,
+        1221,
+        820,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        263,
+        1221,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        263,
+        1221,
+        820,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        263,
+        1220,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_24.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        263,
+        1220,
+        821,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        263,
+        1220,
+        822,
+        1235
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        378,
+        1144,
+        825,
+        1237
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        46,
+        1019,
+        360,
+        1137
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        376,
+        1145,
+        825,
+        1237
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/fig_26.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": [
+        0,
+        2,
+        860,
+        628
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_1.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        433,
+        663,
+        507,
+        738
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        433,
+        760,
+        507,
+        835
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        433,
+        857,
+        507,
+        931
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_3.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        43,
+        748,
+        824,
+        1097
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        42,
+        104,
+        586,
+        486
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        42,
+        104,
+        586,
+        486
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        45,
+        108,
+        824,
+        1149
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        43,
+        129,
+        823,
+        468
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_10.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        45,
+        106,
+        825,
+        1127
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_12.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        45,
+        102,
+        824,
+        1129
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_14.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        45,
+        103,
+        824,
+        1129
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_16.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        45,
+        108,
+        824,
+        1129
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        45,
+        111,
+        824,
+        1127
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_19.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        45,
+        317,
+        823,
+        810
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_21.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        44,
+        117,
+        823,
+        812
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_21.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        433,
+        687,
+        579,
+        833
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        433,
+        398,
+        579,
+        544
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        48,
+        397,
+        194,
+        543
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        48,
+        687,
+        194,
+        833
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        48,
+        687,
+        194,
+        834
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/女性健康差距：万亿美元级经济与社会议题/table_25.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/女性健康差距：万亿美元级经济与社会议题"
+}

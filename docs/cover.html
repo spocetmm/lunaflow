@@ -1,0 +1,3381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#fce8e8">
+<title>LunaFlow · 商业模式 PPT</title>
+<style>
+  /* ============================================================
+   * LunaFlow · 商业模式 PPT v1.0
+   * 主题：柔粉 + 玫瑰金 + 暖白（女性经期管理 · 温暖专业）
+   * 框架：参考 buying/cover.html（5 张幻灯片 · 横滑 deck）
+   * 占位说明：S2-S4 已搭骨架；S5 待 NAS+OCR 完成后用 build_cover_manifest.py 数据替换
+   * ============================================================ */
+  :root {
+    /* —— 品牌色：柔粉 + 玫瑰金 + 暖白 —— */
+    --c-rose-50:  #fce8e8;   /* 浅粉文字 */
+    --c-rose-100: #f9d4d4;   /* 主背景渐变 */
+    --c-rose-200: #f4c4c4;   /* 中粉 */
+    --c-rose-300: #e8a5a5;   /* 珊瑚粉 */
+    --c-rose-500: #c98981;   /* 玫瑰金主色 */
+    --c-rose-700: #a06565;   /* 深玫瑰金 */
+    --c-rose-900: #7a4a4a;   /* 极深玫瑰 */
+    --c-cream-50: #fdf8f5;   /* 暖白文字 */
+    --c-cream-100:#f9f1eb;   /* 主背景 */
+    --c-cream-200:#f4e6e0;   /* 渐变端 */
+    --c-ink-900:  #3a2a2a;   /* 主墨色 */
+    --c-ink-800:  #4a3535;
+    --c-ink-700:  #5a4040;   /* 渐变深色端 */
+    --c-ink-600:  #7a5858;   /* 中墨 */
+    --c-ink-500:  #8a6a6a;   /* 浅棕 */
+    --c-ink-400:  #a08585;
+    --c-bg-dark:  #3a2828;
+    --c-bg-deep:  #2a1f1f;
+
+    /* —— 字号（vw）—— 与 buying 对齐 —— */
+    --fs-meta:    0.78vw;
+    --fs-card:    0.95vw;
+    --fs-body:    1vw;
+    --fs-tag:     0.85vw;
+    --fs-tag-sm:  0.72vw;
+    --fs-mini:    0.7vw;
+    --fs-h2:      1.3vw;
+    --fs-h3:      1.05vw;
+    --fs-h2-lg:   1.4vw;
+    --fs-val:     1.2vw;
+    --fs-pager:   0.9vw;
+    --fs-hint:    0.75vw;
+
+    /* —— 间距（vw）—— 1:1 沿用 buying 体系 —— */
+    --sp-1: 0.3vw;
+    --sp-2: 0.5vw;
+    --sp-3: 0.7vw;
+    --sp-4: 0.8vw;
+    --sp-5: 1vw;
+    --sp-6: 1.2vw;
+
+    /* —— 圆角 —— */
+    --r-sm:   4px;
+    --r-md:   8px;
+    --r-lg:   12px;
+    --r-pill: 999px;
+
+    /* —— 阴影（粉色调） —— */
+    --shadow-sm: 0 4px 12px rgba(180, 100, 100, .08);
+    --shadow-md: 0 8px 24px rgba(180, 100, 100, .14);
+    --shadow-lg: 0 24px 60px rgba(180, 100, 100, .2);
+
+    /* —— 动效 —— */
+    --ease-out:  cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-deck: cubic-bezier(0.65, 0, 0.35, 1);
+    --d-fast:    0.25s;
+    --d-mid:     0.4s;
+    --d-slow:    0.7s;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 100%; height: 100%;
+    overflow: hidden;
+    font-family: "PingFang SC", "Microsoft YaHei", "Source Han Sans", sans-serif;
+    background: #2a1f1f;
+    user-select: none;
+  }
+
+  /* ===== PPT 容器 ===== */
+  .deck {
+    width: 100vw; height: 100vh;
+    display: flex;
+    transition: transform 0.7s cubic-bezier(0.65, 0, 0.35, 1);
+    will-change: transform;
+  }
+
+  /* ===== 单张幻灯片：横屏 16:9 ===== */
+  .slide {
+    position: relative;
+    flex-shrink: 0;
+    width: 100vw; height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(135deg, #fdf8f5 0%, #f9d4d4 50%, #f4c4c4 100%);
+  }
+
+  /* ===== 通用页眉 ===== */
+  .header {
+    position: absolute;
+    top: 4.2%; left: 6.5%; right: 6.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 5;
+  }
+  .header-left .chapter {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: var(--fs-pager);
+    letter-spacing: 0.35em;
+    color: var(--c-rose-700);
+    text-transform: uppercase;
+    margin-bottom: 0.8vw;
+  }
+  .header-left .chapter::before {
+    content: ""; width: 2.2vw; height: 1px; background: var(--c-rose-500);
+  }
+  .header-left h1 {
+    font-family: "Source Han Serif", "Songti SC", "STSong", serif;
+    font-weight: 600;
+    font-size: 3.2vw;
+    line-height: 1.15;
+    color: var(--c-ink-900);
+    letter-spacing: 0.02em;
+  }
+  .header-left h1 .accent { color: var(--c-rose-500); }
+  .header-left .sub {
+    margin-top: 0.6vw;
+    font-size: var(--fs-h3);
+    color: #7a5858;
+    letter-spacing: 0.05em;
+  }
+  .header-right { text-align: right; }
+  .header-right .num {
+    font-family: "Source Han Serif", "Songti SC", serif;
+    font-size: 2.4vw;
+    color: var(--c-rose-500);
+  }
+  .header-right .num small { font-size: 1vw; color: var(--c-ink-500); margin-left: 0.3vw; }
+  .header-right .label {
+    font-size: var(--fs-meta);
+    color: var(--c-ink-500);
+    letter-spacing: 0.25em;
+    margin-top: 0.3vw;
+  }
+
+  /* ===== 通用页脚 ===== */
+  .footer {
+    position: absolute;
+    bottom: 4.2%; left: 6.5%; right: 6.5%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    font-size: var(--fs-meta);
+    color: var(--c-ink-500);
+    letter-spacing: 0.15em;
+    z-index: 5;
+  }
+  .footer .brand {
+    display: flex; align-items: center; gap: 0.5vw;
+    color: var(--c-rose-700);
+    text-transform: uppercase;
+  }
+  .footer .brand::before {
+    content: ""; width: 8px; height: 8px;
+    background: var(--c-rose-500); border-radius: 50%;
+  }
+  .footer .quote {
+    font-family: "Source Han Serif", serif;
+    font-style: italic;
+    color: var(--c-ink-600);
+  }
+  .footer .page {
+    text-align: right;
+    color: var(--c-rose-700);
+    font-family: "Source Han Serif", serif;
+  }
+  .footer .page span { color: var(--c-ink-900); font-weight: 700; }
+
+  /* ===== 分页指示器 ===== */
+  .pager {
+    position: fixed;
+    bottom: 2.5%; left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.6vw;
+    z-index: 10;
+  }
+  .pager-dot {
+    width: 24px; height: 4px;
+    background: rgba(201, 137, 129, 0.3);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.3s var(--ease-out);
+  }
+  .pager-dot.active {
+    background: var(--c-rose-500);
+    width: 56px;
+  }
+
+  /* ===== 调试条 ===== */
+  .swipe-debug {
+    position: fixed; top: 1vh; right: 1vh;
+    font-size: 11px; color: #fce8e8;
+    background: rgba(58, 42, 42, 0.6);
+    padding: 4px 10px; border-radius: 999px;
+    z-index: 20;
+  }
+
+  /* ============================================================
+   * Slide 1 · 封面
+   * ============================================================ */
+  .s1-ring {
+    position: absolute;
+    top: -18vw; right: -18vw;
+    width: 42vw; height: 42vw;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, rgba(232, 165, 165, 0.5) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .s1-ring::after {
+    content: "";
+    position: absolute;
+    top: 8vw; left: 8vw;
+    width: 26vw; height: 26vw;
+    border-radius: 50%;
+    background: radial-gradient(circle at 40% 40%, rgba(201, 137, 129, 0.3) 0%, transparent 70%);
+  }
+  .s1-content {
+    position: absolute;
+    top: 12%; left: 6.5%;
+    width: 56%;
+    z-index: 3;
+  }
+  .s1-deco-line {
+    width: 4vw; height: 2px;
+    background: var(--c-rose-500);
+    margin-bottom: 1.5vw;
+  }
+  .s1-brand-block {
+    display: flex; align-items: center;
+    gap: 1vw;
+    margin-bottom: 2vw;
+  }
+  .s1-brand-mark {
+    font-family: "Source Han Serif", serif;
+    font-size: 1.3vw;
+    color: var(--c-ink-900);
+    letter-spacing: 0.05em;
+  }
+  .s1-brand-mark .dot {
+    color: var(--c-rose-500);
+    margin: 0 0.4vw;
+  }
+  .s1-brand-tagline {
+    font-size: var(--fs-tag);
+    color: var(--c-ink-600);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .s1-title {
+    font-family: "Source Han Serif", "Songti SC", "STSong", serif;
+    font-size: 5.2vw;
+    font-weight: 700;
+    line-height: 1.18;
+    color: var(--c-ink-900);
+    letter-spacing: 0.02em;
+    margin-bottom: 1.2vw;
+  }
+  .s1-title .accent { color: var(--c-rose-500); }
+  .divider {
+    display: flex; align-items: center;
+    margin: 1.6vw 0;
+    color: var(--c-rose-700);
+    letter-spacing: 0.3em;
+    font-size: var(--fs-tag);
+    font-weight: 600;
+  }
+  .divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--c-rose-300), transparent);
+  }
+  .divider span {
+    padding: 0 1.2vw;
+  }
+  .s1-subtitle {
+    font-size: var(--fs-h3);
+    color: var(--c-ink-700);
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+    margin-bottom: 2vw;
+  }
+  .s1-subtitle strong { color: var(--c-rose-700); font-weight: 700; }
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2vw;
+    margin-top: 1.5vw;
+  }
+  .s1-pillar {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(201, 137, 129, 0.22);
+    border-radius: var(--r-md);
+    padding: 1vw 1.1vw;
+    transition: all 0.3s var(--ease-out);
+  }
+  .s1-pillar:hover {
+    background: rgba(255, 255, 255, 0.92);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+  }
+  .s1-pillar .num {
+    font-family: "Source Han Serif", serif;
+    font-size: 1.3vw;
+    color: var(--c-rose-500);
+    margin-bottom: 0.3vw;
+  }
+  .s1-pillar .label {
+    font-family: "Source Han Serif", serif;
+    font-size: var(--fs-body);
+    font-weight: 700;
+    color: var(--c-ink-900);
+    margin-bottom: 0.5vw;
+    letter-spacing: 0.05em;
+  }
+  .s1-pillar .desc {
+    font-size: var(--fs-meta);
+    color: var(--c-ink-600);
+    line-height: 1.5;
+  }
+  .s1-value {
+    margin-top: 2vw;
+    display: flex; align-items: center;
+    gap: 0.8vw;
+    font-size: var(--fs-h3);
+    color: var(--c-ink-700);
+  }
+  .s1-value .v-label {
+    background: var(--c-rose-500);
+    color: white;
+    padding: 0.2vw 0.8vw;
+    border-radius: var(--r-pill);
+    font-size: var(--fs-tag);
+    letter-spacing: 0.1em;
+  }
+  .s1-value strong {
+    font-family: "Source Han Serif", serif;
+    font-size: 1.6vw;
+    color: var(--c-ink-900);
+    letter-spacing: 0.08em;
+  }
+  .s1-visual {
+    position: absolute;
+    right: 6.5%; top: 12%;
+    width: 32%; height: 70%;
+    background: linear-gradient(135deg, #f9d4d4 0%, #e8a5a5 100%);
+    border-radius: var(--r-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .s1-visual::before {
+    content: "🌸";
+    font-size: 12vw;
+    opacity: 0.85;
+  }
+  .s1-visual::after {
+    content: "LunaFlow";
+    position: absolute;
+    bottom: 1.5vw; right: 1.5vw;
+    font-family: "Source Han Serif", serif;
+    font-size: 1.4vw;
+    color: white;
+    letter-spacing: 0.3em;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+
+  /* ============================================================
+   * Slide 2 · 痛点市场
+   * ============================================================ */
+  .s2-main {
+    position: absolute;
+    top: 22%; left: 6.5%; right: 6.5%; bottom: 12%;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 2vw;
+  }
+  .s2-narrative {
+    display: flex; flex-direction: column;
+    justify-content: center;
+    padding-right: 1vw;
+  }
+  .s2-quote {
+    font-family: "Source Han Serif", serif;
+    font-size: 2.8vw;
+    line-height: 1.3;
+    color: var(--c-ink-900);
+    margin-bottom: 1.5vw;
+    letter-spacing: 0.02em;
+  }
+  .s2-quote .accent { color: var(--c-rose-500); }
+  .s2-narrative .sub {
+    font-size: var(--fs-h3);
+    color: var(--c-ink-700);
+    line-height: 1.7;
+    margin-bottom: 2vw;
+  }
+  .s2-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2vw;
+    margin-top: 1vw;
+  }
+  .s2-stat {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(8px);
+    border-left: 3px solid var(--c-rose-500);
+    border-radius: var(--r-md);
+    padding: 0.9vw 1.1vw;
+  }
+  .s2-stat .num {
+    font-family: "Source Han Serif", serif;
+    font-size: 1.8vw;
+    color: var(--c-rose-700);
+    line-height: 1;
+  }
+  .s2-stat .num small {
+    font-size: 1vw;
+    color: var(--c-ink-500);
+    margin-left: 0.2vw;
+  }
+  .s2-stat .lbl {
+    margin-top: 0.4vw;
+    font-size: var(--fs-tag);
+    color: var(--c-ink-700);
+  }
+  .s2-painpoints {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 1vw;
+  }
+  .s2-pp {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(201, 137, 129, 0.22);
+    border-radius: var(--r-md);
+    padding: 1vw 1.2vw;
+    display: flex; flex-direction: column;
+    transition: all 0.3s var(--ease-out);
+  }
+  .s2-pp:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(201, 137, 129, 0.5);
+  }
+  .s2-pp .icon {
+    width: 2.2vw; height: 2.2vw;
+    background: linear-gradient(135deg, var(--c-rose-300), var(--c-rose-500));
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.3vw;
+    color: white;
+    margin-bottom: 0.6vw;
+  }
+  .s2-pp .name {
+    font-family: "Source Han Serif", serif;
+    font-weight: 600;
+    font-size: var(--fs-body);
+    color: var(--c-ink-900);
+    margin-bottom: 0.3vw;
+  }
+  .s2-pp .desc {
+    font-size: var(--fs-tag-sm);
+    color: var(--c-ink-600);
+    line-height: 1.5;
+  }
+
+  /* ============================================================
+   * Slide 3 · 产品
+   * ============================================================ */
+  .s3-main {
+    position: absolute;
+    top: 22%; left: 6.5%; right: 6.5%; bottom: 12%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+  }
+  .s3-hero {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2vw;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(201, 137, 129, 0.22);
+    border-radius: var(--r-lg);
+    padding: 1.8vw 2.2vw;
+  }
+  .s3-hero-text .label {
+    font-size: var(--fs-tag);
+    color: var(--c-rose-700);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 0.5vw;
+  }
+  .s3-hero-text h2 {
+    font-family: "Source Han Serif", serif;
+    font-size: 2.2vw;
+    line-height: 1.25;
+    color: var(--c-ink-900);
+    margin-bottom: 1vw;
+  }
+  .s3-hero-text h2 .accent { color: var(--c-rose-500); }
+  .s3-hero-text p {
+    font-size: var(--fs-body);
+    color: var(--c-ink-700);
+    line-height: 1.7;
+  }
+  .s3-hero-visual {
+    position: relative;
+    height: 16vw;
+    background: linear-gradient(135deg, var(--c-rose-100), var(--c-rose-300));
+    border-radius: var(--r-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .s3-hero-visual::before {
+    content: "📱";
+    font-size: 5vw;
+    opacity: 0.9;
+  }
+  .s3-hero-visual::after {
+    content: "记录 · 预测 · 关怀";
+    position: absolute;
+    bottom: 1.2vw; left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--fs-tag);
+    color: white;
+    letter-spacing: 0.3em;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    white-space: nowrap;
+  }
+  .s3-features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2vw;
+  }
+  .s3-feat {
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(201, 137, 129, 0.18);
+    border-radius: var(--r-md);
+    padding: 1.2vw;
+    transition: all 0.3s var(--ease-out);
+  }
+  .s3-feat:hover {
+    background: rgba(255, 255, 255, 0.95);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+  }
+  .s3-feat .feat-icon {
+    font-size: 1.8vw;
+    margin-bottom: 0.5vw;
+  }
+  .s3-feat .feat-name {
+    font-family: "Source Han Serif", serif;
+    font-weight: 600;
+    font-size: var(--fs-body);
+    color: var(--c-ink-900);
+    margin-bottom: 0.4vw;
+  }
+  .s3-feat .feat-tag {
+    display: inline-block;
+    font-size: var(--fs-tag-sm);
+    color: var(--c-rose-700);
+    background: rgba(201, 137, 129, 0.12);
+    padding: 0.1vw 0.6vw;
+    border-radius: var(--r-pill);
+    margin-bottom: 0.5vw;
+  }
+  .s3-feat .feat-desc {
+    font-size: var(--fs-tag-sm);
+    color: var(--c-ink-600);
+    line-height: 1.5;
+  }
+
+  /* ============================================================
+   * Slide 4 · 商业模式
+   * ============================================================ */
+  .s4-main {
+    position: absolute;
+    top: 22%; left: 6.5%; right: 6.5%; bottom: 12%;
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 2vw;
+  }
+  .s4-intro {
+    display: flex; flex-direction: column;
+    justify-content: center;
+    padding-right: 1vw;
+  }
+  .s4-intro .label {
+    font-size: var(--fs-tag);
+    color: var(--c-rose-700);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 0.5vw;
+  }
+  .s4-intro h2 {
+    font-family: "Source Han Serif", serif;
+    font-size: 2.4vw;
+    line-height: 1.25;
+    color: var(--c-ink-900);
+    margin-bottom: 1.2vw;
+  }
+  .s4-intro h2 .accent { color: var(--c-rose-500); }
+  .s4-intro .desc {
+    font-size: var(--fs-body);
+    color: var(--c-ink-700);
+    line-height: 1.7;
+    margin-bottom: 1.5vw;
+  }
+  .s4-formula {
+    background: linear-gradient(135deg, rgba(201, 137, 129, 0.1), rgba(232, 165, 165, 0.1));
+    border: 1px dashed rgba(201, 137, 129, 0.4);
+    border-radius: var(--r-md);
+    padding: 1vw 1.2vw;
+    font-family: "Source Han Serif", serif;
+    font-size: 1.05vw;
+    color: var(--c-ink-900);
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+  }
+  .s4-formula .v { color: var(--c-rose-700); font-weight: 700; }
+  .s4-revenue {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 1vw;
+  }
+  .s4-rev {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(201, 137, 129, 0.22);
+    border-radius: var(--r-md);
+    padding: 1.1vw 1.2vw;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s var(--ease-out);
+  }
+  .s4-rev:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(201, 137, 129, 0.5);
+  }
+  .s4-rev::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 3px;
+    background: linear-gradient(to right, var(--c-rose-500), transparent);
+  }
+  .s4-rev .num {
+    font-family: "Source Han Serif", serif;
+    font-size: 1.8vw;
+    color: var(--c-rose-500);
+    line-height: 1;
+  }
+  .s4-rev .num small {
+    font-size: 0.95vw;
+    color: var(--c-ink-500);
+    margin-left: 0.3vw;
+  }
+  .s4-rev .name {
+    font-family: "Source Han Serif", serif;
+    font-weight: 600;
+    font-size: var(--fs-body);
+    color: var(--c-ink-900);
+    margin-top: 0.5vw;
+    margin-bottom: 0.4vw;
+  }
+  .s4-rev .desc {
+    font-size: var(--fs-tag-sm);
+    color: var(--c-ink-600);
+    line-height: 1.5;
+    margin-bottom: 0.5vw;
+  }
+  .s4-rev .stage {
+    display: inline-block;
+    font-size: var(--fs-tag-sm);
+    color: var(--c-rose-700);
+    background: rgba(201, 137, 129, 0.12);
+    padding: 0.1vw 0.5vw;
+    border-radius: var(--r-pill);
+    letter-spacing: 0.1em;
+  }
+
+  /* ============================================================
+   * Slide 5 · 研报数据全景（参考 buying Slide 3 结构）
+   * 顶部 KPI 条 + 左精选研报卡片（含真实图表缩略） + 右主题分类
+   * 交互：图表点击 → lightbox 全屏灯箱 / 卡片底部 → PDF modal
+   * ============================================================ */
+  .s5-kpi-bar {
+    position: absolute;
+    top: 19%; left: 6.5%; right: 6.5%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.8vw;
+  }
+  .s5-kpi {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(201, 137, 129, 0.22);
+    border-radius: var(--r-md);
+    padding: 0.9vw 1.1vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .s5-kpi::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 100%;
+    background: linear-gradient(to bottom, var(--c-rose-500), var(--c-rose-300));
+  }
+  .s5-kpi-num {
+    font-family: "Source Han Serif", serif;
+    font-size: 1.6vw;
+    color: var(--c-rose-700);
+    line-height: 1.1;
+    margin-bottom: 0.3vw;
+    letter-spacing: -0.01em;
+  }
+  .s5-kpi-num small { font-size: 0.7vw; color: var(--c-ink-500); margin-left: 0.2vw; }
+  .s5-kpi-label {
+    font-size: var(--fs-tag-sm);
+    color: var(--c-ink-700);
+    line-height: 1.4;
+  }
+  .s5-kpi-label .src {
+    display: block;
+    font-size: var(--fs-mini);
+    color: var(--c-rose-700);
+    margin-top: 0.2vw;
+    opacity: 0.75;
+  }
+  .s5-reports-wrap {
+    position: absolute;
+    top: 32%; left: 6.5%; right: 6.5%; bottom: 14%;
+    display: grid;
+    grid-template-columns: 1fr 18vw;
+    gap: 1.2vw;
+  }
+  .s5-reports-main {
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .s5-section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.6vw;
+    margin-bottom: 0.7vw;
+    font-size: var(--fs-card);
+    color: var(--c-ink-700);
+    letter-spacing: 0.1em;
+  }
+  .s5-section-title strong {
+    font-family: "Source Han Serif", serif;
+    color: var(--c-ink-900);
+    font-size: var(--fs-h3);
+  }
+  .s5-section-title .hint-text {
+    margin-left: auto;
+    font-size: var(--fs-meta);
+    color: var(--c-rose-700);
+    letter-spacing: 0.05em;
+  }
+  .s5-dot-accent {
+    width: 8px; height: 8px;
+    background: var(--c-rose-500);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ============ S5 卡片（含真实图表缩略 3 张）============ */
+  .s5-reports-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.8vw;
+    flex: 1;
+    min-height: 0;
+  }
+  .s5-card {
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(201, 137, 129, 0.22);
+    border-radius: var(--r-md);
+    padding: 0;
+    transition: all 0.3s var(--ease-out);
+    display: flex; flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+  .s5-card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 3px;
+    background: linear-gradient(to right, var(--c-rose-500), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 2;
+  }
+  .s5-card:hover {
+    background: #fff;
+    box-shadow: var(--shadow-md);
+    border-color: rgba(201, 137, 129, 0.5);
+  }
+  .s5-card:hover::before { opacity: 1; }
+
+  /* 顶部：3 张真实图表缩略（横向并排，点击触发 lightbox） */
+  .s5-card-charts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    height: 5vw;
+    background: var(--c-ink-700);
+    flex-shrink: 0;
+  }
+  .s5-thumb {
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+    background: linear-gradient(135deg, var(--c-cream-100), var(--c-rose-100));
+    transition: all 0.3s var(--ease-out);
+  }
+  .s5-thumb:hover {
+    background: var(--c-rose-100);
+  }
+  .s5-thumb img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.4s;
+  }
+  .s5-thumb:hover img { transform: scale(1.06); }
+  .s5-thumb::after {
+    content: "🔍";
+    position: absolute;
+    inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4vw;
+    background: rgba(58, 42, 42, 0.0);
+    color: white;
+    opacity: 0;
+    transition: all 0.3s var(--ease-out);
+    pointer-events: none;
+  }
+  .s5-thumb:hover::after {
+    background: rgba(58, 42, 42, 0.5);
+    opacity: 1;
+  }
+  .s5-thumb .s5-thumb-page {
+    position: absolute;
+    bottom: 4px; left: 4px;
+    background: rgba(58, 42, 42, 0.78);
+    color: var(--c-rose-100);
+    font-size: var(--fs-tag-sm);
+    padding: 1px 6px;
+    border-radius: var(--r-sm);
+    letter-spacing: 0.05em;
+  }
+
+  /* 卡片正文 */
+  .s5-card-body {
+    flex: 1;
+    padding: 0.8vw 1vw;
+    display: flex; flex-direction: column;
+    gap: 0.3vw;
+  }
+  .s5-card-tag {
+    display: inline-block;
+    align-self: flex-start;
+    font-size: var(--fs-tag-sm);
+    color: var(--c-rose-700);
+    background: rgba(201, 137, 129, 0.12);
+    padding: 0.1vw 0.6vw;
+    border-radius: var(--r-pill);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .s5-card-title {
+    font-family: "Source Han Serif", serif;
+    font-weight: 700;
+    font-size: 0.85vw;
+    line-height: 1.25;
+    color: var(--c-ink-900);
+    letter-spacing: 0.03em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.1vw;
+  }
+  .s5-card-meta {
+    font-size: 0.7vw;
+    color: var(--c-ink-500);
+    letter-spacing: 0.05em;
+    line-height: 1.4;
+  }
+  .s5-card-meta b {
+    font-family: "Source Han Serif", serif;
+    color: var(--c-rose-700);
+    font-weight: 700;
+    font-size: var(--fs-tag);
+    margin-right: 0.3vw;
+  }
+  .s5-card-actions {
+    margin-top: auto;
+    padding-top: 0.6vw;
+    display: flex;
+    gap: 0.5vw;
+  }
+  .s5-card-btn {
+    flex: 1;
+    background: linear-gradient(135deg, var(--c-rose-500), var(--c-rose-700));
+    color: white;
+    border: none;
+    padding: 0.4vw 0.6vw;
+    border-radius: var(--r-sm);
+    font-size: var(--fs-tag-sm);
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    gap: 0.3vw;
+    transition: all 0.3s var(--ease-out);
+  }
+  .s5-card-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
+  .s5-card-btn-outline {
+    background: transparent;
+    color: var(--c-rose-700);
+    border: 1px solid var(--c-rose-500);
+  }
+  .s5-card-btn-outline:hover {
+    background: var(--c-rose-500);
+    color: white;
+  }
+
+  /* ============ S5 右侧主题分类 ============ */
+  .s5-catalog {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(201, 137, 129, 0.25);
+    border-radius: var(--r-md);
+    padding: 1.2vw 1.3vw;
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .s5-catalog-title {
+    display: flex;
+    align-items: center;
+    gap: 0.55vw;
+    margin-bottom: 0.9vw;
+    font-size: var(--fs-card);
+    color: var(--c-ink-700);
+    letter-spacing: 0.1em;
+  }
+  .s5-catalog-title strong {
+    font-family: "Source Han Serif", serif;
+    color: var(--c-ink-900);
+    font-size: var(--fs-h3);
+  }
+  .s5-catalog-title .label-sub {
+    font-size: var(--fs-meta);
+    color: var(--c-ink-500);
+    margin-left: auto;
+  }
+  .s5-catalog-list {
+    list-style: none;
+    flex: 1;
+    overflow-y: auto;
+  }
+  .s5-catalog-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.6vw;
+    padding: 0.5vw 0;
+    border-bottom: 1px dashed rgba(201, 137, 129, 0.18);
+    font-size: var(--fs-tag);
+    color: var(--c-ink-700);
+  }
+  .s5-catalog-list li:last-child { border-bottom: none; }
+  .s5-cat-dot {
+    width: 0.6vw; height: 0.6vw;
+    border-radius: 50%;
+    background: var(--c, var(--c-rose-500));
+    flex-shrink: 0;
+  }
+  .s5-cat-name {
+    flex: 1;
+    letter-spacing: 0.05em;
+  }
+  .s5-cat-cnt {
+    font-family: "Source Han Serif", serif;
+    font-size: var(--fs-tag);
+    color: var(--c-rose-700);
+    font-weight: 700;
+  }
+  .s5-catalog-open {
+    margin-top: 0.9vw;
+    background: linear-gradient(135deg, var(--c-rose-500), var(--c-rose-700));
+    color: white;
+    border: none;
+    padding: 0.6vw 1vw;
+    border-radius: var(--r-sm);
+    font-size: var(--fs-tag);
+    letter-spacing: 0.15em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4vw;
+    transition: all 0.3s var(--ease-out);
+  }
+  .s5-catalog-open:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
+
+  /* ============ 底部行业结论 ============ */
+  .s5-ops-hint {
+    position: absolute;
+    bottom: 9%; left: 6.5%; right: 6.5%;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    border-left: 4px solid var(--c-rose-500);
+    border-radius: var(--r-sm);
+    padding: 0.6vw 1.2vw;
+    font-size: var(--fs-body);
+    color: var(--c-ink-700);
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    gap: 0.7vw;
+  }
+  .s5-ops-hint strong {
+    font-family: "Source Han Serif", serif;
+    color: var(--c-ink-900);
+    font-weight: 700;
+    margin-right: 0.3vw;
+  }
+  .s5-ops-hint .ops-icon {
+    font-size: 1.1vw;
+  }
+
+  /* ============ S5 完整目录 Modal ============ */
+  .s5-cat-modal {
+    position: fixed; inset: 0;
+    z-index: 240;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(45, 26, 26, 0.6);
+    backdrop-filter: blur(6px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .s5-cat-modal.open { opacity: 1; pointer-events: auto; }
+  .s5-cat-panel {
+    position: relative;
+    width: 78vw;
+    height: 84vh;
+    background: linear-gradient(135deg, #fdf8f5 0%, #f9d4d4 100%);
+    border-radius: var(--r-lg);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .s5-cat-header {
+    padding: 1vw 1.5vw;
+    background: white;
+    border-bottom: 1px solid rgba(201, 137, 129, 0.2);
+    display: flex; justify-content: space-between; align-items: center;
+    flex-shrink: 0;
+  }
+  .s5-cat-h-title {
+    font-family: "Source Han Serif", serif;
+    font-weight: 700;
+    font-size: var(--fs-h2);
+    color: var(--c-ink-900);
+    letter-spacing: 0.05em;
+  }
+  .s5-cat-h-title span {
+    color: var(--c-rose-700);
+    font-size: 1.4vw;
+  }
+  .s5-cat-h-sub {
+    font-size: var(--fs-meta);
+    color: var(--c-rose-700);
+    letter-spacing: 0.05em;
+    margin-top: 0.2vw;
+  }
+  .s5-cat-close {
+    background: rgba(201, 137, 129, 0.1);
+    border: 1px solid rgba(201, 137, 129, 0.3);
+    border-radius: var(--r-sm);
+    width: 2.6vw; height: 2.6vw;
+    color: var(--c-rose-500);
+    font-size: 1.4vw;
+    cursor: pointer;
+    transition: all 0.25s;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .s5-cat-close:hover {
+    background: var(--c-rose-500);
+    color: white;
+  }
+  .s5-cat-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1vw 1.5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6vw;
+  }
+  .s5-cat-row {
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(201, 137, 129, 0.18);
+    border-left: 3px solid var(--c-rose-500);
+    border-radius: var(--r-sm);
+    padding: 0.6vw 0.9vw;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex; align-items: center;
+    gap: 0.6vw;
+  }
+  .s5-cat-row:hover {
+    background: white;
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+  }
+  .s5-cat-row-cover {
+    width: 4vw;
+    height: 5.6vw;
+    background: linear-gradient(135deg, var(--c-cream-100), var(--c-rose-100));
+    border-radius: var(--r-sm);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .s5-cat-row-cover img {
+    width: 100%; height: 100%; object-fit: cover;
+  }
+  .s5-cat-row-info { flex: 1; min-width: 0; }
+  .s5-cat-row-name {
+    font-family: "Source Han Serif", serif;
+    font-weight: 600;
+    font-size: 0.85vw;
+    color: var(--c-ink-900);
+    margin-bottom: 0.25vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .s5-cat-row-meta {
+    font-size: 0.7vw;
+    color: var(--c-rose-700);
+    letter-spacing: 0.05em;
+  }
+  .s5-cat-row-badge {
+    flex-shrink: 0;
+    font-family: "Source Han Serif", serif;
+    font-size: 1.2vw;
+    color: var(--c-rose-700);
+    font-weight: 700;
+  }
+
+  /* ============ S5 全屏图片灯箱（图表放大预览）============ */
+  .s5-lightbox {
+    position: fixed; inset: 0;
+    z-index: 300;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(45, 26, 26, 0.92);
+    backdrop-filter: blur(20px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .s5-lightbox.open { opacity: 1; pointer-events: auto; }
+  .s5-lightbox .lb-stage {
+    position: relative;
+    max-width: 80vw;
+    max-height: 80vh;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .s5-lightbox .lb-stage img {
+    max-width: 80vw;
+    max-height: 78vh;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55),
+                0 0 0 1px rgba(232, 165, 165, 0.3);
+    transform: scale(0.92);
+    transition: transform 0.35s cubic-bezier(0.34, 1.4, 0.64, 1);
+  }
+  .s5-lightbox.open .lb-stage img { transform: scale(1); }
+  .s5-lightbox .lb-btn {
+    position: absolute;
+    background: rgba(58, 42, 42, 0.7);
+    border: 1px solid rgba(232, 165, 165, 0.35);
+    color: var(--c-rose-100);
+    width: 3.2vw; height: 3.2vw;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.4vw;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s;
+    z-index: 2;
+  }
+  .s5-lightbox .lb-btn:hover {
+    background: var(--c-rose-700);
+    border-color: var(--c-rose-300);
+    transform: scale(1.08);
+  }
+  .s5-lightbox .lb-prev { left: 2vw; top: 50%; transform: translateY(-50%); }
+  .s5-lightbox .lb-next { right: 2vw; top: 50%; transform: translateY(-50%); }
+  .s5-lightbox .lb-prev:hover { transform: translateY(-50%) scale(1.08); }
+  .s5-lightbox .lb-next:hover { transform: translateY(-50%) scale(1.08); }
+  .s5-lightbox .lb-close {
+    top: 1.6vw; right: 2vw;
+    width: 2.6vw; height: 2.6vw;
+    font-size: 1.4vw;
+  }
+  .s5-lightbox .lb-counter {
+    position: absolute;
+    bottom: 1.6vw; left: 50%;
+    transform: translateX(-50%);
+    color: var(--c-rose-100);
+    font-family: "Source Han Serif", serif;
+    font-size: 0.9vw;
+    letter-spacing: 0.15em;
+    background: rgba(58, 42, 42, 0.7);
+    padding: 0.4vw 1vw;
+    border-radius: 999px;
+    border: 1px solid rgba(232, 165, 165, 0.25);
+  }
+  .s5-lightbox .lb-counter b {
+    color: var(--c-rose-300);
+    font-weight: 700;
+  }
+  .s5-lightbox .lb-caption {
+    position: absolute;
+    bottom: 4.4vw; left: 50%;
+    transform: translateX(-50%);
+    color: var(--c-rose-200);
+    font-size: 0.85vw;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    max-width: 70vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* ============ S5 PDF Modal（iframe 内嵌 PDF 预览）============ */
+  .s5-pdf-modal {
+    position: fixed; inset: 0;
+    z-index: 250;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(45, 26, 26, 0.6);
+    backdrop-filter: blur(6px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .s5-pdf-modal.open { opacity: 1; pointer-events: auto; }
+  .s5-pdf-panel {
+    position: relative;
+    width: 82vw;
+    height: 86vh;
+    background: linear-gradient(135deg, #fdf8f5 0%, #f9d4d4 100%);
+    border-radius: var(--r-lg);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .s5-pdf-header {
+    padding: 1vw 1.5vw;
+    background: white;
+    border-bottom: 1px solid rgba(201, 137, 129, 0.2);
+    display: flex; justify-content: space-between; align-items: center;
+    flex-shrink: 0;
+  }
+  .s5-pdf-h-title {
+    font-family: "Source Han Serif", serif;
+    font-weight: 700;
+    font-size: var(--fs-h2);
+    color: var(--c-ink-900);
+    letter-spacing: 0.05em;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 1vw;
+  }
+  .s5-pdf-h-meta {
+    font-size: var(--fs-meta);
+    color: var(--c-rose-700);
+    letter-spacing: 0.05em;
+  }
+  .s5-pdf-close {
+    background: rgba(201, 137, 129, 0.1);
+    border: 1px solid rgba(201, 137, 129, 0.3);
+    border-radius: var(--r-sm);
+    width: 2.6vw; height: 2.6vw;
+    color: var(--c-rose-500);
+    font-size: 1.4vw;
+    cursor: pointer;
+    transition: all 0.25s;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .s5-pdf-close:hover {
+    background: var(--c-rose-500);
+    color: white;
+  }
+  .s5-pdf-frame {
+    flex: 1;
+    background: #525252;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .s5-pdf-error {
+    flex: 1;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 1vw;
+    text-align: center;
+    background: var(--c-cream-50);
+    color: var(--c-ink-700);
+  }
+  .s5-pdf-error a {
+    display: inline-block;
+    margin-top: 0.5vw;
+    padding: 0.5vw 1.5vw;
+    background: var(--c-rose-500);
+    color: white;
+    border-radius: var(--r-sm);
+    text-decoration: none;
+    font-size: var(--fs-body);
+    letter-spacing: 0.1em;
+    transition: all 0.3s;
+  }
+  .s5-pdf-error a:hover { background: var(--c-rose-700); }
+
+  /* header 右侧按钮组 */
+  .s5-pdf-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.6vw;
+  }
+  .s5-pdf-act-btn {
+    background: rgba(201, 137, 129, 0.1);
+    border: 1px solid rgba(201, 137, 129, 0.3);
+    border-radius: var(--r-sm);
+    padding: 0.5vw 1vw;
+    color: var(--c-rose-500);
+    font-size: var(--fs-tag);
+    text-decoration: none;
+    transition: all 0.25s;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+  }
+  .s5-pdf-act-btn:hover {
+    background: var(--c-rose-500);
+    color: white;
+  }
+
+  /* ===== 审计标记(对照审查文档)===== */
+  .audit-flag {
+    display: inline-block;
+    font-size: var(--fs-tag-sm);
+    color: white;
+    background: linear-gradient(135deg, #c98981, #a06565);
+    padding: 1px 8px;
+    border-radius: var(--r-pill);
+    letter-spacing: 0.1em;
+    margin-left: 0.4vw;
+    vertical-align: middle;
+    cursor: help;
+    font-family: var(--fs-meta), sans-serif;
+  }
+  .audit-flag::before { content: "📋 "; opacity: .85; }
+
+  .audit-data {
+    font-size: var(--fs-mini);
+    color: var(--c-rose-700);
+    background: rgba(201, 137, 129, 0.08);
+    border-left: 2px solid var(--c-rose-500);
+    padding: 2px 8px;
+    margin-top: 4px;
+    border-radius: 2px;
+    display: block;
+    font-style: italic;
+    letter-spacing: 0.03em;
+  }
+  .audit-pending {
+    color: var(--c-ink-500);
+    font-style: italic;
+    opacity: 0.85;
+  }
+
+  .ppt-footnote {
+    position: absolute;
+    bottom: 7%; left: 6.5%; right: 6.5%;
+    font-size: var(--fs-mini);
+    color: var(--c-ink-500);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    border-top: 1px dashed rgba(201, 137, 129, 0.3);
+    padding-top: 0.4vw;
+    z-index: 4;
+  }
+  .ppt-footnote b { color: var(--c-rose-700); font-family: "Source Han Serif", serif; }
+
+  /* ===== Slide 4 重构:付费设计 + 单位经济 + 决策 ===== */
+  .s4-tier {
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(201, 137, 129, 0.22);
+    border-radius: var(--r-md);
+    padding: 0.9vw 1.1vw;
+    margin-bottom: 0.8vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .s4-tier::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 100%;
+    background: var(--c-rose-300);
+  }
+  .s4-tier-free::before { background: linear-gradient(to bottom, #a8a8a8, #d4d4d4); }
+  .s4-tier-paid::before {
+    background: linear-gradient(to bottom, var(--c-rose-500), var(--c-rose-300));
+  }
+  .tier-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4vw;
+  }
+  .tier-name {
+    font-family: "Source Han Serif", serif;
+    font-weight: 700;
+    font-size: var(--fs-body);
+    color: var(--c-ink-900);
+    letter-spacing: 0.05em;
+  }
+  .tier-tag {
+    font-size: var(--fs-tag-sm);
+    color: var(--c-rose-700);
+    background: rgba(201, 137, 129, 0.12);
+    padding: 0.1vw 0.6vw;
+    border-radius: var(--r-pill);
+    letter-spacing: 0.08em;
+  }
+  .s4-tier-paid .tier-tag {
+    background: linear-gradient(135deg, var(--c-rose-500), var(--c-rose-700));
+    color: white;
+  }
+  .tier-content {
+    font-size: var(--fs-tag);
+    color: var(--c-ink-700);
+    line-height: 1.55;
+    margin-bottom: 0.4vw;
+  }
+  .tier-value {
+    font-size: var(--fs-tag-sm);
+    color: var(--c-rose-700);
+    font-style: italic;
+    letter-spacing: 0.03em;
+  }
+
+  .s4-boundary {
+    background: rgba(244, 200, 200, 0.4);
+    border: 1px dashed rgba(201, 137, 129, 0.4);
+    border-radius: var(--r-sm);
+    padding: 0.6vw 0.9vw;
+    font-size: var(--fs-tag-sm);
+    color: var(--c-ink-700);
+    line-height: 1.6;
+    margin-bottom: 0.8vw;
+    letter-spacing: 0.03em;
+  }
+  .s4-boundary .b-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.3vw;
+    margin-bottom: 0.3vw;
+  }
+  .s4-boundary .b-row:last-child { margin-bottom: 0; }
+  .s4-boundary strong { color: var(--c-rose-700); }
+  .s4-boundary .warn {
+    flex-shrink: 0;
+    margin-right: 0.1vw;
+    color: var(--c-rose-500);
+  }
+
+  /* ===== 单位经济情景表 ===== */
+  .s4-unit-econ {
+    background: linear-gradient(135deg, rgba(201, 137, 129, 0.08), rgba(232, 165, 165, 0.05));
+    border: 1px solid rgba(201, 137, 129, 0.25);
+    border-radius: var(--r-md);
+    padding: 0.9vw 1.1vw;
+  }
+  .ue-title {
+    display: flex;
+    align-items: center;
+    gap: 0.4vw;
+    margin-bottom: 0.5vw;
+  }
+  .ue-title strong {
+    font-family: "Source Han Serif", serif;
+    font-size: var(--fs-h3);
+    color: var(--c-ink-900);
+  }
+  .ue-flag {
+    margin-left: auto;
+    font-size: var(--fs-tag-sm);
+    color: var(--c-rose-700);
+    font-style: italic;
+    letter-spacing: 0.05em;
+  }
+  .ue-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Source Han Serif", serif;
+    font-size: var(--fs-tag);
+    color: var(--c-ink-900);
+    margin-bottom: 0.5vw;
+  }
+  .ue-table thead th {
+    background: rgba(201, 137, 129, 0.12);
+    color: var(--c-rose-700);
+    padding: 0.4vw 0.6vw;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    border-bottom: 2px solid rgba(201, 137, 129, 0.3);
+    font-size: var(--fs-tag-sm);
+  }
+  .ue-table tbody td {
+    padding: 0.35vw 0.6vw;
+    border-bottom: 1px dashed rgba(201, 137, 129, 0.18);
+    font-size: var(--fs-tag);
+    color: var(--c-ink-800);
+  }
+  .ue-table tbody tr:last-child td { border-bottom: none; }
+  .ue-table tbody td:first-child { color: var(--c-rose-700); }
+  .ue-table tbody td strong {
+    font-size: var(--fs-body);
+    letter-spacing: 0.02em;
+  }
+  .ue-th-sub {
+    display: block;
+    font-family: "PingFang SC", sans-serif;
+    font-weight: 400;
+    font-size: 0.6vw;
+    color: var(--c-ink-500);
+    margin-top: 0.1vw;
+    letter-spacing: 0.05em;
+  }
+  .ue-note {
+    font-size: var(--fs-tag-sm);
+    color: var(--c-ink-600);
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    padding-top: 0.4vw;
+    border-top: 1px dashed rgba(201, 137, 129, 0.2);
+  }
+  .ue-note strong { color: var(--c-rose-700); }
+
+  /* ===== 阶段卡片 meta 标注 ===== */
+  .rev-meta {
+    display: block;
+    margin-top: 0.4vw;
+    font-size: 0.65vw;
+    color: var(--c-rose-700);
+    letter-spacing: 0.08em;
+    font-style: italic;
+    opacity: 0.75;
+  }
+
+  /* ===== 决策规则卡片 ===== */
+  .s4-rev-decision {
+    grid-column: 1 / -1;
+    background: linear-gradient(135deg, rgba(201, 137, 129, 0.1), rgba(244, 200, 200, 0.15));
+  }
+  .s4-rev-decision .num {
+    font-size: 1.5vw;
+    color: var(--c-rose-700);
+  }
+  .decision-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5vw 1vw;
+    margin: 0.4vw 0;
+  }
+  .decision-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5vw;
+    font-size: var(--fs-tag-sm);
+    color: var(--c-ink-700);
+    line-height: 1.5;
+  }
+  .d-tag {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.4vw;
+    height: 1.4vw;
+    border-radius: 50%;
+    font-family: "Source Han Serif", serif;
+    font-weight: 700;
+    font-size: var(--fs-tag-sm);
+    color: white;
+  }
+  .d-tag-warn { background: linear-gradient(135deg, #d89595, #c98981); }
+  .d-tag-ok   { background: linear-gradient(135deg, #9c7878, #7a5858); }
+  .d-tag-pause { background: linear-gradient(135deg, #c96868, #a04545); font-size: 0.95vw; }
+  .decision-pause .d-text {
+    color: var(--c-rose-700);
+    font-weight: 500;
+  }
+  .decision-pause .d-text strong { color: #a04545; }
+
+  /* ===== Slide 6-12 · 调研材料(图 + 注释)===== */
+  .image-slide-content {
+    position: absolute;
+    top: 13%; left: 5%; right: 5%; bottom: 13%;
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 1.2vw;
+  }
+  .image-stage {
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(201, 137, 129, 0.22);
+    border-radius: var(--r-md);
+    padding: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .image-stage img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+  }
+  .image-stage .img-meta {
+    position: absolute;
+    bottom: 1vw; right: 1vw;
+    background: rgba(58, 42, 42, 0.7);
+    color: var(--c-rose-100);
+    font-size: var(--fs-tag-sm);
+    padding: 0.3vw 0.8vw;
+    border-radius: var(--r-sm);
+    letter-spacing: 0.05em;
+  }
+  .image-notes {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(201, 137, 129, 0.25);
+    border-left: 4px solid var(--c-rose-500);
+    border-radius: var(--r-md);
+    padding: 1.2vw 1.4vw;
+    font-size: var(--fs-tag);
+    color: var(--c-ink-700);
+    line-height: 1.7;
+    overflow-y: auto;
+  }
+  .image-notes h3 {
+    font-family: "Source Han Serif", serif;
+    font-size: var(--fs-h3);
+    color: var(--c-ink-900);
+    margin-bottom: 0.5vw;
+    letter-spacing: 0.03em;
+  }
+  .image-notes h3 .accent { color: var(--c-rose-500); }
+  .image-notes .notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.4vw 0;
+  }
+  .image-notes .notes-list li {
+    padding: 0.3vw 0;
+    border-bottom: 1px dashed rgba(201, 137, 129, 0.18);
+    font-size: var(--fs-tag-sm);
+    color: var(--c-ink-700);
+  }
+  .image-notes .notes-list li:last-child { border-bottom: none; }
+  .image-notes .notes-list li b {
+    color: var(--c-rose-700);
+    font-family: "Source Han Serif", serif;
+    margin-right: 0.3vw;
+  }
+  .image-notes .notes-list li.warn {
+    color: #a04545;
+  }
+  .image-notes .source-line {
+    margin-top: 0.8vw;
+    padding-top: 0.5vw;
+    border-top: 1px solid rgba(201, 137, 129, 0.25);
+    font-size: var(--fs-tag-sm);
+    color: var(--c-rose-700);
+    font-style: italic;
+    line-height: 1.6;
+  }
+  .image-notes .source-line b {
+    color: var(--c-ink-900);
+    font-family: "Source Han Serif", serif;
+    font-style: normal;
+    margin-right: 0.4vw;
+  }
+
+  /* ===== 通用图片 Lightbox(用于 Slide 6-12 图片放大预览)===== */
+  .img-lightbox {
+    position: fixed; inset: 0;
+    z-index: 500;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(45, 26, 26, 0.92);
+    backdrop-filter: blur(20px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    overflow: hidden;
+  }
+  .img-lightbox.open { opacity: 1; pointer-events: auto; }
+
+  .ilb-stage {
+    position: relative;
+    width: 100vw; height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    cursor: grab;
+  }
+  .ilb-stage.dragging { cursor: grabbing; }
+
+  .ilb-stage img {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55),
+                0 0 0 1px rgba(232, 165, 165, 0.3);
+    transition: transform 0.2s ease;
+    transform-origin: center center;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  .ilb-btn {
+    position: absolute;
+    background: rgba(58, 42, 42, 0.7);
+    border: 1px solid rgba(232, 165, 165, 0.35);
+    color: var(--c-rose-100);
+    width: 3.2vw; height: 3.2vw;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.6vw;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s;
+    z-index: 2;
+    font-family: "Source Han Serif", serif;
+  }
+  .ilb-btn:hover {
+    background: var(--c-rose-700);
+    border-color: var(--c-rose-300);
+    transform: scale(1.08);
+  }
+
+  .ilb-close {
+    top: 1.6vw; right: 2vw;
+    font-size: 1.6vw;
+  }
+  .ilb-close:hover { background: #a04545; }
+
+  .ilb-zoom-in {
+    bottom: 4vw; right: 6vw;
+  }
+  .ilb-zoom-out {
+    bottom: 4vw; right: 10vw;
+  }
+  .ilb-reset {
+    bottom: 4vw; left: 6vw;
+    font-size: 1.3vw;
+  }
+
+  .ilb-caption {
+    position: absolute;
+    bottom: 1.6vw; left: 50%;
+    transform: translateX(-50%);
+    color: var(--c-rose-100);
+    font-family: "Source Han Serif", serif;
+    font-size: 0.95vw;
+    letter-spacing: 0.15em;
+    background: rgba(58, 42, 42, 0.7);
+    padding: 0.5vw 1.2vw;
+    border-radius: 999px;
+    border: 1px solid rgba(232, 165, 165, 0.25);
+    max-width: 70vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .ilb-hint {
+    position: absolute;
+    top: 1.6vw; left: 50%;
+    transform: translateX(-50%);
+    color: var(--c-rose-200);
+    font-size: 0.78vw;
+    letter-spacing: 0.15em;
+    background: rgba(58, 42, 42, 0.5);
+    padding: 0.3vw 1vw;
+    border-radius: 999px;
+  }
+
+  /* 提示用户图片可点击 */
+  .image-stage img {
+    cursor: zoom-in;
+    transition: transform 0.3s var(--ease-out);
+  }
+  .image-stage:hover img {
+    transform: scale(1.02);
+  }
+  .image-stage {
+    cursor: zoom-in;
+  }
+  .d-text strong { color: var(--c-ink-900); }
+  .decision-foot {
+    margin-top: 0.4vw;
+    font-size: 0.65vw;
+    color: var(--c-rose-700);
+    letter-spacing: 0.05em;
+    font-style: italic;
+    padding-top: 0.4vw;
+    border-top: 1px dashed rgba(201, 137, 129, 0.3);
+  }
+
+</style>
+</head>
+<body>
+
+<div class="swipe-debug" id="swipeDebug">LunaFlow · 商业模式 PPT</div>
+
+<div class="deck" id="deck">
+
+  <!-- ============================================================
+       Slide 1 · 封面
+       ============================================================ -->
+  <section class="slide s1">
+    <div class="s1-ring"></div>
+
+    <div class="s1-content">
+      <div class="s1-deco-line"></div>
+
+      <div class="s1-brand-block">
+        <div class="s1-brand-mark">
+          <span class="dot">·</span>LunaFlow
+        </div>
+        <div class="s1-brand-tagline">
+          <strong>女性经期智能管理</strong>
+          <span style="margin: 0 0.6vw; color: var(--c-rose-500);">/</span>
+          <em>Smart Menstrual Care</em>
+        </div>
+      </div>
+
+      <h1 class="s1-title">
+        以<span class="accent">经期管理</span>为入口<br>
+        为<span class="accent">女性健康</span>构建
+      </h1>
+
+      <div class="divider"><span>DATA · CARE · COMMERCE</span></div>
+
+      <p class="s1-subtitle">
+        一个融合 <strong>数据记录 · 健康关怀 · 商业服务</strong><br>
+        的女性全周期健康小程序
+      </p>
+
+      <div class="pillars">
+        <div class="s1-pillar">
+          <div class="num">01</div>
+          <div class="label">数据记录</div>
+          <div class="desc">智能预测经期 · 排卵期<br>症状与情绪多维日志</div>
+        </div>
+        <div class="s1-pillar">
+          <div class="num">02</div>
+          <div class="label">健康关怀</div>
+          <div class="desc">科普内容 · 医生问答<br>私密社区 · 情绪陪伴</div>
+        </div>
+        <div class="s1-pillar">
+          <div class="num">03</div>
+          <div class="label">验证路径</div>
+          <div class="desc">免费基础 · 9.9 元月卡 · 自愿连续包月<br>用品券自选 · 通知 + AI 整理</div>
+        </div>
+      </div>
+
+      <div class="s1-value">
+        <span class="v-label">帮助她们</span>
+        <strong>记录 · 理解 · 照顾自己</strong>
+      </div>
+    </div>
+
+    <div class="s1-visual"></div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · 01 · 封面</span></div>
+      <div></div>
+      <div></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 2 · 痛点市场
+       ============================================================ -->
+  <section class="slide s2">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 02 · MARKET &amp; PAINPOINTS</div>
+        <h1>女性健康市场 <span class="accent">·</span> <span class="accent">未被解决的痛点</span></h1>
+        <div class="sub">万亿赛道 · 工具型产品缺位 · 情绪价值长期被忽视</div>
+      </div>
+      <div class="header-right">
+        <div class="num">¥ <span data-countup="1.0">1.0</span><small> 万亿</small><span class="audit-flag" title="见审查文档 §2.1 / §2.2 / §11.1">口径</span></div>
+        <div class="label">WOMEN HEALTH · 行业经济规模</div>
+        <div class="audit-data">WEF/BCG 估算·女性健康差距年度经济成本;非女性健康 APP 市场规模</div>
+      </div>
+    </div>
+
+    <div class="s2-main">
+      <!-- 左：叙事 + 市场数字 -->
+      <div class="s2-narrative">
+        <div class="s2-quote">
+          "她不是不需要被照顾<br>
+          只是 <span class="accent">没人为她设计</span>"
+        </div>
+        <div class="sub">
+          据 <strong>WEF/BCG 估算</strong>，女性健康差距每年带来约 <strong>1 万亿美元</strong>的全球生产力损失；
+          主流经期管理 App 的核心记录功能已普及，但在症状整理、隐私保护、医疗衔接等深层任务上完成度参差。
+          女性从青春期到围绝经期的 <strong>40+ 年</strong>，都面对周期管理的反复需求。
+          其中 <strong>30%–40%</strong> 受经前综合征(PMS)显著影响，但情绪波动为个体差异，不宜作为性别差异的通用结论。
+        </div>
+        <div class="audit-data">
+          · 1T 美元为经济成本估算(WEF/BCG)，非 APP 市场规模；后者约 48.6 亿美元(2026 年，BRI 估算)
+          · "拼凑感"系研究印象，非逐款实测结论；不同应用/系统工具的能力差异显著
+          · 3 倍情绪波动数字已删除(详见 §2.6)
+        </div>
+
+        <div class="s2-stats">
+          <div class="s2-stat">
+            <div class="num"><span data-countup="3.6">3.6</span><small> 亿</small><span class="audit-flag" title="见审查文档 §4.2">来源</span></div>
+            <div class="lbl">中国育龄女性(15–49 岁)</div>
+            <div class="audit-data">国家统计局·2023；本数字为人群规模，不等同于付费市场</div>
+          </div>
+          <div class="s2-stat">
+            <div class="num">~<span data-countup="40">40</span><small> 年</small></div>
+            <div class="lbl">女性经期管理周期(青春期–围绝经期)</div>
+            <div class="audit-data">·"7.2 年"未在审查文档可证据链中找到；予以删除，避免无来源数字进入 BP</div>
+          </div>
+          <div class="s2-stat">
+            <div class="num"><span data-countup="30">30</span>–<span data-countup="40">40</span><small> %</small><span class="audit-flag" title="见审查文档 §8.3 / §11.5">待验证</span></div>
+            <div class="lbl">受经前综合征(PMS)显著影响</div>
+            <div class="audit-data">·"80%"未注明具体研究，样本与定义不明；改用 PMS 比例作为更可验证的近似值</div>
+          </div>
+          <!-- 原"3 倍 情绪波动 vs 男性"已删除 -->
+          <!-- 理由:"情绪波动"是流传的伪科普，与 PMS 比例不同；已在 narrative 中说明 -->
+        </div>
+      </div>
+
+      <!-- 右：6 大痛点 -->
+      <div class="s2-painpoints">
+        <div class="s2-pp">
+          <div class="icon">📊</div>
+          <div class="name">记录维度单一</div>
+          <div class="desc">主流工具侧重"日期 + 流量"；情绪/症状/睡眠等结构化记录易中断；中断后回顾也困难</div>
+        </div>
+        <div class="s2-pp">
+          <div class="icon">🔮</div>
+          <div class="name">非规律周期预测</div>
+          <div class="desc">基于"28 天固定周期"的预测对 21–35 天波动范围的多样性不友好，需个体化模型验证</div>
+        </div>
+        <div class="s2-pp">
+          <div class="icon">💬</div>
+          <div class="name">交流与问诊意愿<span class="audit-flag" title="见审查文档 §4.2 / §5.4 / §11.3">假设</span></div>
+          <div class="desc">用户对私密交流与医生通道的接受度，是待验证需求，非已证实现状</div>
+        </div>
+        <div class="s2-pp">
+          <div class="icon">🛒</div>
+          <div class="name">按周期推荐</div>
+          <div class="desc">将卫生用品推荐与周期阶段匹配，作为商业化候选路径；实际需求与复购意愿需用户访谈验证</div>
+        </div>
+        <div class="s2-pp">
+          <div class="icon">🩺</div>
+          <div class="name">就诊资料整理</div>
+          <div class="desc">对 PCOS/痛经/更年期人群，价值不仅在预测，更在症状时间线整理与就诊摘要导出；数据接入需用户授权</div>
+        </div>
+        <div class="s2-pp">
+          <div class="icon">⏰</div>
+          <div class="name">提醒缺位</div>
+          <div class="desc">用户想被提醒记日期、记症状、准备就诊，但当前工具不做主动触达；每天打卡又太累</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · MARKET</span></div>
+      <div class="quote">"工具已经普及，深层任务仍待完成 — 但商业价值需小额验证，不能先预设投流"</div>
+      <div class="page"><span>02</span> / 12 · PAINPOINTS</div>
+    </div>
+    <div class="ppt-footnote">
+      <b>数据使用说明：</b>
+      ① 本页数字均标注口径与来源；
+      ② 1T 美元为 WEF/BCG 估算的"经济成本"，非 APP 市场规模(后者 ~48.6 亿美元，BRI 估算)；
+      ③ "3 倍 情绪波动"等无证据数字已删除；
+      ④ 详情见 <b>经期管理与女性健康应用市场_观点审查与立项分析_2026-09-22.md</b> §11。
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 3 · 产品
+       ============================================================ -->
+  <section class="slide s3">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 03 · PRODUCT</div>
+        <h1>LunaFlow 产品 <span class="accent">·</span> <span class="accent">数据驱动的关怀</span></h1>
+        <div class="sub">智能记录 + 精准预测 + 健康关怀 + 商业服务 · 四大模块</div>
+      </div>
+      <div class="header-right">
+        <div class="num"><span data-countup="4">4</span><small> 模块</small></div>
+        <div class="label">PRODUCT PILLARS</div>
+      </div>
+    </div>
+
+    <div class="s3-main">
+      <!-- Hero：产品定位 + 可视化 -->
+      <div class="s3-hero">
+        <div class="s3-hero-text">
+          <div class="label">CORE VALUE</div>
+          <h2>通知让你<span class="accent">想起来</span><br>AI 让你这次回来<span class="accent">更值得</span></h2>
+          <p>
+            LunaFlow 不是经期记录器，而是基于个体多维日志的全周期伙伴。
+            通过症状-情绪-体征多维记录，把每月「被动应对」变成「主动规划」。
+            AI 模型将以任务改善（对话式记录 / 摘要可追溯 / 错误可纠正）为核心评价标准，而非标签承诺。
+          </p>
+          <div class="audit-data">
+            · "10 万+ 用户训练"在立项阶段无证据支撑，予以删除
+            · AI 任务边界见审查文档 §9.2：不猜测未提供的日期/症状/用药；不把"相关"写成"病因"；不编造检查结论
+          </div>
+        </div>
+        <div class="s3-hero-visual"></div>
+      </div>
+
+      <!-- 8 大核心功能（4 列 × 2 行） -->
+      <div class="s3-features">
+        <div class="s3-feat">
+          <div class="feat-icon">📅</div>
+          <div class="feat-name">智能记录</div>
+          <div class="feat-tag">DAILY</div>
+          <div class="feat-desc">3 秒打卡 · 经期/症状/情绪/用药/睡眠 5 维记录</div>
+        </div>
+        <div class="s3-feat">
+          <div class="feat-icon">🤖</div>
+          <div class="feat-name">个体化预测<span class="audit-flag" title="见审查文档 §6.4 / §11.5">待验证</span></div>
+          <div class="feat-tag">AI</div>
+          <div class="feat-desc">基于个体多维日志的周期模型 · 准确率以临床测试为准 · 不替代避孕/诊断</div>
+        </div>
+        <div class="s3-feat">
+          <div class="feat-icon">💡</div>
+          <div class="feat-name">健康科普</div>
+          <div class="feat-tag">CONTENT</div>
+          <div class="feat-desc">PMS/PCOS/更年期等内容 · 医生资质、来源与更新频率以版本记录为准 · 不替代个体诊疗</div>
+        </div>
+        <div class="s3-feat">
+          <div class="feat-icon">⏰</div>
+          <div class="feat-name">主动预约<span class="audit-flag" title="见新文档 §一 / §四">用户驱动</span></div>
+          <div class="feat-tag">SCHEDULE</div>
+          <div class="feat-desc">用户选择时间 → 系统按预约提醒一次 · 不做每日推送 · 不做无限连续提醒</div>
+        </div>
+        <div class="s3-feat">
+          <div class="feat-icon">🔔</div>
+          <div class="feat-name">通知服务<span class="audit-flag" title="见新文档 §四 / §五">短文案·低暴露</span></div>
+          <div class="feat-tag">NOTIFY</div>
+          <div class="feat-desc">简短文案 · 不展示健康细节 · 点开直达记录页 · 用户可关闭 · 不混用健康与商业</div>
+        </div>
+        <div class="s3-feat">
+          <div class="feat-icon">✏️</div>
+          <div class="feat-name">一句话整理<span class="audit-flag" title="见审查文档 §9.2 / 用户方向讨论">AI 辅助</span></div>
+          <div class="feat-tag">DRAFT</div>
+          <div class="feat-desc">写一句自动整理为可确认记录卡 · 不猜测未提供字段 · 用户可不用 AI</div>
+        </div>
+        <div class="s3-feat">
+          <div class="feat-icon">📊</div>
+          <div class="feat-name">个人回顾<span class="audit-flag" title="见新文档 §三">三阶段能力</span></div>
+          <div class="feat-tag">REVIEW</div>
+          <div class="feat-desc">① 检查完整 ② 整理变化（不解释因果） ③ 帮用户完成下一件事 · 不下诊断 · 可追溯原始</div>
+        </div>
+        <div class="s3-feat">
+          <div class="feat-icon">🩺</div>
+          <div class="feat-name">就诊准备<span class="audit-flag" title="见新文档 §一">用户触发</span></div>
+          <div class="feat-tag">VISIT</div>
+          <div class="feat-desc">用户主动设置 → 选择记录范围 → 形成可编辑可分享的就诊摘要 · 不替代医生 · 不下诊断</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · PRODUCT</span></div>
+      <div class="quote">"好的通知让她每次回来，都少忘一件事、少填几项"</div>
+      <div class="page"><span>03</span> / 12 · PRODUCT</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 4 · 商业模式重构
+       ============================================================
+       重构依据：从"5 大变现引擎"→"3 阶段验证路径"
+       · 不预设单位经济，只展示情景测算
+       · 付费设计：免费基础 + 付费增强（¥59/¥99 为实验方案）
+       · 单位经济：有效用户付费率 × 贡献 - 免费用户成本 = 获客成本上限
+       · 验证：任务 → 付费 → 跨周期，每阶段设止损线
+       · 决策：四种测试结果对应四种动作
+       引用：审查文档 §9.4 / §9.5 / §10.3 / §10.4 / §10.5
+       ============================================================ -->
+  <section class="slide s4">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 04 · VALIDATION PATH</div>
+        <h1>商业模式 <span class="accent">·</span> <span class="accent">先验证，再放大</span></h1>
+        <div class="sub">付费设计 · 单位经济压力测试 · 五阶段验证 · 决策与暂停条件</div>
+      </div>
+      <div class="header-right">
+        <div class="num"><span data-countup="3">3</span><small> 阶段</small></div>
+        <div class="label">VALIDATION PHASES</div>
+      </div>
+    </div>
+
+    <div class="s4-main">
+      <!-- 左：付费设计 + 单位经济情景 -->
+      <div class="s4-intro">
+        <div class="label">PRICING</div>
+        <h2>免费基础 <span class="accent">+</span><br>9.9 元月卡 · 自愿连续包月</h2>
+        <div class="desc">
+          极简记录让用户愿意开始，AI 整理减少实际负担，
+          可信的历史记录让用户回来，自愿付费 + 真实省钱证明商业价值。
+          <strong>先做单次月卡，再开放自愿连续包月，最后小额投流。</strong>
+        </div>
+
+        <!-- 免费基础层 -->
+        <div class="s4-tier s4-tier-free">
+          <div class="tier-head">
+            <span class="tier-name">免费基础</span>
+            <span class="tier-tag">RELIABLE · 可靠记录</span>
+          </div>
+          <div class="tier-content">
+            日期记录 · 修改 · 历史查看 · 基础导出 · 权限范围内的提醒 · 有限的 AI 整理（用于首日体验）
+          </div>
+          <div class="tier-value">交付：可靠地把信息记下来</div>
+        </div>
+
+        <!-- 付费增强层 -->
+        <div class="s4-tier s4-tier-paid">
+          <div class="tier-head">
+            <span class="tier-name">付费增强</span>
+            <span class="tier-tag">9.9 元/月 · 月卡（测试价格）</span>
+          </div>
+          <div class="tier-content">
+            AI 增强整理 · 跨周期对比 · 可编辑的就诊准备资料 ·
+            <strong>每账期自选一张合作商家用品券</strong>（用户主动领取）
+          </div>
+          <div class="tier-value">交付：少整理 · 少遗漏 · 用品省钱 · 需要时容易说清楚</div>
+        </div>
+
+        <!-- 关键边界 -->
+        <div class="s4-boundary">
+          <div class="b-row"><span class="warn">⚠️</span>查阅 · 纠错 · 注销 · 数据删除 <strong>不应被设计成会员特权</strong>；不能靠提高迁移难度制造留存。</div>
+          <div class="b-row"><span class="warn">⚠️</span>自动续费须明确授权；<strong>"签约成功" ≠ "扣款成功"</strong>，不得仅凭签约认定当期会员已付款。</div>
+          <div class="b-row"><span class="warn">⚠️</span><strong>券面额 ≠ 实际省钱</strong>；判断标准是同款商品可实际买到的含运费到手价。</div>
+          <div class="b-row"><span class="warn">⚠️</span>广告归因不携带健康内容；仅账号标识加购买事件也需评估敏感性。</div>
+        </div>
+
+        <!-- 单位经济情景测算 -->
+        <div class="s4-unit-econ">
+          <div class="ue-title">
+            <span class="s5-dot-accent"></span>
+            <strong>单位经济 · 压力测试</strong>
+            <span class="ue-flag">[非已验证，仅为示例贡献]</span>
+          </div>
+          <table class="ue-table">
+            <thead>
+              <tr>
+                <th>情景</th>
+                <th>平台补贴<br><span class="ue-th-sub">/ 张</span></th>
+                <th>核销率</th>
+                <th>每位会员<br>月贡献</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>基础示例</strong></td>
+                <td>3 元</td>
+                <td>50%</td>
+                <td><strong style="color: var(--c-rose-700)">6.4 元</strong></td>
+              </tr>
+              <tr>
+                <td><strong>全部使用</strong></td>
+                <td>3 元</td>
+                <td>100%</td>
+                <td><strong style="color: var(--c-rose-700)">4.9 元</strong></td>
+              </tr>
+              <tr>
+                <td><strong>高补贴 + 全用</strong></td>
+                <td>10 元</td>
+                <td>100%</td>
+                <td><strong style="color: #a06565">−2.1 元</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="ue-note">
+            公式：<strong>9.9 − 2 − 补贴 × 核销率 = 月贡献</strong>（9.9 元月费 − 2 元直接成本 − 平台期望补贴）。
+            <strong>不依赖</strong>用户忘记领券或忘记取消；模型应在用户积极使用权益时仍成立。
+            按付费队列观察：<strong>队列贡献 = 实收会员 + 已结算佣金 − 直接服务 − 权益补贴 − 广告获客</strong>，不把一次付费乘以假定的无限续费月份。
+            <strong>未覆盖</strong>：获客、研发、合规、固定人员等费用。
+          </div>
+        </div>
+      </div>
+
+      <!-- 右：三阶段验证 + 决策规则 -->
+      <div class="s4-revenue">
+        <div class="s4-rev">
+          <div class="num">阶段 1<small>~20–30 人</small></div>
+          <div class="name">落实真实权益 + 验证任务</div>
+          <div class="desc">
+            先与少量商家谈清优惠、库存、结算、退款与售后；用真实商品下单验证同款到手价。
+            工具部分：找目标用户对比"普通按钮 vs AI 一句话整理"，观察能否独立完成、是否愿意下次继续用。
+            <strong>新增：通知机制 A/B 测试</strong> — 比较"普通提醒 vs AI 整理后回顾"两组，看是否真的降低记录负担。
+            <span class="rev-meta">DISCOVERY · 探索样本 + 商家供券真实化 + 通知形式</span>
+          </div>
+          <div class="stage">权益 · 任务 · 通知</div>
+        </div>
+
+        <div class="s4-rev">
+          <div class="num">¥3000<small>广告上限</small></div>
+          <div class="name">单次月卡 → 重复价值 → 自愿连续包月</div>
+          <div class="desc">
+            先做<strong>单次月卡</strong>（不默认连续包月）；观察 2-3 个账期的实付、领券与核销数据。
+            在支付权限与续费流程全部跑通后，开放<strong>主动签约的连续包月</strong>，区分主动续购与自动续费群组。
+            最后小额投流：固定主要人群 · 产品版本 · 价格；只换素材。
+            <span class="rev-meta">PAYMENT · 队列贡献观察（非单次乘以续费月数）</span>
+          </div>
+          <div class="stage">付费 · 续费 · 投流</div>
+        </div>
+
+        <div class="s4-rev">
+          <div class="num">60–90<small>天</small></div>
+          <div class="name">验证跨账期留存</div>
+          <div class="desc">
+            订阅账期与月经周期<strong>分别统计</strong>。周期不规律者按真实任务发生统计，不强按 28 天算流失。
+            关注：工具记录是否继续 / 用户是否主动续购 / 券实际节省 / 当期队列贡献。
+            区分三种行为：回来继续记录 / 回来修改错误 / 仅被提醒后点开。
+            <span class="rev-meta">RETENTION · 跨账期窗口</span>
+          </div>
+          <div class="stage">留存 · 贡献</div>
+        </div>
+
+        <div class="s4-rev s4-rev-decision">
+          <div class="num">→ <small>决策</small></div>
+          <div class="name">四种结果，四种动作</div>
+          <div class="decision-list">
+            <div class="decision-item">
+              <span class="d-tag d-tag-warn">A</span>
+              <span class="d-text">点击不错，但很少完成真实记录 → <strong>优先修改承诺与首屏，暂停扩大投放</strong></span>
+            </div>
+            <div class="decision-item">
+              <span class="d-tag d-tag-warn">B</span>
+              <span class="d-text">使用与回访不错，但付费很弱 → <strong>继续验证收费价值，不靠买量扩大免费服务成本</strong></span>
+            </div>
+            <div class="decision-item">
+              <span class="d-tag d-tag-warn">C</span>
+              <span class="d-text">有真实付费，但 CAC 持续高于上限 → <strong>优化渠道/转化/价值，不假设续费弥补</strong></span>
+            </div>
+            <div class="decision-item">
+              <span class="d-tag d-tag-ok">D</span>
+              <span class="d-text">多批用户持续使用，扣除成本后仍有余量，审核与数据处理稳定 → <strong>才考虑逐步扩大预算</strong></span>
+            </div>
+            <div class="decision-item decision-pause">
+              <span class="d-tag d-tag-pause">!</span>
+              <span class="d-text">应<strong>立即暂停</strong>扩大投放：券后价与公开渠道无优势 / 首月便宜次月无同等权益 / 用户只领券不用工具 / 较多用户不知道在自动扣款 / 支付权限·退款·隐私方案未跑通 / <strong>通知被频繁关闭或投诉骚扰</strong> / <strong>AI 整理被发现虚构</strong>而非"标注缺失"</span>
+            </div>
+          </div>
+          <div class="decision-foot">
+            付费广告带来的用户要单独计算，不要把自然流量、朋友推荐和原有用户回流混进去。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · VALIDATION</span></div>
+      <div class="quote">"卖「省心 + 真实省钱」，不是卖「自动扣款的资格」"</div>
+      <div class="page"><span>04</span> / 12 · VALIDATION</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 5 · 研报数据全景
+       数据由 charts_manifest.js + renderS5() 动态填充
+       交互：图表缩略点击 → lightbox 全屏灯箱 / 「查看 PDF」→ PDF modal
+       ============================================================ -->
+  <section class="slide s5">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 05 · MARKET &amp; REPORTS</div>
+        <h1>女性健康市场容量 <span class="accent">·</span> <span class="accent">研报数据全景</span></h1>
+        <div class="sub" id="s5-sub-line">NAS+OCR 抓取中 · 数据加载完成后自动更新</div>
+      </div>
+      <div class="header-right">
+        <div class="num" id="s5-report-count"><span data-countup="0">0</span> <small>/ 份研报</small></div>
+        <div class="label">MARKET REPORTS</div>
+      </div>
+    </div>
+
+    <!-- 顶部 KPI 数据条（待 OCR 完成后填真实数据） -->
+    <div class="s5-kpi-bar" id="s5-kpi-bar">
+      <!-- 占位：OCR 完成后由 build_cover_manifest.js 注入真实 KPI -->
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">-- <small>加载中</small></div>
+        <div class="s5-kpi-label">关键指标 1<span class="src">NAS+OCR 完成后填充</span></div>
+      </div>
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">-- <small>加载中</small></div>
+        <div class="s5-kpi-label">关键指标 2<span class="src">NAS+OCR 完成后填充</span></div>
+      </div>
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">-- <small>加载中</small></div>
+        <div class="s5-kpi-label">关键指标 3<span class="src">NAS+OCR 完成后填充</span></div>
+      </div>
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">-- <small>加载中</small></div>
+        <div class="s5-kpi-label">关键指标 4<span class="src">NAS+OCR 完成后填充</span></div>
+      </div>
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">-- <small>加载中</small></div>
+        <div class="s5-kpi-label">关键指标 5<span class="src">NAS+OCR 完成后填充</span></div>
+      </div>
+    </div>
+
+    <!-- 主体：精选研报卡片 + 右侧主题分类 -->
+    <div class="s5-reports-wrap">
+      <div class="s5-reports-main">
+        <div class="s5-section-title">
+          <span class="s5-dot-accent"></span>
+          <strong>精选研报</strong>
+          <span class="hint-text">点击卡片 → 加载 PDF 预览</span>
+        </div>
+
+        <div class="s5-reports-grid" id="s5-reports-grid">
+          <!-- 由 JS 渲染（每张卡片：3 张真实图表缩略 + 标题 + 双按钮） -->
+        </div>
+      </div>
+
+      <!-- 右：8 大主题分类 -->
+      <aside class="s5-catalog">
+        <div class="s5-catalog-title">
+          <span class="s5-dot-accent"></span>
+          <strong>8 大主题</strong>
+          <span class="label-sub">完整目录</span>
+        </div>
+        <ul class="s5-catalog-list" id="s5-catalog-list">
+          <li><span class="s5-cat-dot"></span><span class="s5-cat-name">加载中…</span><span class="s5-cat-cnt">--</span></li>
+        </ul>
+        <button class="s5-catalog-open" id="s5-catalog-open">
+          <span id="s5-catalog-open-text">查看完整目录</span>
+          <span class="s5-arrow">→</span>
+        </button>
+      </aside>
+    </div>
+
+    <!-- 底部行业结论 -->
+    <div class="s5-ops-hint">
+      <span class="ops-icon">💡</span>
+      <strong>行业共识：</strong>
+      <span id="s5-ops-hint-text">
+        数据加载完成后由 build_cover_manifest.js 注入行业结论（参考 buying cover.html 同位置结构）。
+      </span>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · REPORTS</span></div>
+      <div class="quote">"用研报数据，喂饱经营决策"</div>
+      <div class="page"><span>05</span> / 12 · REPORTS</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 6 · 调研材料 · 竞争分析
+       图片：ChatGPT 生成的"市场全景图"（原始数据底稿）
+       ============================================================ -->
+  <section class="slide s6">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 06 · COMPETITIVE LANDSCAPE</div>
+        <h1>女性健康市场 <span class="accent">·</span> <span class="accent">玩家地图与原始数据</span></h1>
+        <div class="sub">竞争分析起点 · 数据口径审查前的事实底稿</div>
+      </div>
+      <div class="header-right">
+        <div class="num"><span data-countup="6">6</span><small> 类玩家</small></div>
+        <div class="label">COMPETITIVE MAP</div>
+      </div>
+    </div>
+
+    <div class="image-slide-content">
+      <div class="image-stage">
+        <img src="image/ChatGPT Image 2026年9月22日 16_09_48 (2).png" alt="经期管理与女性健康应用市场全景图">
+        <span class="img-meta">原始数据底稿 · 2026-09-22</span>
+      </div>
+      <div class="image-notes">
+        <h3>本图 <span class="accent">·</span> 6 大模块与口径问题</h3>
+        <ul class="notes-list">
+          <li><b>① 市场大盘：</b>48.6 亿→253 亿、CAGR 19.8%、北美 41.3%；来自 BRI 2024–2033 旧版数据</li>
+          <li><b>② 国内格局：</b>双寡头 88.5%、美柚 69.3%、大姨妈 12.8%；来自 2020 年易观手机 + MobTech</li>
+          <li><b>③ 用户画像：</b>25–34 岁 51.3%、18–24 岁 35.1%；缺原始报告日期与样本</li>
+          <li><b>④ 头部对比：</b>大姨妈 vs 美柚（功能同质、社区商业化程度不同）</li>
+          <li><b>⑤ 第二梯队：</b>西柚、她扶、女生日历、PCOS 陪伴、好孕妈等</li>
+          <li><b>⑥ 海外对照：</b>Flo / Clue / Natural Cycles / Stardust / Ovia / 系统工具</li>
+        </ul>
+        <div class="source-line">
+          <b>数据使用警告：</b>"48.6–253 亿" 是旧版年份，需重新核对当前页面；"88.5%" 仅作历史背景；"大姨妈 1:1:1 营收" 缺乏财务支持已删除；"北美 41.3%" 同页存在 38.0%/40.1% 冲突。<br>
+          <b>源文档：</b>docs/report/《经期管理与女性健康应用市场_观点审查与立项分析》§1.2 / §2.2 / §2.3
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · COMPETITIVE</span></div>
+      <div class="quote">"看懂竞争 · 纠正误区 · 找到具体任务 · 验证持续付费"</div>
+      <div class="page"><span>06</span> / 12 · COMPETITIVE</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 7 · 调研材料 · 立项逻辑
+       图片：经期管理市场_审查修订版_一图看懂.png
+       ============================================================ -->
+  <section class="slide s7">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 07 · AUDITED ROADMAP</div>
+        <h1>审查修订 <span class="accent">·</span> <span class="accent">一图看懂立项逻辑</span></h1>
+        <div class="sub">从原始假设到验证假设 · 13 项关键修正</div>
+      </div>
+      <div class="header-right">
+        <div class="num"><span data-countup="13">13</span><small> 项修正</small></div>
+        <div class="label">AUDITED LOGIC</div>
+      </div>
+    </div>
+
+    <div class="image-slide-content">
+      <div class="image-stage">
+        <img src="image/经期管理市场_审查修订版_一图看懂.png" alt="经期管理市场审查修订版一图看懂">
+        <span class="img-meta">审查修订版 · 依据 2026-09-22</span>
+      </div>
+      <div class="image-notes">
+        <h3>6 个原图模块 + 13 项修正</h3>
+        <ul class="notes-list">
+          <li><b>01 竞争地图：</b>不只两款 App；不同模式并存（综合平台/订阅健康/医疗避孕/机构服务/免费替代）</li>
+          <li><b>02 关键纠偏：</b>预测不稳 ≠ 记录无用；小程序 ≠ 只能引流；AI/订阅 ≠ 医疗资质；隐私承诺 ≠ 技术验证</li>
+          <li><b>03 数据口径：</b>历史份额 ≠ 当前市场；下载量 ≠ 注册量 ≠ 月活；企业披露 ≠ 独立验证</li>
+          <li><b>04 定位方法：</b>用户任务 / 服务深度 / 交付方式 / 付款方 / 信任机制（5 个独立维度）</li>
+          <li><b>05 三个候选方向：</b>极简私人记录 / 症状整理与就诊准备 / 机构随访与资料协同</li>
+          <li><b>06 产品底线：</b>小步验证 / AI 价值 / 医疗边界 / 隐私底线</li>
+          <li class="warn"><b>立项路径：</b>任务效果 → 跨周期留存 → 实付与续费 → 单位用户毛利 → 获客回收</li>
+        </ul>
+        <div class="source-line">
+          <b>源文档：</b>docs/report/《经期管理与女性健康应用市场_观点审查与立项分析》§1.2 修订表（13 行）/ §11 可替换结论
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · AUDIT</span></div>
+      <div class="quote">"不是先做一个经期日历，而是解决一个值得持续付费的具体任务"</div>
+      <div class="page"><span>07</span> / 12 · AUDIT</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 8 · 调研材料 · 产品 V1.0
+       图片：简单记录.png
+       ============================================================ -->
+  <section class="slide s8">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 08 · PRODUCT V1.0</div>
+        <h1>AI 让经期记录更简单、更有价值</h1>
+        <div class="sub">早版产品全景 · 8 模块 · 5 阶段验证 · 投流测算假设</div>
+      </div>
+      <div class="header-right">
+        <div class="num"><span data-countup="8">8</span><small> 模块</small></div>
+        <div class="label">V1.0 BLUEPRINT</div>
+      </div>
+    </div>
+
+    <div class="image-slide-content">
+      <div class="image-stage">
+        <img src="image/简单记录.png" alt="AI 让经期记录更简单更有价值">
+        <span class="img-meta">产品早版设想 · 微信小程序</span>
+      </div>
+      <div class="image-notes">
+        <h3>V1.0 阶段 <span class="accent">·</span> 市场设想与商业假设</h3>
+        <ul class="notes-list">
+          <li><b>① 用户的真实困扰：</b>功能太复杂 / 逐项填写耗时 / 时间久了记不清 / 去看医生说不清楚</li>
+          <li><b>② 产品体验：</b>记录页（一键 + 一句话补充）+ AI 智能整理 + 回顾页（时间线 + 摘要）</li>
+          <li><b>③ 产品价值：</b>更少操作 / 更清晰回顾 / 更方便就诊 / 隐私更安心 / 更了解自己</li>
+          <li><b>④ 商业模式：</b>免费基础 + 付费增强（59/99 元/年·示例）</li>
+          <li><b>⑤ 微信投流：</b>用户基数大/链路短/支持多转化目标/可优化完成记录或付费事件</li>
+          <li><b>⑥ 简化测算：</b>2%→0.41/1.01；5%→1.78/3.28；10%→4.05/7.05（仅盈亏平衡上限）</li>
+          <li><b>⑦ 验证路径：</b>小范围用户测试 → 小额广告测试 → 跨周期观察 → 数据与合规 → 再放大投放</li>
+          <li><b>⑧ 关键成功：</b>真正解决任务 / 首次使用有明确价值 / 克制 AI 设计 / 定价与付费理由合理</li>
+        </ul>
+        <div class="source-line">
+          <b>注意：</b>V1.0 阶段未引入伴侣关怀卡与用品权益；商业假设（59/99 年费）在 V1.1 已演进为 9.9 元月卡。<br>
+          <b>源文档：</b>docs/report/《LunaFlow_PPT_修订方案》§4 + 审查文档 §10
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · V1.0</span></div>
+      <div class="quote">"小而美的开始：先让用户愿意用，再验证是否能持续付费，最后让广告放大已成立的价值"</div>
+      <div class="page"><span>08</span> / 12 · V1.0 BLUEPRINT</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 9 · 调研材料 · 产品 V1.1
+       图片：产品全景.png
+       ============================================================ -->
+  <section class="slide s9">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 09 · PRODUCT V1.1</div>
+        <h1>产品全景图 V1.1 <span class="accent">·</span> <span class="accent">模型迭代说明</span></h1>
+        <div class="sub">从 V1.0 → V1.1 · 增加伴侣关怀 + 自选用品权益 + 14.9 元会员</div>
+      </div>
+      <div class="header-right">
+        <div class="num"><span data-countup="4">4</span><small> 模块</small></div>
+        <div class="label">V1.1 ITERATION</div>
+      </div>
+    </div>
+
+    <div class="image-slide-content">
+      <div class="image-stage">
+        <img src="image/产品全景.png" alt="LunaFlow 产品全景图 V1.1">
+        <span class="img-meta">产品验证方案 V1.1 · 2026-09-22</span>
+      </div>
+      <div class="image-notes">
+        <h3>V1.0 → V1.1 <span class="accent">·</span> 关键迭代差异</h3>
+        <ul class="notes-list">
+          <li><b>新增 1 · 伴侣关怀会员（14.9 元/月）：</b>一份会员两端使用；接收方只看已授权关怀卡</li>
+          <li><b>新增 2 · 自选用品权益：</b>每账期用户自选一张合作商家券；券面额 ≠ 实际省钱</li>
+          <li><b>新增 3 · 商业逻辑闭环：</b>每会员账期贡献示例 个人 6.4 元 / 关怀 10.4 元</li>
+          <li><b>新增 4 · 边界声明：</b>本人控制分享 / 随时暂停解绑 / 不诊断 / 不做关系评分 / 通知供券续费待验证</li>
+          <li><b>4 大模块：</b>01 记录省心（少操作·少填表）/ 02 回顾清楚（需要时·说得清）/ 03 关怀少猜测（少解释·知道怎么帮）/ 04 用品真省钱（买对用品·真实省钱）</li>
+          <li><b>会员体系：</b>免费基础 0 元 / 个人安心会员 9.9 元/月 / 伴侣关怀会员 14.9 元/月</li>
+          <li><b>商业逻辑：</b>每会员账期示例 个人 6.4 元 = 9.9 − 2 − 1.5；关怀 10.4 元 = 14.9 − 3 − 1.5</li>
+          <li><b>验证路径：</b>任务原型 → 单次月卡 → 观察续购 → 小额试投</li>
+        </ul>
+        <div class="source-line">
+          <b>源文档：</b>docs/report/《LunaFlow_完整产品与会员方案_V1.1》§1（核心决策）/ §9（会员赠送）/ §10（用品权益）/ §12（单位经济）
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · V1.1</span></div>
+      <div class="quote">"一个人记录省心，两个人关怀少猜测"</div>
+      <div class="page"><span>09</span> / 12 · V1.1 ITERATION</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 10 · 调研材料 · 三方角色
+       图片：产品与商业全景.png
+       ============================================================ -->
+  <section class="slide s10">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 10 · COMMERCIAL RELATIONS</div>
+        <h1>三方角色 <span class="accent">·</span> <span class="accent">付款 ≠ 分享授权</span></h1>
+        <div class="sub">记录者 / 接收方 / 付款方 · 边界设计 · 商业关系闭环</div>
+      </div>
+      <div class="header-right">
+        <div class="num"><span data-countup="3">3</span><small> 角色</small></div>
+        <div class="label">ROLES &amp; LIMITS</div>
+      </div>
+    </div>
+
+    <div class="image-slide-content">
+      <div class="image-stage">
+        <img src="image/产品与商业全景.png" alt="产品与商业全景 · 三方角色关系图">
+        <span class="img-meta">产品与商业全景 · 概念与测试方案</span>
+      </div>
+      <div class="image-notes">
+        <h3>四方角色 <span class="accent">·</span> 责任与边界</h3>
+        <ul class="notes-list">
+          <li><b>① 记录者（本人）：</b>少填表、少解释；分享什么由本人决定；原始健康记录不共享；已截图内容无法保证收回</li>
+          <li><b>② 接收方（已确认伴侣）：</b>只看已授权关怀卡，不开放完整健康记录；AI 草稿可修改，不会自动发送；接收方预约提醒由本人控制时间与授权</li>
+          <li><b>③ 付款方（本人或伴侣）：</b>可以赠送服务，但不获得健康查看权；付款 ≠ 分享授权 ≠ 健康信息处理同意</li>
+          <li><b>④ 商家（用品合作）：</b>只处理必要交易信息；不接收症状、经期、病史用于营销</li>
+          <li><b>四道边界：</b>付款 ≠ 分享授权 | 不做诊断 | 不卖隐私 | 不承诺无限通知</li>
+          <li><b>会员体系：</b>免费基础 0 元 / 个人安心 9.9 元/月 / 伴侣关怀 14.9 元/月</li>
+          <li><b>商业逻辑（示例）：</b>每会员账期 个人 6.4 元 | 关怀 10.4 元（不等于净利润）</li>
+          <li><b>验证路径：</b>任务体验 → 真实付费 → 跨周期使用 → 小额投流</li>
+        </ul>
+        <div class="source-line">
+          <b>核心边界：</b>本人控制分享 | 随时暂停/解绑 | 不诊断、不做关系评分 | 通知、供券、续费待验证<br>
+          <b>源文档：</b>docs/report/《LunaFlow_完整产品与会员方案_V1.1》§1.3 五项底线 / §8 分享权限 / §9 会员赠送 / §16 安全隐私
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · ROLES</span></div>
+      <div class="quote">"双方自愿参与 · 一份会员 · 两端使用"</div>
+      <div class="page"><span>10</span> / 12 · COMMERCIAL RELATIONS</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 11 · 调研材料 · 5 步流程
+       图片：功能流程权限.png
+       ============================================================ -->
+  <section class="slide s11">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 11 · FUNCTION FLOW</div>
+        <h1>5 步流程 <span class="accent">+</span> <span class="accent">三道权限边界</span></h1>
+        <div class="sub">从私人记录到一次具体帮助 · 先确认再分享 · 先授权再提醒</div>
+      </div>
+      <div class="header-right">
+        <div class="num"><span data-countup="5">5</span><small> 步流程</small></div>
+        <div class="label">FLOW &amp; PERMISSION</div>
+      </div>
+    </div>
+
+    <div class="image-slide-content">
+      <div class="image-stage">
+        <img src="image/功能流程权限.png" alt="功能、流程与权限详细图">
+        <span class="img-meta">V1.1 · 功能方案 · 5 步 + 3 道边界</span>
+      </div>
+      <div class="image-notes">
+        <h3>5 步流程 <span class="accent">·</span> 从私人记录到一次帮助</h3>
+        <ul class="notes-list">
+          <li><b>① 私人记录（仅本人可见）：</b>"今天有点不舒服,想早点休息,希望有人帮忙做晚饭"；日期本人确认；感受只按原话；未知项保持空白；AI 整理后必须本人确认保存</li>
+          <li><b>② 选择分享（先过滤,再送关怀 AI）：</b>本次只分享：希望早点休息 / 请帮忙安排晚饭；不分享经期日期、症状、私人备注</li>
+          <li><b>③ 本人确认（接收方预览）：</b>"今晚的小请求：我想早点休息,晚饭可以请你帮忙安排吗?"；AI 草稿可修改,不会自动发送</li>
+          <li><b>④ 对方行动（仅看已授权内容）：</b>我来安排 / 需要确认 / 这次不方便；草稿由本人发送；认领后可预约一次提醒</li>
+          <li><b>⑤ 按需回顾（双方自愿反馈）：</b>记录者：这次有帮忙 / 接收方：已完成安排；是否保存为下次偏好</li>
+          <li class="warn"><b>三道权限边界：</b>接收方只看已确认关怀卡 | 商家只处理必要交易信息 | 本人随时暂停撤回与解绑</li>
+          <li><b>底部 4 条核心承诺：</b>可关闭通知 · 可拒绝行动 · 可解除关系 · 不因付款获得查看权</li>
+        </ul>
+        <div class="source-line">
+          <b>核心原则：</b>付款 ≠ 分享授权 | 不诊断 | 不卖隐私 | 不承诺无限通知<br>
+          <b>源文档：</b>docs/report/《LunaFlow_完整产品与会员方案_V1.1》§7 关怀卡详细设计 / §8 分享权限与关系安全 / §11 完整用户旅程
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · FLOW</span></div>
+      <div class="quote">"从私人记录到一次具体帮助 · 先确认再分享 · 先授权再提醒"</div>
+      <div class="page"><span>11</span> / 12 · FLOW &amp; PERMISSION</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Slide 12 · 调研材料 · F01–F34 详细功能
+       图片：功能详细图.png
+       ============================================================ -->
+  <section class="slide s12">
+    <div class="header">
+      <div class="header-left">
+        <div class="chapter">PART 12 · FUNCTION SPEC</div>
+        <h1>F01–F34 <span class="accent">·</span> <span class="accent">34 项功能与验证时序</span></h1>
+        <div class="sub">3 角色 / 5 类功能 / 验证优先级与 MVP 路线</div>
+      </div>
+      <div class="header-right">
+        <div class="num"><span data-countup="34">34</span><small> 项功能</small></div>
+        <div class="label">F01–F34 SPEC</div>
+      </div>
+    </div>
+
+    <div class="image-slide-content">
+      <div class="image-stage">
+        <img src="image/功能详细图.png" alt="功能详细图 F01-F34">
+        <span class="img-meta">V1.1 · 方案示意 · 34 项功能与验收</span>
+      </div>
+      <div class="image-notes">
+        <h3>3 角色 × 5 类功能 <span class="accent">·</span> 验证优先级</h3>
+        <ul class="notes-list">
+          <li><b>记录者（F01–F12）：</b>F01 基础账户 / F02–F05 记录与本人确认 / F06–F08 私人时间线与回顾 / F09 双方确认连接 / F10–F12 选择需求再看预览</li>
+          <li><b>权限与 AI（F09–F16）：</b>双方确认连接 / 隐私隔离 5 步（本人选 → 服务端过滤 → AI 草稿 → 本人预览确认 → 接收方查看） / 随时撤回解绑</li>
+          <li><b>关怀接收方（F11–F15）：</b>只看授权请求选择行动 / 接收方自己预约提醒 / 自愿反馈确认后再更新偏好</li>
+          <li><b>通知与任务（F17–F20）：</b>预约 → 资格校验 → 模板通知 → 返回任务；正文不暴露健康细节；权限不足时保留站内</li>
+          <li><b>会员与用品（F21–F28）：</b>个人 9.9 元/月 · 关怀 14.9 元/月（测试价）；单次月卡 → 自选用券 → 礼赠/升级；连续包月按规则开放</li>
+          <li><b>后台支撑（F29–F34）：</b>订单与权益 / AI 质量与成本 / 通知任务队列 / 商家与对账 / 客服与售后 / 权限与审计</li>
+          <li><b>验证时序建议：</b>Phase 1 F01-F09 + F16（单人流程）/ Phase 2 F10-F15（双端）/ Phase 3 F17-F28（通知会员）/ Phase 4 F29-F34（后台）/ Phase 5 A/B 测试 + 上线检查</li>
+          <li class="warn"><b>核心边界：</b>付款 ≠ 续费签约 ≠ 健康信息同意 ≠ 微信消息订阅授权（4 件事分开管理）</li>
+        </ul>
+        <div class="source-line">
+          <b>验收设计：</b>34 项功能与 34 项验收清单见配套 Markdown 文档<br>
+          <b>源文档：</b>docs/report/《LunaFlow_完整产品与会员方案_V1.1》§13–§19 数据模型/技术/异常处理/安全准入/MVP/实验指标/功能验收
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="brand"><span></span><span>LUNAFLOW · SPEC</span></div>
+      <div class="quote">"34 项功能 · 3 角色 · 5 类 · 验证时序分阶段实施"</div>
+      <div class="page"><span>12</span> / 12 · F01–F34</div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ============================================================
+     通用图片 Lightbox（用于 Slide 6-12 的调研图片放大预览）
+     必须放在 .deck 外面 · 否则 .deck 的 transform:translateX
+     会创建新 containing block · fixed 定位失效
+     打开时通过 PPT_LOCK 标志暂停 PPT 翻页
+     ============================================================ -->
+<div class="img-lightbox" id="img-lightbox">
+  <span class="ilb-hint">滚轮缩放 · 双击重置 · 拖拽平移 · ESC / 点击背景关闭</span>
+  <button class="ilb-btn ilb-close" id="ilb-close" aria-label="关闭">×</button>
+  <button class="ilb-btn ilb-zoom-in" id="ilb-zoom-in" aria-label="放大">+</button>
+  <button class="ilb-btn ilb-zoom-out" id="ilb-zoom-out" aria-label="缩小">−</button>
+  <button class="ilb-btn ilb-reset" id="ilb-reset" aria-label="重置">⟲</button>
+  <div class="ilb-stage" id="ilb-stage">
+    <img id="ilb-img" src="" alt="" draggable="false">
+  </div>
+  <div class="ilb-caption" id="ilb-caption"></div>
+</div>
+
+<!-- ============================================================
+     S5 · 全屏图表灯箱（必须放在 .deck 外面 · 否则 .deck 的 transform:translateX
+     会创建新 containing block · fixed 定位失效）
+     ============================================================ -->
+<div class="s5-lightbox" id="s5-lightbox">
+  <button class="lb-btn lb-close" id="s5-lb-close" aria-label="关闭">×</button>
+  <button class="lb-btn lb-prev" id="s5-lb-prev" aria-label="上一张">‹</button>
+  <button class="lb-btn lb-next" id="s5-lb-next" aria-label="下一张">›</button>
+  <div class="lb-stage">
+    <img id="s5-lb-img" src="" alt="">
+  </div>
+  <div class="lb-caption" id="s5-lb-caption"></div>
+  <div class="lb-counter" id="s5-lb-counter"><b>1</b> / 1</div>
+</div>
+
+<!-- ============================================================
+     S5 · 完整目录 Modal（点击「查看完整 21 份目录」→ 展示全部报告列表）
+     ============================================================ -->
+<div class="s5-cat-modal" id="s5-cat-modal">
+  <div class="s5-cat-panel">
+    <div class="s5-cat-header">
+      <div>
+        <div class="s5-cat-h-title">完整研报目录 · <span id="s5-cat-h-count">21</span> 份</div>
+        <div class="s5-cat-h-sub">近 12 月精选 · 按图表数降序 · 点击任意行可弹出 PDF 预览</div>
+      </div>
+      <button class="s5-cat-close" id="s5-cat-close" aria-label="关闭">×</button>
+    </div>
+    <div class="s5-cat-body" id="s5-cat-body">
+      <!-- 由 JS 渲染 -->
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     S5 · PDF Modal（iframe 内嵌 PDF viewer · 同样需在 deck 外）
+     ============================================================ -->
+<div class="s5-pdf-modal" id="s5-pdf-modal">
+  <div class="s5-pdf-panel">
+    <div class="s5-pdf-header">
+      <div>
+        <div class="s5-pdf-h-title" id="s5-pdf-title">研报预览</div>
+        <div class="s5-pdf-h-meta" id="s5-pdf-meta">—</div>
+      </div>
+      <div class="s5-pdf-actions">
+        <a id="s5-pdf-newtab" class="s5-pdf-act-btn" href="#" target="_blank" rel="noopener" title="新窗口打开">↗ 新窗口</a>
+        <a id="s5-pdf-download" class="s5-pdf-act-btn" href="#" download title="下载 PDF">⬇ 下载</a>
+        <button class="s5-pdf-close" id="s5-pdf-close" aria-label="关闭">×</button>
+      </div>
+    </div>
+    <iframe class="s5-pdf-frame" id="s5-pdf-frame" src="about:blank" title="PDF Preview"></iframe>
+    <div class="s5-pdf-error" id="s5-pdf-error" style="display:none">
+      <div style="font-size:1.2vw;color:var(--c-ink-700);margin-bottom:1vw">📄 浏览器安全策略阻止了内嵌 PDF 预览</div>
+      <div style="font-size:var(--fs-tag);color:var(--c-ink-500);margin-bottom:1.5vw">请点击下方按钮在新窗口打开，或下载后查看</div>
+      <a id="s5-pdf-fallback" href="#" target="_blank" rel="noopener">在新窗口打开 PDF</a>
+    </div>
+  </div>
+</div>
+
+<!-- 分页指示器 -->
+<div class="pager">
+  <div class="pager-dot active" data-idx="0"></div>
+  <div class="pager-dot" data-idx="1"></div>
+  <div class="pager-dot" data-idx="2"></div>
+  <div class="pager-dot" data-idx="3"></div>
+  <div class="pager-dot" data-idx="4"></div>
+  <div class="pager-dot" data-idx="5"></div>
+  <div class="pager-dot" data-idx="6"></div>
+  <div class="pager-dot" data-idx="7"></div>
+  <div class="pager-dot" data-idx="8"></div>
+  <div class="pager-dot" data-idx="9"></div>
+  <div class="pager-dot" data-idx="10"></div>
+  <div class="pager-dot" data-idx="11"></div>
+</div>
+
+<!-- 研报图表清单（由 build_cover_manifest.py 生成） -->
+<script src="分析报告/charts_manifest.js" onerror="console.warn('[LunaFlow] charts_manifest.js 未生成，等待 OCR 完成')"></script>
+
+<script>
+/* ============================================================
+ * PPT 翻页控制：鼠标滚轮 + 触摸滑动 + 键盘
+ * 引用 window.CHART_MANIFEST / window.REPORT_LIST（OCR 完成后由 build_cover_manifest.js 提供）
+ * ============================================================ */
+(function(){
+  const deck = document.getElementById('deck');
+  const dots = document.querySelectorAll('.pager-dot');
+  const TOTAL = 12;
+  let cur = 0;
+
+  // 全局锁定标志：当 lightbox 或 modal 打开时，PPT 翻页被暂停
+  let PPT_LOCK = false;
+
+  function isModalOpen(){
+    return PPT_LOCK ||
+           document.querySelector('.img-lightbox.open') ||
+           document.querySelector('.s5-lightbox.open') ||
+           document.querySelector('.s5-pdf-modal.open') ||
+           document.querySelector('.s5-cat-modal.open');
+  }
+
+  function go(i){
+    if (i < 0 || i >= TOTAL) return;
+    if (isModalOpen()) return;  // 任何 modal 打开时禁止切页
+    cur = i;
+    deck.style.transform = `translateX(-${i * 100}vw)`;
+    dots.forEach((d, j) => d.classList.toggle('active', j === i));
+  }
+
+  // 滚轮
+  let lock = false;
+  window.addEventListener('wheel', e => {
+    if (isModalOpen()) return;
+    if (lock) return;
+    if (Math.abs(e.deltaY) < 10) return;
+    lock = true;
+    setTimeout(() => lock = false, 800);
+    if (e.deltaY > 0) go(cur + 1); else go(cur - 1);
+  }, { passive: true });
+
+  // 触摸
+  let sx = 0;
+  window.addEventListener('touchstart', e => { sx = e.touches[0].clientX; }, { passive: true });
+  window.addEventListener('touchend', e => {
+    if (isModalOpen()) return;
+    const dx = e.changedTouches[0].clientX - sx;
+    if (Math.abs(dx) > 60) dx < 0 ? go(cur + 1) : go(cur - 1);
+  }, { passive: true });
+
+  // 键盘（ESC 留给 modal 关闭）
+  window.addEventListener('keydown', e => {
+    if (isModalOpen()) return;
+    if (e.key === 'ArrowRight' || e.key === ' ') go(cur + 1);
+    else if (e.key === 'ArrowLeft') go(cur - 1);
+  });
+
+  // 分页点击
+  dots.forEach(d => d.addEventListener('click', () => go(+d.dataset.idx)));
+
+  /* ====== 通用图片 Lightbox 控制（用于 Slide 6-12 调研图） ====== */
+  (function setupImgLightbox(){
+    const lb       = document.getElementById('img-lightbox');
+    const lbImg    = document.getElementById('ilb-img');
+    const lbCap    = document.getElementById('ilb-caption');
+    const lbStage  = document.getElementById('ilb-stage');
+    const lbClose  = document.getElementById('ilb-close');
+    const lbZoomIn = document.getElementById('ilb-zoom-in');
+    const lbZoomOut= document.getElementById('ilb-zoom-out');
+    const lbReset  = document.getElementById('ilb-reset');
+
+    let scale = 1, tx = 0, ty = 0;
+    let dragging = false, dragX = 0, dragY = 0;
+
+    function applyTransform(){
+      lbImg.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+    }
+    function resetView(){
+      scale = 1; tx = 0; ty = 0;
+      applyTransform();
+      lbStage.classList.remove('dragging');
+    }
+
+    function openLightbox(src, caption){
+      lbImg.src = src;
+      lbCap.textContent = caption || '';
+      resetView();
+      PPT_LOCK = true;
+      lb.classList.add('open');
+    }
+    function closeLightbox(){
+      lb.classList.remove('open');
+      PPT_LOCK = false;
+      // 延迟清空 src,让过渡动画完成
+      setTimeout(() => { lbImg.src = ''; }, 350);
+    }
+
+    // 绑定图片点击事件(在 deck 内委托)
+    deck.addEventListener('click', e => {
+      const img = e.target.closest('.image-stage img');
+      if (img && img.src) {
+        e.stopPropagation();
+        const caption = img.alt || '调研图片';
+        openLightbox(img.src, caption);
+      }
+    });
+
+    // 关闭按钮 + 背景关闭
+    lbClose.addEventListener('click', closeLightbox);
+    lb.addEventListener('click', e => { if (e.target === lb) closeLightbox(); });
+
+    // 缩放按钮
+    lbZoomIn.addEventListener('click', () => {
+      scale = Math.min(scale * 1.25, 6);
+      applyTransform();
+    });
+    lbZoomOut.addEventListener('click', () => {
+      scale = Math.max(scale / 1.25, 0.4);
+      if (scale <= 1.001) { tx = 0; ty = 0; }
+      applyTransform();
+    });
+    lbReset.addEventListener('click', resetView);
+
+    // 双击重置
+    lbImg.addEventListener('dblclick', e => {
+      e.preventDefault();
+      resetView();
+    });
+
+    // 滚轮缩放（仅 lightbox 内，不冒泡到 PPT 翻页）
+    lbStage.addEventListener('wheel', e => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (e.deltaY < 0) {
+        scale = Math.min(scale * 1.15, 6);
+      } else {
+        scale = Math.max(scale / 1.15, 0.4);
+        if (scale <= 1.001) { tx = 0; ty = 0; }
+      }
+      applyTransform();
+    }, { passive: false });
+
+    // 拖拽平移
+    lbStage.addEventListener('mousedown', e => {
+      dragging = true;
+      dragX = e.clientX - tx;
+      dragY = e.clientY - ty;
+      lbStage.classList.add('dragging');
+    });
+    window.addEventListener('mousemove', e => {
+      if (!dragging) return;
+      tx = e.clientX - dragX;
+      ty = e.clientY - dragY;
+      applyTransform();
+    });
+    window.addEventListener('mouseup', () => {
+      if (dragging) {
+        dragging = false;
+        lbStage.classList.remove('dragging');
+      }
+    });
+
+    // 触摸拖拽
+    let touchId = null, touchStartX = 0, touchStartY = 0, touchTx = 0, touchTy = 0;
+    let pinchDist = 0, pinchScale = 1;
+    lbStage.addEventListener('touchstart', e => {
+      e.stopPropagation();
+      if (e.touches.length === 1) {
+        touchId = e.touches[0].identifier;
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        touchTx = tx; touchTy = ty;
+      } else if (e.touches.length === 2) {
+        const dx = e.touches[0].clientX - e.touches[1].clientX;
+        const dy = e.touches[0].clientY - e.touches[1].clientY;
+        pinchDist = Math.hypot(dx, dy);
+        pinchScale = scale;
+      }
+    }, { passive: true });
+    lbStage.addEventListener('touchmove', e => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (e.touches.length === 1 && touchId === e.touches[0].identifier) {
+        tx = touchTx + (e.touches[0].clientX - touchStartX);
+        ty = touchTy + (e.touches[0].clientY - touchStartY);
+        applyTransform();
+      } else if (e.touches.length === 2) {
+        const dx = e.touches[0].clientX - e.touches[1].clientX;
+        const dy = e.touches[0].clientY - e.touches[1].clientY;
+        const dist = Math.hypot(dx, dy);
+        scale = Math.min(Math.max(pinchScale * (dist / pinchDist), 0.4), 6);
+        applyTransform();
+      }
+    }, { passive: false });
+    lbStage.addEventListener('touchend', e => {
+      e.stopPropagation();
+      touchId = null;
+    }, { passive: true });
+
+    // 阻止 lightbox 内 touch 触发 PPT 翻页
+    lb.addEventListener('touchstart', e => e.stopPropagation(), { passive: true });
+    lb.addEventListener('touchend', e => e.stopPropagation(), { passive: true });
+  })();
+
+  /* ====== S5 · 研报数据全景动态填充 ====== */
+  // 每张研报"实际可用"的图表列表（按 chartPages 排序）
+  // 维护一个全局 maps 以便 lightbox 翻页
+  const S5 = {
+    chartsByReport: {},   // { name: [chart_path, chart_path, ...] }
+    pdfByReport: {},      // { name: pdf_path }
+    titleByReport: {},    // { name: title }
+    metaByReport: {},     // { name: {cat, src, pages, n} }
+  };
+
+  function renderS5(){
+    if (!window.REPORT_LIST) {
+      console.log('[LunaFlow] 等待 OCR 完成 + charts_manifest.js 加载…');
+      setTimeout(renderS5, 2000);
+      return;
+    }
+    const reports = window.REPORT_LIST;
+    const manifest = window.CHART_MANIFEST || {};
+    console.log('[LunaFlow] 加载研报数据：', reports.length, '份');
+
+    // 1. 更新顶部报告数
+    document.getElementById('s5-report-count').innerHTML =
+      `<span data-countup="${reports.length}">${reports.length}</span> <small>/ 份研报</small>`;
+    document.getElementById('s5-sub-line').textContent =
+      `${reports.length} 份精选女性健康行业研报 · 多主题覆盖 · 点击图表全屏预览 · 一键打开 PDF`;
+
+    // 2. 填充精选研报卡片：按图表数降序取前 8
+    const grid = document.getElementById('s5-reports-grid');
+    const top = reports.slice().sort((a, b) => b.n - a.n).slice(0, 8);
+    grid.innerHTML = top.map((r, idx) => {
+      const m = manifest[r.name] || {};
+      const charts = (m.charts || []).slice(0, 3);   // 取前 3 张图表作为缩略
+      const thumbs = charts.map((c, i) => {
+        const pageNum = (m.chartPages && m.chartPages[i]) || '?';
+        return `<div class="s5-thumb" data-report="${r.name}" data-idx="${i}"
+                         role="button" tabindex="0" aria-label="放大查看第 ${pageNum + 1} 页图表">
+                  <img src="${c}" alt="图表 ${i + 1}" loading="lazy">
+                  <span class="s5-thumb-page">P${pageNum + 1}</span>
+                </div>`;
+      }).join('');
+      // 没图时填充占位
+      const thumbsFilled = thumbs || `<div class="s5-thumb" style="cursor:default"><div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--c-ink-500);font-size:var(--fs-tag-sm);letter-spacing:0.1em">无图表</div></div><div class="s5-thumb" style="cursor:default"></div><div class="s5-thumb" style="cursor:default"></div>`;
+
+      return `
+        <div class="s5-card" data-report="${r.name}" data-idx="${idx}">
+          <div class="s5-card-charts">${thumbsFilled}</div>
+          <div class="s5-card-body">
+            <span class="s5-card-tag">${r.cat || '未分类'}</span>
+            <div class="s5-card-title">${r.name}</div>
+            <div class="s5-card-meta">
+              <b>${r.n}</b> 图表 · <b>${r.pages}</b> 页 · ${r.src || '行业研报库'}
+            </div>
+            <div class="s5-card-actions">
+              <button class="s5-card-btn s5-card-btn-pdf" data-pdf="${r.name}">📄 查看 PDF</button>
+              <button class="s5-card-btn s5-card-btn-outline s5-card-btn-all" data-report="${r.name}">🔍 全部图表</button>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // 记录到全局 maps（lightbox/modal 翻页用）
+    top.forEach(r => {
+      const m = manifest[r.name] || {};
+      S5.chartsByReport[r.name] = (m.charts || []).slice();
+      S5.pdfByReport[r.name] = `分析报告/${r.name}.pdf`;
+      S5.titleByReport[r.name] = r.name;
+      S5.metaByReport[r.name] = r;
+    });
+
+    // 3. 填充右侧主题分类
+    const catList = document.getElementById('s5-catalog-list');
+    const cats = {};
+    reports.forEach(r => { cats[r.cat] = (cats[r.cat] || 0) + 1; });
+    const sortedCats = Object.entries(cats).sort((a, b) => b[1] - a[1]);
+    const palette = ['--c-rose-500', '#d89595', '#c98981', '#a06565', '#b06a6a',
+                     '#e8a5a5', '#9c7878', '#7a4a4a'];
+    catList.innerHTML = sortedCats.map(([name, cnt], i) =>
+      `<li><span class="s5-cat-dot" style="--c:${palette[i % palette.length]}"></span>
+       <span class="s5-cat-name">${name}</span>
+       <span class="s5-cat-cnt">${cnt}</span></li>`
+    ).join('');
+    document.getElementById('s5-catalog-open-text').textContent =
+      `查看完整 ${reports.length} 份目录`;
+
+    // 4. 更新顶部 KPI（用合计图表数 + 报告数等元数据填充占位）
+    const kpiBar = document.getElementById('s5-kpi-bar');
+    const totalCharts = reports.reduce((s, r) => s + r.n, 0);
+    const totalPages = reports.reduce((s, r) => s + r.pages, 0);
+    kpiBar.innerHTML = `
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">${reports.length} <small>份</small></div>
+        <div class="s5-kpi-label">研报总数<span class="src">·近 12 月精选</span></div>
+      </div>
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">${totalCharts} <small>图</small></div>
+        <div class="s5-kpi-label">图表总数<span class="src">·OCR 提取</span></div>
+      </div>
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">${totalPages} <small>p</small></div>
+        <div class="s5-kpi-label">报告页数<span class="src">·含封面/封底</span></div>
+      </div>
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">${sortedCats.length} <small>类</small></div>
+        <div class="s5-kpi-label">主题分类<span class="src">·自动分类</span></div>
+      </div>
+      <div class="s5-kpi">
+        <div class="s5-kpi-num">¥1.0T <small>经济规模</small><span class="audit-flag" title="见审查文档 §2.1 / §2.2 / §11.1">口径</span></div>
+        <div class="s5-kpi-label">女性健康行业经济成本<span class="src">·WEF/BCG 估算，非 APP 市场规模</span></div>
+      </div>
+    `;
+
+    // 5. 更新底部 ops-hint（用 innerHTML 注入 HTML 标签）
+    document.getElementById('s5-ops-hint-text').innerHTML =
+      `${reports.length} 份研报覆盖女性健康多个细分；新方向把"通知 + AI 整理"作为核心体验——<strong>通知让用户被提醒，AI 让这次回来更值得</strong>。商业价值仍由具体任务完成度与持续付费意愿决定。`;
+
+    // 6. 注册交互：图表缩略 → lightbox / 卡片按钮 → PDF modal / 全部图表 → lightbox 从 0 开始
+    registerS5Interactions();
+  }
+
+  /* ============================================================
+   * S5 交互：lightbox 全屏图表灯箱 + PDF modal
+   * ============================================================ */
+  function registerS5Interactions(){
+    const lb        = document.getElementById('s5-lightbox');
+    const lbImg     = document.getElementById('s5-lb-img');
+    const lbCap     = document.getElementById('s5-lb-caption');
+    const lbCnt     = document.getElementById('s5-lb-counter');
+    const lbClose   = document.getElementById('s5-lb-close');
+    const lbPrev    = document.getElementById('s5-lb-prev');
+    const lbNext    = document.getElementById('s5-lb-next');
+    const pdfModal  = document.getElementById('s5-pdf-modal');
+    const pdfFrame  = document.getElementById('s5-pdf-frame');
+    const pdfTitle  = document.getElementById('s5-pdf-title');
+    const pdfMeta   = document.getElementById('s5-pdf-meta');
+    const pdfClose  = document.getElementById('s5-pdf-close');
+    const pdfError  = document.getElementById('s5-pdf-error');
+    const pdfFallback = document.getElementById('s5-pdf-fallback');
+    const pdfNewTab = document.getElementById('s5-pdf-newtab');
+    const pdfDownload = document.getElementById('s5-pdf-download');
+
+    let lbCur = { name: '', idx: 0 };
+
+    function openLightbox(name, idx){
+      const charts = S5.chartsByReport[name] || [];
+      if (charts.length === 0) {
+        alert('该研报未识别到图表，请查看 PDF 原件。');
+        return;
+      }
+      lbCur = { name, idx: idx || 0 };
+      renderLightbox();
+      lb.classList.add('open');
+    }
+    function renderLightbox(){
+      const charts = S5.chartsByReport[lbCur.name] || [];
+      const m = S5.metaByReport[lbCur.name] || {};
+      const cur = charts[lbCur.idx];
+      if (!cur) return;
+      lbImg.src = cur;
+      const pageNum = (m.pages && m.chartPages) ? (m.chartPages[lbCur.idx] + 1) : (lbCur.idx + 1);
+      lbCap.textContent = `${lbCur.name} · P${pageNum} · ${m.src || ''}`;
+      lbCnt.innerHTML = `<b>${lbCur.idx + 1}</b> / ${charts.length}`;
+      // 翻页按钮显隐
+      lbPrev.style.display = lbCur.idx > 0 ? 'flex' : 'none';
+      lbNext.style.display = lbCur.idx < charts.length - 1 ? 'flex' : 'none';
+    }
+    function closeLightbox(){
+      lb.classList.remove('open');
+      lbImg.src = '';
+    }
+    function openPdfModal(name){
+      const pdf = S5.pdfByReport[name];
+      const m = S5.metaByReport[name] || {};
+      pdfTitle.textContent = name;
+      pdfMeta.textContent = `${m.cat || ''} · ${m.src || ''} · ${m.pages || '?'}p · ${m.n || 0} 图表`;
+      // iframe 占位 about:blank，加载前先隐藏错误提示
+      pdfError.style.display = 'none';
+      pdfFallback.href = pdf;
+      pdfFallback.setAttribute('download', name + '.pdf');
+      pdfNewTab.href = pdf;
+      pdfDownload.href = pdf;
+      pdfDownload.setAttribute('download', name + '.pdf');
+      // 关键修复：iframe 必须先重置 src 到 about:blank，再设置真实 URL（避免缓存导致"已移动"错误）
+      pdfFrame.src = 'about:blank';
+      setTimeout(() => {
+        pdfFrame.src = pdf;
+        // 5 秒后若 iframe 仍显示空白/错误，显示 fallback
+        setTimeout(() => {
+          try {
+            // 跨域 iframe.contentDocument 不可访问；用 src 是否被改回判断
+            if (pdfFrame.src === 'about:blank') {
+              pdfError.style.display = 'flex';
+            }
+          } catch(e) { /* ignore */ }
+        }, 5000);
+      }, 100);
+      pdfModal.classList.add('open');
+    }
+    function closePdfModal(){
+      pdfModal.classList.remove('open');
+      pdfFrame.src = '';   // 释放内存
+    }
+
+    // 事件绑定（使用事件委托到 deck，保证动态注入的卡片也能响应）
+    document.getElementById('deck').addEventListener('click', e => {
+      // 图表缩略点击
+      const thumb = e.target.closest('.s5-thumb');
+      if (thumb && thumb.dataset.report) {
+        e.stopPropagation();
+        openLightbox(thumb.dataset.report, +thumb.dataset.idx);
+        return;
+      }
+      // "查看 PDF" 按钮
+      const pdfBtn = e.target.closest('.s5-card-btn-pdf');
+      if (pdfBtn) {
+        e.stopPropagation();
+        openPdfModal(pdfBtn.dataset.pdf);
+        return;
+      }
+      // "全部图表" 按钮（打开 lightbox 从 idx=0）
+      const allBtn = e.target.closest('.s5-card-btn-all');
+      if (allBtn) {
+        e.stopPropagation();
+        openLightbox(allBtn.dataset.report, 0);
+        return;
+      }
+    });
+
+    // lightbox 按钮
+    lbClose.addEventListener('click', closeLightbox);
+    lbPrev.addEventListener('click', e => {
+      e.stopPropagation();
+      if (lbCur.idx > 0) { lbCur.idx--; renderLightbox(); }
+    });
+    lbNext.addEventListener('click', e => {
+      e.stopPropagation();
+      const charts = S5.chartsByReport[lbCur.name] || [];
+      if (lbCur.idx < charts.length - 1) { lbCur.idx++; renderLightbox(); }
+    });
+    // 点击 lightbox 背景关闭
+    lb.addEventListener('click', e => { if (e.target === lb) closeLightbox(); });
+
+    // PDF modal 按钮
+    pdfClose.addEventListener('click', closePdfModal);
+    pdfModal.addEventListener('click', e => { if (e.target === pdfModal) closePdfModal(); });
+
+    // ===== 完整目录 modal =====
+    const catModal  = document.getElementById('s5-cat-modal');
+    const catBody   = document.getElementById('s5-cat-body');
+    const catOpen   = document.getElementById('s5-catalog-open');
+    const catClose  = document.getElementById('s5-cat-close');
+    const catCount  = document.getElementById('s5-cat-h-count');
+
+    function openCatModal(){
+      catCount.textContent = window.REPORT_LIST ? window.REPORT_LIST.length : '0';
+      // 渲染完整列表（按图表数降序，与 PPT 同序）
+      const reps = window.REPORT_LIST || [];
+      const mfst = window.CHART_MANIFEST || {};
+      catBody.innerHTML = reps.map(r => {
+        const m = mfst[r.name] || {};
+        const cover = m.cover || '';
+        return `
+          <div class="s5-cat-row" role="button" tabindex="0"
+               data-pdf="${r.name}" aria-label="打开《${r.name}》">
+            <div class="s5-cat-row-cover">
+              ${cover ? `<img src="${cover}" alt="">` : '<div style="font-size:0.7vw;color:#a08585">无封面</div>'}
+            </div>
+            <div class="s5-cat-row-info">
+              <div class="s5-cat-row-name">${r.name}</div>
+              <div class="s5-cat-row-meta">${r.cat} · ${r.src} · ${r.pages}p · ${r.n} 图</div>
+            </div>
+            <div class="s5-cat-row-badge">${r.n}</div>
+          </div>
+        `;
+      }).join('');
+      // 每行点击 → 关闭目录 modal → 打开 PDF modal
+      catBody.querySelectorAll('.s5-cat-row').forEach(row => {
+        row.addEventListener('click', () => {
+          closeCatModal();
+          openPdfModal(row.dataset.pdf);
+        });
+      });
+      catModal.classList.add('open');
+    }
+    function closeCatModal(){ catModal.classList.remove('open'); }
+
+    if (catOpen)  catOpen.addEventListener('click', openCatModal);
+    if (catClose) catClose.addEventListener('click', closeCatModal);
+    catModal.addEventListener('click', e => { if (e.target === catModal) closeCatModal(); });
+
+    // 全局键盘：lightbox 翻页 + ESC 关闭
+    document.addEventListener('keydown', e => {
+      if (lb.classList.contains('open')) {
+        if (e.key === 'Escape') closeLightbox();
+        else if (e.key === 'ArrowLeft' && lbCur.idx > 0) { lbCur.idx--; renderLightbox(); }
+        else if (e.key === 'ArrowRight') {
+          const charts = S5.chartsByReport[lbCur.name] || [];
+          if (lbCur.idx < charts.length - 1) { lbCur.idx++; renderLightbox(); }
+        }
+      } else if (pdfModal.classList.contains('open')) {
+        if (e.key === 'Escape') closePdfModal();
+      } else if (catModal.classList.contains('open')) {
+        if (e.key === 'Escape') closeCatModal();
+      }
+    });
+  }
+
+  // DOMContentLoaded 后启动
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', renderS5);
+  } else {
+    renderS5();
+  }
+})();
+</script>
+
+</body>
+</html>

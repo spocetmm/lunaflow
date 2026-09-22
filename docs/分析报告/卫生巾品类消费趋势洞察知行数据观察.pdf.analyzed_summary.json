@@ -1,0 +1,763 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 7982,
+  "figures_count": 34,
+  "tables_count": 34,
+  "figures": [
+    {
+      "page": 2,
+      "bbox": [
+        1123,
+        12,
+        1225,
+        90
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        50,
+        24,
+        599,
+        53
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1163,
+        14,
+        1257,
+        87
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        80
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1167,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1163,
+        14,
+        1257,
+        87
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1167,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        1167,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        1163,
+        14,
+        1257,
+        87
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1165,
+        13,
+        1253,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        28,
+        24,
+        420,
+        69
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        1166,
+        15,
+        1252,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        1166,
+        15,
+        1253,
+        79
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        1199,
+        7,
+        1268,
+        61
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        28,
+        39,
+        139,
+        62
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        761,
+        673,
+        1219,
+        699
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        26,
+        674,
+        174,
+        698
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        1200,
+        8,
+        1267,
+        61
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        28,
+        39,
+        139,
+        62
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_28.webp"
+    },
+    {
+      "page": 29,
+      "bbox": [
+        1162,
+        14,
+        1257,
+        87
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/fig_29.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "bbox": [
+        59,
+        629,
+        1215,
+        719
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_2.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        38,
+        286,
+        786,
+        681
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        139,
+        248,
+        1144,
+        472
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        156,
+        517,
+        1113,
+        693
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        776,
+        366,
+        1266,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        416,
+        354,
+        749,
+        601
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        107,
+        368,
+        316,
+        600
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        82,
+        518,
+        673,
+        684
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        798,
+        258,
+        1194,
+        680
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        229,
+        261,
+        529,
+        475
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_8.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        27,
+        239,
+        398,
+        664
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        839,
+        239,
+        1202,
+        660
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        434,
+        240,
+        806,
+        663
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_10.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        28,
+        247,
+        857,
+        681
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        30,
+        257,
+        841,
+        681
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        919,
+        253,
+        1222,
+        674
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        35,
+        265,
+        1219,
+        716
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_15.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        44,
+        468,
+        676,
+        711
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        37,
+        251,
+        1216,
+        684
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        36,
+        296,
+        631,
+        683
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_22.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        637,
+        297,
+        1230,
+        699
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        855,
+        432,
+        1028,
+        603
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        450,
+        432,
+        623,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        1057,
+        431,
+        1230,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        46,
+        431,
+        220,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        653,
+        432,
+        825,
+        602
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        46,
+        266,
+        1219,
+        420
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        248,
+        431,
+        422,
+        604
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        39,
+        261,
+        1219,
+        697
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        628,
+        284,
+        1227,
+        682
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_24.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        24,
+        283,
+        606,
+        682
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        447,
+        302,
+        1236,
+        698
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        41,
+        200,
+        1219,
+        698
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_26.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        40,
+        152,
+        1219,
+        689
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/卫生巾品类消费趋势洞察知行数据观察/table_28.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/卫生巾品类消费趋势洞察知行数据观察"
+}

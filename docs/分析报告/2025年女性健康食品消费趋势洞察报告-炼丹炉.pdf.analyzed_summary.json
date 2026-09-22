@@ -1,0 +1,1302 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 7706,
+  "figures_count": 41,
+  "tables_count": 76,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        75,
+        74,
+        476,
+        133
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        71,
+        149,
+        311,
+        209
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1000,
+        71,
+        1244,
+        152
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_2.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1056,
+        987,
+        1246,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1056,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1056,
+        986,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1056,
+        986,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1056,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1057,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_10.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        1056,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1056,
+        986,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        1057,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1072,
+        991,
+        1247,
+        1049
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        36,
+        1006,
+        543,
+        1036
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        1071,
+        992,
+        1247,
+        1049
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        1056,
+        986,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1057,
+        987,
+        1244,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_19.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        1072,
+        991,
+        1246,
+        1049
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        1057,
+        986,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        1056,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        1056,
+        986,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        1056,
+        986,
+        1246,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        1071,
+        992,
+        1247,
+        1049
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_26.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        1072,
+        992,
+        1247,
+        1049
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        1056,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        37,
+        1004,
+        460,
+        1033
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        1056,
+        987,
+        1246,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_28.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        1071,
+        991,
+        1247,
+        1049
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_30.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        1056,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_31.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        1056,
+        986,
+        1246,
+        1049
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_32.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        1056,
+        986,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_33.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        36,
+        998,
+        536,
+        1029
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_33.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        1056,
+        986,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_34.webp"
+    },
+    {
+      "page": 35,
+      "bbox": [
+        1056,
+        986,
+        1246,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_35.webp"
+    },
+    {
+      "page": 36,
+      "bbox": [
+        1072,
+        992,
+        1247,
+        1049
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_36.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        1057,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_37.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        1057,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_39.webp"
+    },
+    {
+      "page": 40,
+      "bbox": [
+        1057,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_40.webp"
+    },
+    {
+      "page": 41,
+      "bbox": [
+        1056,
+        987,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_41.webp"
+    },
+    {
+      "page": 42,
+      "bbox": [
+        1056,
+        986,
+        1245,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_42.webp"
+    },
+    {
+      "page": 43,
+      "bbox": [
+        1056,
+        986,
+        1244,
+        1048
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/fig_43.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 5,
+      "bbox": [
+        28,
+        395,
+        639,
+        958
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        686,
+        400,
+        1230,
+        956
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        584,
+        405,
+        1240,
+        959
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        55,
+        400,
+        572,
+        970
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        38,
+        372,
+        1219,
+        968
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        43,
+        325,
+        833,
+        969
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        847,
+        697,
+        1225,
+        965
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        42,
+        323,
+        1038,
+        970
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        46,
+        384,
+        1218,
+        949
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        44,
+        346,
+        1219,
+        978
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_9.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        667,
+        395,
+        1236,
+        944
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_13.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        51,
+        366,
+        277,
+        534
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_13.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        43,
+        619,
+        629,
+        935
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        58,
+        376,
+        632,
+        974
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        727,
+        648,
+        937,
+        859
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1010,
+        317,
+        1223,
+        529
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1009,
+        646,
+        1223,
+        861
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        721,
+        313,
+        1230,
+        961
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        727,
+        318,
+        938,
+        529
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        55,
+        401,
+        666,
+        956
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        694,
+        733,
+        1244,
+        956
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        692,
+        401,
+        1246,
+        640
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        63,
+        337,
+        1252,
+        964
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        53,
+        361,
+        1218,
+        953
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_16.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        64,
+        439,
+        716,
+        971
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_18.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        758,
+        449,
+        1211,
+        929
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_18.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        37,
+        353,
+        1219,
+        971
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        65,
+        158,
+        1248,
+        970
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        48,
+        391,
+        1219,
+        948
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        62,
+        376,
+        613,
+        974
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_24.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        722,
+        313,
+        1232,
+        960
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_24.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        1014,
+        317,
+        1227,
+        530
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_24.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        730,
+        647,
+        942,
+        860
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        40,
+        409,
+        1218,
+        973
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_25.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        49,
+        415,
+        744,
+        932
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        772,
+        705,
+        1229,
+        964
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        769,
+        410,
+        1230,
+        644
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_27.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        768,
+        410,
+        1231,
+        644
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        63,
+        399,
+        814,
+        689
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        84,
+        764,
+        783,
+        974
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        853,
+        413,
+        1241,
+        961
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_28.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        41,
+        405,
+        783,
+        963
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_30.webp"
+    },
+    {
+      "page": 30,
+      "bbox": [
+        41,
+        397,
+        849,
+        964
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_30.webp"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        51,
+        392,
+        1211,
+        947
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_31.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        61,
+        418,
+        650,
+        968
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_32.webp"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        683,
+        440,
+        1245,
+        943
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_32.webp"
+    },
+    {
+      "page": 33,
+      "bbox": [
+        61,
+        411,
+        1230,
+        956
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_33.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        678,
+        379,
+        1235,
+        612
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_34.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        45,
+        378,
+        604,
+        973
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_34.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        979,
+        661,
+        1191,
+        875
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_34.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        349,
+        661,
+        564,
+        876
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_34.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        689,
+        658,
+        906,
+        914
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_34.webp"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        68,
+        662,
+        280,
+        874
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_34.webp"
+    },
+    {
+      "page": 35,
+      "bbox": [
+        64,
+        389,
+        1258,
+        976
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_35.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        68,
+        438,
+        685,
+        674
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_37.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        739,
+        686,
+        946,
+        891
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_37.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        59,
+        769,
+        671,
+        961
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_37.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        1006,
+        686,
+        1214,
+        891
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_37.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        738,
+        387,
+        946,
+        592
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_37.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        728,
+        384,
+        1218,
+        980
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_37.webp"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        1005,
+        388,
+        1212,
+        593
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_37.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        815,
+        701,
+        1234,
+        965
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_39.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        815,
+        381,
+        1232,
+        624
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_39.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        46,
+        391,
+        767,
+        954
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_39.webp"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        43,
+        360,
+        1158,
+        973
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_39.webp"
+    },
+    {
+      "page": 41,
+      "bbox": [
+        64,
+        686,
+        314,
+        956
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_41.webp"
+    },
+    {
+      "page": 41,
+      "bbox": [
+        961,
+        698,
+        1183,
+        919
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_41.webp"
+    },
+    {
+      "page": 41,
+      "bbox": [
+        358,
+        617,
+        614,
+        962
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_41.webp"
+    },
+    {
+      "page": 41,
+      "bbox": [
+        635,
+        374,
+        1256,
+        944
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_41.webp"
+    },
+    {
+      "page": 42,
+      "bbox": [
+        48,
+        407,
+        594,
+        949
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_42.webp"
+    },
+    {
+      "page": 42,
+      "bbox": [
+        631,
+        401,
+        1227,
+        612
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_42.webp"
+    },
+    {
+      "page": 42,
+      "bbox": [
+        613,
+        399,
+        1252,
+        945
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_42.webp"
+    },
+    {
+      "page": 42,
+      "bbox": [
+        39,
+        350,
+        1219,
+        951
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_42.webp"
+    },
+    {
+      "page": 43,
+      "bbox": [
+        500,
+        470,
+        779,
+        962
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_43.webp"
+    },
+    {
+      "page": 43,
+      "bbox": [
+        80,
+        474,
+        379,
+        964
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_43.webp"
+    },
+    {
+      "page": 43,
+      "bbox": [
+        867,
+        471,
+        1236,
+        967
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/2025年女性健康食品消费趋势洞察报告-炼丹炉/table_43.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/2025年女性健康食品消费趋势洞察报告-炼丹炉"
+}

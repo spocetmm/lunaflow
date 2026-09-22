@@ -1,0 +1,697 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 8982,
+  "figures_count": 27,
+  "tables_count": 35,
+  "figures": [
+    {
+      "page": 3,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        82
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        1198,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        82
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        82
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_8.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        82
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1198,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_13.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        506,
+        91,
+        546,
+        130
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        82
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_14.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        82
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        82
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        1198,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_20.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        82
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        81
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        83
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        1197,
+        0,
+        1279,
+        82
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        517,
+        573,
+        761,
+        602
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        534,
+        334,
+        738,
+        538
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_28.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        298,
+        265,
+        981,
+        303
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/fig_28.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "bbox": [
+        1,
+        220,
+        567,
+        484
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        65,
+        272,
+        1222,
+        655
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        42,
+        275,
+        1217,
+        655
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_3.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        26,
+        78,
+        1202,
+        670
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        752,
+        343,
+        1265,
+        665
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        27,
+        348,
+        748,
+        675
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        76,
+        330,
+        1194,
+        678
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_7.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        398,
+        329,
+        1187,
+        679
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        20,
+        369,
+        626,
+        675
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        653,
+        369,
+        1216,
+        678
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_8.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        41,
+        364,
+        1196,
+        681
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        72,
+        237,
+        1232,
+        671
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        735,
+        388,
+        1180,
+        684
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        28,
+        398,
+        731,
+        685
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        21,
+        415,
+        616,
+        671
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_13.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        683,
+        138,
+        1224,
+        391
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        62,
+        240,
+        1222,
+        682
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        337,
+        238,
+        429,
+        325
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_14.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        63,
+        309,
+        1191,
+        670
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        61,
+        332,
+        1258,
+        686
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        50,
+        411,
+        1219,
+        654
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        678,
+        139,
+        1209,
+        389
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        11,
+        414,
+        647,
+        680
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        616,
+        417,
+        1244,
+        671
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        120,
+        426,
+        567,
+        662
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_20.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        32,
+        352,
+        1219,
+        678
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_22.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        861,
+        423,
+        1229,
+        656
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        61,
+        426,
+        403,
+        642
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_23.webp"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        516,
+        442,
+        752,
+        672
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_23.webp"
+    },
+    {
+      "page": 24,
+      "bbox": [
+        76,
+        370,
+        1117,
+        677
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_24.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        29,
+        416,
+        644,
+        677
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_25.webp"
+    },
+    {
+      "page": 25,
+      "bbox": [
+        682,
+        139,
+        1222,
+        391
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_25.webp"
+    },
+    {
+      "page": 26,
+      "bbox": [
+        155,
+        343,
+        1110,
+        692
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_26.webp"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        82,
+        194,
+        684,
+        524
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_27.webp"
+    },
+    {
+      "page": 28,
+      "bbox": [
+        534,
+        334,
+        738,
+        538
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/电商运营：2025年中国吸收性卫生用品行业报告/table_28.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/电商运营：2025年中国吸收性卫生用品行业报告"
+}

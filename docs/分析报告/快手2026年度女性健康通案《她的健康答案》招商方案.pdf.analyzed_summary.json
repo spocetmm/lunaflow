@@ -1,0 +1,906 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 5768,
+  "figures_count": 34,
+  "tables_count": 47,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        1109,
+        12,
+        1253,
+        68
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1111,
+        20,
+        1250,
+        73
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        79,
+        139,
+        156,
+        222
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        1173,
+        20,
+        1270,
+        61
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_3.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        1127,
+        19,
+        1266,
+        73
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        817,
+        419,
+        855,
+        456
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        1126,
+        20,
+        1266,
+        72
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        1131,
+        19,
+        1275,
+        74
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        1127,
+        19,
+        1266,
+        73
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        22,
+        22,
+        58,
+        66
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        1127,
+        19,
+        1266,
+        74
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_9.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        7,
+        688,
+        248,
+        708
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        1132,
+        19,
+        1274,
+        74
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_10.webp"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        467,
+        265,
+        506,
+        303
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_10.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        4,
+        688,
+        248,
+        709
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        1130,
+        18,
+        1275,
+        74
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        7,
+        689,
+        249,
+        709
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        6,
+        688,
+        248,
+        709
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        1132,
+        19,
+        1273,
+        73
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        54,
+        438,
+        95,
+        479
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        7,
+        688,
+        248,
+        708
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        462,
+        430,
+        500,
+        471
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        900,
+        438,
+        939,
+        475
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        1131,
+        19,
+        1274,
+        73
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        54,
+        545,
+        94,
+        585
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        7,
+        692,
+        249,
+        714
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        461,
+        537,
+        501,
+        577
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        6,
+        692,
+        248,
+        713
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        1125,
+        19,
+        1266,
+        73
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        1131,
+        19,
+        1274,
+        74
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_17.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        1047,
+        674,
+        1245,
+        692
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        1036,
+        678,
+        1234,
+        698
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        1073,
+        681,
+        1272,
+        700
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_21.webp"
+    },
+    {
+      "page": 22,
+      "bbox": [
+        1109,
+        12,
+        1253,
+        68
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/fig_22.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "bbox": [
+        71,
+        266,
+        620,
+        417
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        749,
+        238,
+        914,
+        424
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1000,
+        498,
+        1231,
+        677
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        1042,
+        233,
+        1182,
+        424
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        79,
+        139,
+        156,
+        222
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        715,
+        116,
+        790,
+        198
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        738,
+        491,
+        927,
+        678
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        707,
+        295,
+        1244,
+        444
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        705,
+        496,
+        1241,
+        670
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        705,
+        129,
+        1237,
+        230
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        112,
+        139,
+        1183,
+        590
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        888,
+        155,
+        1134,
+        589
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        51,
+        124,
+        1168,
+        590
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        678,
+        445,
+        800,
+        628
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        671,
+        176,
+        794,
+        342
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        68,
+        166,
+        204,
+        334
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        738,
+        138,
+        1192,
+        673
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_6.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        105,
+        108,
+        1252,
+        663
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_8.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        67,
+        109,
+        669,
+        661
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        88,
+        155,
+        287,
+        420
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        383,
+        158,
+        585,
+        424
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        993,
+        154,
+        1239,
+        428
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_9.webp"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        535,
+        255,
+        820,
+        479
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_11.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        116,
+        273,
+        577,
+        641
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_12.webp"
+    },
+    {
+      "page": 12,
+      "bbox": [
+        734,
+        151,
+        1202,
+        641
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_12.webp"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        787,
+        42,
+        1274,
+        701
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_13.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        72,
+        182,
+        386,
+        382
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        887,
+        185,
+        1236,
+        375
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_14.webp"
+    },
+    {
+      "page": 14,
+      "bbox": [
+        470,
+        181,
+        820,
+        376
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_14.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        949,
+        140,
+        1148,
+        523
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        559,
+        143,
+        761,
+        529
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_15.webp"
+    },
+    {
+      "page": 15,
+      "bbox": [
+        131,
+        148,
+        324,
+        515
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_15.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        758,
+        189,
+        1232,
+        561
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        76,
+        185,
+        661,
+        563
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_16.webp"
+    },
+    {
+      "page": 16,
+      "bbox": [
+        409,
+        189,
+        658,
+        562
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_16.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        87,
+        194,
+        341,
+        520
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_17.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        464,
+        200,
+        799,
+        488
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_17.webp"
+    },
+    {
+      "page": 17,
+      "bbox": [
+        860,
+        186,
+        1271,
+        505
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_17.webp"
+    },
+    {
+      "page": 18,
+      "bbox": [
+        1,
+        115,
+        1179,
+        647
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_18.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        233,
+        166,
+        481,
+        549
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        515,
+        167,
+        848,
+        545
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        37,
+        166,
+        196,
+        549
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_19.webp"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        883,
+        172,
+        1193,
+        547
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_19.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        898,
+        191,
+        1118,
+        560
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        526,
+        190,
+        825,
+        537
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_20.webp"
+    },
+    {
+      "page": 20,
+      "bbox": [
+        128,
+        183,
+        409,
+        536
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_20.webp"
+    },
+    {
+      "page": 21,
+      "bbox": [
+        74,
+        139,
+        1161,
+        559
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/快手2026年度女性健康通案《她的健康答案》招商方案/table_21.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/快手2026年度女性健康通案《她的健康答案》招商方案"
+}

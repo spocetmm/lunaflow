@@ -1,0 +1,477 @@
+{
+  "status": "success",
+  "success": true,
+  "text_length": 7234,
+  "figures_count": 34,
+  "tables_count": 8,
+  "figures": [
+    {
+      "page": 1,
+      "bbox": [
+        842,
+        9,
+        988,
+        89
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        7,
+        1191,
+        927,
+        1261
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_1.webp"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        16,
+        36,
+        395,
+        68
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        881,
+        51,
+        963,
+        70
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        63,
+        50,
+        242,
+        71
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        31,
+        1217,
+        319,
+        1266
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        821,
+        1225,
+        951,
+        1259
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        939,
+        1229,
+        950,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        881,
+        51,
+        963,
+        70
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        63,
+        50,
+        243,
+        71
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        31,
+        1217,
+        315,
+        1266
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        821,
+        1225,
+        951,
+        1259
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_3.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        939,
+        1229,
+        950,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_3.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        63,
+        50,
+        242,
+        71
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        881,
+        51,
+        963,
+        70
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        31,
+        1217,
+        316,
+        1266
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        821,
+        1224,
+        951,
+        1259
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_4.webp"
+    },
+    {
+      "page": 4,
+      "bbox": [
+        939,
+        1229,
+        950,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_4.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        881,
+        51,
+        963,
+        70
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        63,
+        50,
+        243,
+        71
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        31,
+        1217,
+        319,
+        1266
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        821,
+        1224,
+        952,
+        1259
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        938,
+        1229,
+        950,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_5.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        822,
+        1224,
+        947,
+        1259
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        881,
+        51,
+        963,
+        70
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        63,
+        50,
+        242,
+        71
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        31,
+        1217,
+        315,
+        1266
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        821,
+        1225,
+        951,
+        1259
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        939,
+        1229,
+        950,
+        1243
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        76,
+        1180,
+        418,
+        1202
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_6.webp"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        48,
+        1195,
+        293,
+        1239
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_7.webp"
+    },
+    {
+      "page": 8,
+      "bbox": [
+        48,
+        1195,
+        292,
+        1238
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_8.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        83,
+        25,
+        241,
+        90
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_9.webp"
+    },
+    {
+      "page": 9,
+      "bbox": [
+        738,
+        24,
+        942,
+        88
+      ],
+      "category": "figure",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/fig_9.webp"
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": [
+        0,
+        853,
+        1025,
+        1169
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/table_1.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        70,
+        756,
+        951,
+        1169
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/table_2.webp"
+    },
+    {
+      "page": 2,
+      "bbox": [
+        80,
+        342,
+        124,
+        386
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/table_2.webp"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        62,
+        333,
+        960,
+        1168
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/table_3.webp"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        65,
+        331,
+        967,
+        1170
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/table_5.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        384,
+        355,
+        646,
+        611
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        384,
+        355,
+        646,
+        611
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/table_6.webp"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        72,
+        351,
+        959,
+        1031
+      ],
+      "category": "table",
+      "path": "/home/spoce/ocr_service/src/output/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机/table_6.webp"
+    }
+  ],
+  "categories": [],
+  "keywords": [],
+  "summary": "",
+  "figs_dir": "/home/spoce/work/Daily_Work_MD_Document/Projects/LunaFlow/docs/分析报告/中国妇科药行业调研简报：行业跟踪：PCOS妊娠管理中西合璧，孕育新机"
+}
