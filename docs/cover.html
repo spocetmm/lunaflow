@@ -2,17 +2,17 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#fce8e8">
-<title>LunaFlow · 商业模式 PPT</title>
+<title>LunaFlow · 首发补给与主动复购 V1.2</title>
 <style>
   /* ============================================================
-   * LunaFlow · 商业模式 PPT v1.0
+   * LunaFlow · 首发补给与主动复购 PPT v1.2
    * 主题：柔粉 + 玫瑰金 + 暖白（女性经期管理 · 温暖专业）
-   * 框架：参考 buying/cover.html（5 张幻灯片 · 横滑 deck）
-   * 占位说明：S2-S4 已搭骨架；S5 待 NAS+OCR 完成后用 build_cover_manifest.py 数据替换
+   * 结构：8 页商业验证主叙事 + 8 页原始研究与产品参考
+   * 画布：1600 × 900，支持阅读模式、动态目录与逐页打印
    * ============================================================ */
   :root {
     /* —— 品牌色：柔粉 + 玫瑰金 + 暖白 —— */
@@ -36,26 +36,26 @@
     --c-bg-deep:  #2a1f1f;
 
     /* —— 字号（vw）—— 与 buying 对齐 —— */
-    --fs-meta:    0.78vw;
-    --fs-card:    0.95vw;
-    --fs-body:    1vw;
-    --fs-tag:     0.85vw;
-    --fs-tag-sm:  0.72vw;
-    --fs-mini:    0.7vw;
-    --fs-h2:      1.3vw;
-    --fs-h3:      1.05vw;
-    --fs-h2-lg:   1.4vw;
-    --fs-val:     1.2vw;
-    --fs-pager:   0.9vw;
-    --fs-hint:    0.75vw;
+    --fs-meta:    12.48px;
+    --fs-card:    15.2px;
+    --fs-body:    16px;
+    --fs-tag:     13.6px;
+    --fs-tag-sm:  11.52px;
+    --fs-mini:    11.2px;
+    --fs-h2:      20.8px;
+    --fs-h3:      16.8px;
+    --fs-h2-lg:   22.4px;
+    --fs-val:     19.2px;
+    --fs-pager:   14.4px;
+    --fs-hint:    12px;
 
     /* —— 间距（vw）—— 1:1 沿用 buying 体系 —— */
-    --sp-1: 0.3vw;
-    --sp-2: 0.5vw;
-    --sp-3: 0.7vw;
-    --sp-4: 0.8vw;
-    --sp-5: 1vw;
-    --sp-6: 1.2vw;
+    --sp-1: 4.8px;
+    --sp-2: 8px;
+    --sp-3: 11.2px;
+    --sp-4: 12.8px;
+    --sp-5: 16px;
+    --sp-6: 19.2px;
 
     /* —— 圆角 —— */
     --r-sm:   4px;
@@ -87,7 +87,7 @@
 
   /* ===== PPT 容器 ===== */
   .deck {
-    width: 100vw; height: 100vh;
+    width: 1600px; height: 900px;
     display: flex;
     transition: transform 0.7s cubic-bezier(0.65, 0, 0.35, 1);
     will-change: transform;
@@ -97,7 +97,7 @@
   .slide {
     position: relative;
     flex-shrink: 0;
-    width: 100vw; height: 100vh;
+    width: 1600px; height: 900px;
     overflow: hidden;
     background: linear-gradient(135deg, #fdf8f5 0%, #f9d4d4 50%, #f4c4c4 100%);
   }
@@ -119,22 +119,22 @@
     letter-spacing: 0.35em;
     color: var(--c-rose-700);
     text-transform: uppercase;
-    margin-bottom: 0.8vw;
+    margin-bottom: 12.8px;
   }
   .header-left .chapter::before {
-    content: ""; width: 2.2vw; height: 1px; background: var(--c-rose-500);
+    content: ""; width: 35.2px; height: 1px; background: var(--c-rose-500);
   }
   .header-left h1 {
     font-family: "Source Han Serif", "Songti SC", "STSong", serif;
     font-weight: 600;
-    font-size: 3.2vw;
+    font-size: 51.2px;
     line-height: 1.15;
     color: var(--c-ink-900);
     letter-spacing: 0.02em;
   }
   .header-left h1 .accent { color: var(--c-rose-500); }
   .header-left .sub {
-    margin-top: 0.6vw;
+    margin-top: 9.6px;
     font-size: var(--fs-h3);
     color: #7a5858;
     letter-spacing: 0.05em;
@@ -142,15 +142,15 @@
   .header-right { text-align: right; }
   .header-right .num {
     font-family: "Source Han Serif", "Songti SC", serif;
-    font-size: 2.4vw;
+    font-size: 38.4px;
     color: var(--c-rose-500);
   }
-  .header-right .num small { font-size: 1vw; color: var(--c-ink-500); margin-left: 0.3vw; }
+  .header-right .num small { font-size: 16px; color: var(--c-ink-500); margin-left: 4.8px; }
   .header-right .label {
     font-size: var(--fs-meta);
     color: var(--c-ink-500);
     letter-spacing: 0.25em;
-    margin-top: 0.3vw;
+    margin-top: 4.8px;
   }
 
   /* ===== 通用页脚 ===== */
@@ -166,7 +166,7 @@
     z-index: 5;
   }
   .footer .brand {
-    display: flex; align-items: center; gap: 0.5vw;
+    display: flex; align-items: center; gap: 8px;
     color: var(--c-rose-700);
     text-transform: uppercase;
   }
@@ -192,7 +192,7 @@
     bottom: 2.5%; left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 0.6vw;
+    gap: 9.6px;
     z-index: 10;
   }
   .pager-dot {
@@ -209,7 +209,7 @@
 
   /* ===== 调试条 ===== */
   .swipe-debug {
-    position: fixed; top: 1vh; right: 1vh;
+    position: fixed; top: 9px; right: 9px;
     font-size: 11px; color: #fce8e8;
     background: rgba(58, 42, 42, 0.6);
     padding: 4px 10px; border-radius: 999px;
@@ -221,8 +221,8 @@
    * ============================================================ */
   .s1-ring {
     position: absolute;
-    top: -18vw; right: -18vw;
-    width: 42vw; height: 42vw;
+    top: -288px; right: -288px;
+    width: 672px; height: 672px;
     border-radius: 50%;
     background: radial-gradient(circle at 30% 30%, rgba(232, 165, 165, 0.5) 0%, transparent 70%);
     pointer-events: none;
@@ -230,8 +230,8 @@
   .s1-ring::after {
     content: "";
     position: absolute;
-    top: 8vw; left: 8vw;
-    width: 26vw; height: 26vw;
+    top: 128px; left: 128px;
+    width: 416px; height: 416px;
     border-radius: 50%;
     background: radial-gradient(circle at 40% 40%, rgba(201, 137, 129, 0.3) 0%, transparent 70%);
   }
@@ -242,24 +242,24 @@
     z-index: 3;
   }
   .s1-deco-line {
-    width: 4vw; height: 2px;
+    width: 64px; height: 2px;
     background: var(--c-rose-500);
-    margin-bottom: 1.5vw;
+    margin-bottom: 24px;
   }
   .s1-brand-block {
     display: flex; align-items: center;
-    gap: 1vw;
-    margin-bottom: 2vw;
+    gap: 16px;
+    margin-bottom: 32px;
   }
   .s1-brand-mark {
     font-family: "Source Han Serif", serif;
-    font-size: 1.3vw;
+    font-size: 20.8px;
     color: var(--c-ink-900);
     letter-spacing: 0.05em;
   }
   .s1-brand-mark .dot {
     color: var(--c-rose-500);
-    margin: 0 0.4vw;
+    margin: 0 6.4px;
   }
   .s1-brand-tagline {
     font-size: var(--fs-tag);
@@ -269,17 +269,17 @@
   }
   .s1-title {
     font-family: "Source Han Serif", "Songti SC", "STSong", serif;
-    font-size: 5.2vw;
+    font-size: 83.2px;
     font-weight: 700;
     line-height: 1.18;
     color: var(--c-ink-900);
     letter-spacing: 0.02em;
-    margin-bottom: 1.2vw;
+    margin-bottom: 19.2px;
   }
   .s1-title .accent { color: var(--c-rose-500); }
   .divider {
     display: flex; align-items: center;
-    margin: 1.6vw 0;
+    margin: 25.6px 0;
     color: var(--c-rose-700);
     letter-spacing: 0.3em;
     font-size: var(--fs-tag);
@@ -292,28 +292,28 @@
     background: linear-gradient(to right, transparent, var(--c-rose-300), transparent);
   }
   .divider span {
-    padding: 0 1.2vw;
+    padding: 0 19.2px;
   }
   .s1-subtitle {
     font-size: var(--fs-h3);
     color: var(--c-ink-700);
     line-height: 1.7;
     letter-spacing: 0.05em;
-    margin-bottom: 2vw;
+    margin-bottom: 32px;
   }
   .s1-subtitle strong { color: var(--c-rose-700); font-weight: 700; }
   .pillars {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.2vw;
-    margin-top: 1.5vw;
+    gap: 19.2px;
+    margin-top: 24px;
   }
   .s1-pillar {
     background: rgba(255, 255, 255, 0.72);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(201, 137, 129, 0.22);
     border-radius: var(--r-md);
-    padding: 1vw 1.1vw;
+    padding: 16px 17.6px;
     transition: all 0.3s var(--ease-out);
   }
   .s1-pillar:hover {
@@ -323,16 +323,16 @@
   }
   .s1-pillar .num {
     font-family: "Source Han Serif", serif;
-    font-size: 1.3vw;
+    font-size: 20.8px;
     color: var(--c-rose-500);
-    margin-bottom: 0.3vw;
+    margin-bottom: 4.8px;
   }
   .s1-pillar .label {
     font-family: "Source Han Serif", serif;
     font-size: var(--fs-body);
     font-weight: 700;
     color: var(--c-ink-900);
-    margin-bottom: 0.5vw;
+    margin-bottom: 8px;
     letter-spacing: 0.05em;
   }
   .s1-pillar .desc {
@@ -341,23 +341,23 @@
     line-height: 1.5;
   }
   .s1-value {
-    margin-top: 2vw;
+    margin-top: 32px;
     display: flex; align-items: center;
-    gap: 0.8vw;
+    gap: 12.8px;
     font-size: var(--fs-h3);
     color: var(--c-ink-700);
   }
   .s1-value .v-label {
     background: var(--c-rose-500);
     color: white;
-    padding: 0.2vw 0.8vw;
+    padding: 3.2px 12.8px;
     border-radius: var(--r-pill);
     font-size: var(--fs-tag);
     letter-spacing: 0.1em;
   }
   .s1-value strong {
     font-family: "Source Han Serif", serif;
-    font-size: 1.6vw;
+    font-size: 25.6px;
     color: var(--c-ink-900);
     letter-spacing: 0.08em;
   }
@@ -375,15 +375,15 @@
   }
   .s1-visual::before {
     content: "🌸";
-    font-size: 12vw;
+    font-size: 192px;
     opacity: 0.85;
   }
   .s1-visual::after {
     content: "LunaFlow";
     position: absolute;
-    bottom: 1.5vw; right: 1.5vw;
+    bottom: 24px; right: 24px;
     font-family: "Source Han Serif", serif;
-    font-size: 1.4vw;
+    font-size: 22.4px;
     color: white;
     letter-spacing: 0.3em;
     text-shadow: 0 2px 8px rgba(0,0,0,0.2);
@@ -397,19 +397,19 @@
     top: 22%; left: 6.5%; right: 6.5%; bottom: 12%;
     display: grid;
     grid-template-columns: 1fr 1.3fr;
-    gap: 2vw;
+    gap: 32px;
   }
   .s2-narrative {
     display: flex; flex-direction: column;
     justify-content: center;
-    padding-right: 1vw;
+    padding-right: 16px;
   }
   .s2-quote {
     font-family: "Source Han Serif", serif;
-    font-size: 2.8vw;
+    font-size: 44.8px;
     line-height: 1.3;
     color: var(--c-ink-900);
-    margin-bottom: 1.5vw;
+    margin-bottom: 24px;
     letter-spacing: 0.02em;
   }
   .s2-quote .accent { color: var(--c-rose-500); }
@@ -417,34 +417,34 @@
     font-size: var(--fs-h3);
     color: var(--c-ink-700);
     line-height: 1.7;
-    margin-bottom: 2vw;
+    margin-bottom: 32px;
   }
   .s2-stats {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.2vw;
-    margin-top: 1vw;
+    gap: 19.2px;
+    margin-top: 16px;
   }
   .s2-stat {
     background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(8px);
     border-left: 3px solid var(--c-rose-500);
     border-radius: var(--r-md);
-    padding: 0.9vw 1.1vw;
+    padding: 14.4px 17.6px;
   }
   .s2-stat .num {
     font-family: "Source Han Serif", serif;
-    font-size: 1.8vw;
+    font-size: 28.8px;
     color: var(--c-rose-700);
     line-height: 1;
   }
   .s2-stat .num small {
-    font-size: 1vw;
+    font-size: 16px;
     color: var(--c-ink-500);
-    margin-left: 0.2vw;
+    margin-left: 3.2px;
   }
   .s2-stat .lbl {
-    margin-top: 0.4vw;
+    margin-top: 6.4px;
     font-size: var(--fs-tag);
     color: var(--c-ink-700);
   }
@@ -452,14 +452,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
-    gap: 1vw;
+    gap: 16px;
   }
   .s2-pp {
     background: rgba(255, 255, 255, 0.82);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(201, 137, 129, 0.22);
     border-radius: var(--r-md);
-    padding: 1vw 1.2vw;
+    padding: 16px 19.2px;
     display: flex; flex-direction: column;
     transition: all 0.3s var(--ease-out);
   }
@@ -469,20 +469,20 @@
     border-color: rgba(201, 137, 129, 0.5);
   }
   .s2-pp .icon {
-    width: 2.2vw; height: 2.2vw;
+    width: 35.2px; height: 35.2px;
     background: linear-gradient(135deg, var(--c-rose-300), var(--c-rose-500));
     border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    font-size: 1.3vw;
+    font-size: 20.8px;
     color: white;
-    margin-bottom: 0.6vw;
+    margin-bottom: 9.6px;
   }
   .s2-pp .name {
     font-family: "Source Han Serif", serif;
     font-weight: 600;
     font-size: var(--fs-body);
     color: var(--c-ink-900);
-    margin-bottom: 0.3vw;
+    margin-bottom: 4.8px;
   }
   .s2-pp .desc {
     font-size: var(--fs-tag-sm);
@@ -498,32 +498,32 @@
     top: 22%; left: 6.5%; right: 6.5%; bottom: 12%;
     display: flex;
     flex-direction: column;
-    gap: 1.5vw;
+    gap: 24px;
   }
   .s3-hero {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    gap: 2vw;
+    gap: 32px;
     align-items: center;
     background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(201, 137, 129, 0.22);
     border-radius: var(--r-lg);
-    padding: 1.8vw 2.2vw;
+    padding: 28.8px 35.2px;
   }
   .s3-hero-text .label {
     font-size: var(--fs-tag);
     color: var(--c-rose-700);
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    margin-bottom: 0.5vw;
+    margin-bottom: 8px;
   }
   .s3-hero-text h2 {
     font-family: "Source Han Serif", serif;
-    font-size: 2.2vw;
+    font-size: 35.2px;
     line-height: 1.25;
     color: var(--c-ink-900);
-    margin-bottom: 1vw;
+    margin-bottom: 16px;
   }
   .s3-hero-text h2 .accent { color: var(--c-rose-500); }
   .s3-hero-text p {
@@ -533,7 +533,7 @@
   }
   .s3-hero-visual {
     position: relative;
-    height: 16vw;
+    height: 256px;
     background: linear-gradient(135deg, var(--c-rose-100), var(--c-rose-300));
     border-radius: var(--r-md);
     display: flex;
@@ -543,13 +543,13 @@
   }
   .s3-hero-visual::before {
     content: "📱";
-    font-size: 5vw;
+    font-size: 80px;
     opacity: 0.9;
   }
   .s3-hero-visual::after {
     content: "记录 · 预测 · 关怀";
     position: absolute;
-    bottom: 1.2vw; left: 50%;
+    bottom: 19.2px; left: 50%;
     transform: translateX(-50%);
     font-size: var(--fs-tag);
     color: white;
@@ -560,14 +560,14 @@
   .s3-features {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.2vw;
+    gap: 19.2px;
   }
   .s3-feat {
     background: rgba(255, 255, 255, 0.78);
     backdrop-filter: blur(6px);
     border: 1px solid rgba(201, 137, 129, 0.18);
     border-radius: var(--r-md);
-    padding: 1.2vw;
+    padding: 19.2px;
     transition: all 0.3s var(--ease-out);
   }
   .s3-feat:hover {
@@ -576,24 +576,24 @@
     box-shadow: var(--shadow-md);
   }
   .s3-feat .feat-icon {
-    font-size: 1.8vw;
-    margin-bottom: 0.5vw;
+    font-size: 28.8px;
+    margin-bottom: 8px;
   }
   .s3-feat .feat-name {
     font-family: "Source Han Serif", serif;
     font-weight: 600;
     font-size: var(--fs-body);
     color: var(--c-ink-900);
-    margin-bottom: 0.4vw;
+    margin-bottom: 6.4px;
   }
   .s3-feat .feat-tag {
     display: inline-block;
     font-size: var(--fs-tag-sm);
     color: var(--c-rose-700);
     background: rgba(201, 137, 129, 0.12);
-    padding: 0.1vw 0.6vw;
+    padding: 1.6px 9.6px;
     border-radius: var(--r-pill);
-    margin-bottom: 0.5vw;
+    margin-bottom: 8px;
   }
   .s3-feat .feat-desc {
     font-size: var(--fs-tag-sm);
@@ -609,41 +609,41 @@
     top: 22%; left: 6.5%; right: 6.5%; bottom: 12%;
     display: grid;
     grid-template-columns: 0.8fr 1.2fr;
-    gap: 2vw;
+    gap: 32px;
   }
   .s4-intro {
     display: flex; flex-direction: column;
     justify-content: center;
-    padding-right: 1vw;
+    padding-right: 16px;
   }
   .s4-intro .label {
     font-size: var(--fs-tag);
     color: var(--c-rose-700);
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    margin-bottom: 0.5vw;
+    margin-bottom: 8px;
   }
   .s4-intro h2 {
     font-family: "Source Han Serif", serif;
-    font-size: 2.4vw;
+    font-size: 38.4px;
     line-height: 1.25;
     color: var(--c-ink-900);
-    margin-bottom: 1.2vw;
+    margin-bottom: 19.2px;
   }
   .s4-intro h2 .accent { color: var(--c-rose-500); }
   .s4-intro .desc {
     font-size: var(--fs-body);
     color: var(--c-ink-700);
     line-height: 1.7;
-    margin-bottom: 1.5vw;
+    margin-bottom: 24px;
   }
   .s4-formula {
     background: linear-gradient(135deg, rgba(201, 137, 129, 0.1), rgba(232, 165, 165, 0.1));
     border: 1px dashed rgba(201, 137, 129, 0.4);
     border-radius: var(--r-md);
-    padding: 1vw 1.2vw;
+    padding: 16px 19.2px;
     font-family: "Source Han Serif", serif;
-    font-size: 1.05vw;
+    font-size: 16.8px;
     color: var(--c-ink-900);
     line-height: 1.8;
     letter-spacing: 0.05em;
@@ -653,14 +653,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
-    gap: 1vw;
+    gap: 16px;
   }
   .s4-rev {
     background: rgba(255, 255, 255, 0.82);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(201, 137, 129, 0.22);
     border-radius: var(--r-md);
-    padding: 1.1vw 1.2vw;
+    padding: 17.6px 19.2px;
     position: relative;
     overflow: hidden;
     transition: all 0.3s var(--ease-out);
@@ -679,35 +679,35 @@
   }
   .s4-rev .num {
     font-family: "Source Han Serif", serif;
-    font-size: 1.8vw;
+    font-size: 28.8px;
     color: var(--c-rose-500);
     line-height: 1;
   }
   .s4-rev .num small {
-    font-size: 0.95vw;
+    font-size: 15.2px;
     color: var(--c-ink-500);
-    margin-left: 0.3vw;
+    margin-left: 4.8px;
   }
   .s4-rev .name {
     font-family: "Source Han Serif", serif;
     font-weight: 600;
     font-size: var(--fs-body);
     color: var(--c-ink-900);
-    margin-top: 0.5vw;
-    margin-bottom: 0.4vw;
+    margin-top: 8px;
+    margin-bottom: 6.4px;
   }
   .s4-rev .desc {
     font-size: var(--fs-tag-sm);
     color: var(--c-ink-600);
     line-height: 1.5;
-    margin-bottom: 0.5vw;
+    margin-bottom: 8px;
   }
   .s4-rev .stage {
     display: inline-block;
     font-size: var(--fs-tag-sm);
     color: var(--c-rose-700);
     background: rgba(201, 137, 129, 0.12);
-    padding: 0.1vw 0.5vw;
+    padding: 1.6px 8px;
     border-radius: var(--r-pill);
     letter-spacing: 0.1em;
   }
@@ -719,17 +719,18 @@
    * ============================================================ */
   .s5-kpi-bar {
     position: absolute;
-    top: 19%; left: 6.5%; right: 6.5%;
+    top: 208px; left: 6.5%; right: 6.5%;
+    height: 96px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 0.8vw;
+    gap: 12.8px;
   }
   .s5-kpi {
     background: rgba(255, 255, 255, 0.82);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(201, 137, 129, 0.22);
     border-radius: var(--r-md);
-    padding: 0.9vw 1.1vw;
+    padding: 14.4px 17.6px;
     position: relative;
     overflow: hidden;
   }
@@ -742,13 +743,13 @@
   }
   .s5-kpi-num {
     font-family: "Source Han Serif", serif;
-    font-size: 1.6vw;
+    font-size: 25.6px;
     color: var(--c-rose-700);
     line-height: 1.1;
-    margin-bottom: 0.3vw;
+    margin-bottom: 4.8px;
     letter-spacing: -0.01em;
   }
-  .s5-kpi-num small { font-size: 0.7vw; color: var(--c-ink-500); margin-left: 0.2vw; }
+  .s5-kpi-num small { font-size: 11.2px; color: var(--c-ink-500); margin-left: 3.2px; }
   .s5-kpi-label {
     font-size: var(--fs-tag-sm);
     color: var(--c-ink-700);
@@ -758,25 +759,29 @@
     display: block;
     font-size: var(--fs-mini);
     color: var(--c-rose-700);
-    margin-top: 0.2vw;
+    margin-top: 3.2px;
     opacity: 0.75;
   }
   .s5-reports-wrap {
     position: absolute;
-    top: 32%; left: 6.5%; right: 6.5%; bottom: 14%;
+    top: 324px; left: 6.5%; right: 6.5%; bottom: 142px;
+    height: 434px;
     display: grid;
-    grid-template-columns: 1fr 18vw;
-    gap: 1.2vw;
+    grid-template-columns: 1fr 288px;
+    gap: 19.2px;
   }
   .s5-reports-main {
     display: flex; flex-direction: column;
+    min-height: 0;
     overflow: hidden;
   }
   .s5-section-title {
+    min-height: 24px;
+    flex-shrink: 0;
     display: flex;
     align-items: center;
-    gap: 0.6vw;
-    margin-bottom: 0.7vw;
+    gap: 9.6px;
+    margin-bottom: 11.2px;
     font-size: var(--fs-card);
     color: var(--c-ink-700);
     letter-spacing: 0.1em;
@@ -803,9 +808,10 @@
   .s5-reports-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0.8vw;
-    flex: 1;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 12.8px;
+    height: 398px;
+    flex: none;
     min-height: 0;
   }
   .s5-card {
@@ -840,12 +846,15 @@
   .s5-card-charts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 52px;
     gap: 2px;
-    height: 5vw;
+    height: 52px;
     background: var(--c-ink-700);
     flex-shrink: 0;
   }
   .s5-thumb {
+    height: 52px;
+    min-height: 0;
     position: relative;
     overflow: hidden;
     cursor: zoom-in;
@@ -868,7 +877,7 @@
     position: absolute;
     inset: 0;
     display: flex; align-items: center; justify-content: center;
-    font-size: 1.4vw;
+    font-size: 22.4px;
     background: rgba(58, 42, 42, 0.0);
     color: white;
     opacity: 0;
@@ -893,9 +902,10 @@
   /* 卡片正文 */
   .s5-card-body {
     flex: 1;
-    padding: 0.8vw 1vw;
+    padding: 9px 11px;
+    min-height: 0;
     display: flex; flex-direction: column;
-    gap: 0.3vw;
+    gap: 3px;
   }
   .s5-card-tag {
     display: inline-block;
@@ -903,7 +913,7 @@
     font-size: var(--fs-tag-sm);
     color: var(--c-rose-700);
     background: rgba(201, 137, 129, 0.12);
-    padding: 0.1vw 0.6vw;
+    padding: 1.6px 9.6px;
     border-radius: var(--r-pill);
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -911,7 +921,7 @@
   .s5-card-title {
     font-family: "Source Han Serif", serif;
     font-weight: 700;
-    font-size: 0.85vw;
+    font-size: 13.6px;
     line-height: 1.25;
     color: var(--c-ink-900);
     letter-spacing: 0.03em;
@@ -919,10 +929,15 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    min-height: 2.1vw;
+    min-height: 34px;
+    max-height: 34px;
+    flex-shrink: 0;
   }
   .s5-card-meta {
-    font-size: 0.7vw;
+    min-height: 16px;
+    max-height: 32px;
+    overflow: hidden;
+    font-size: 11.2px;
     color: var(--c-ink-500);
     letter-spacing: 0.05em;
     line-height: 1.4;
@@ -932,26 +947,27 @@
     color: var(--c-rose-700);
     font-weight: 700;
     font-size: var(--fs-tag);
-    margin-right: 0.3vw;
+    margin-right: 4.8px;
   }
   .s5-card-actions {
     margin-top: auto;
-    padding-top: 0.6vw;
+    padding-top: 4px;
+    flex-shrink: 0;
     display: flex;
-    gap: 0.5vw;
+    gap: 8px;
   }
   .s5-card-btn {
     flex: 1;
     background: linear-gradient(135deg, var(--c-rose-500), var(--c-rose-700));
     color: white;
     border: none;
-    padding: 0.4vw 0.6vw;
+    padding: 5px 7px;
     border-radius: var(--r-sm);
     font-size: var(--fs-tag-sm);
     letter-spacing: 0.08em;
     cursor: pointer;
     display: flex; align-items: center; justify-content: center;
-    gap: 0.3vw;
+    gap: 4.8px;
     transition: all 0.3s var(--ease-out);
   }
   .s5-card-btn:hover {
@@ -974,15 +990,16 @@
     backdrop-filter: blur(8px);
     border: 1px solid rgba(201, 137, 129, 0.25);
     border-radius: var(--r-md);
-    padding: 1.2vw 1.3vw;
+    padding: 16px 20px;
+    min-height: 0;
     display: flex; flex-direction: column;
     overflow: hidden;
   }
   .s5-catalog-title {
     display: flex;
     align-items: center;
-    gap: 0.55vw;
-    margin-bottom: 0.9vw;
+    gap: 8.8px;
+    margin-bottom: 14.4px;
     font-size: var(--fs-card);
     color: var(--c-ink-700);
     letter-spacing: 0.1em;
@@ -998,6 +1015,7 @@
     margin-left: auto;
   }
   .s5-catalog-list {
+    min-height: 0;
     list-style: none;
     flex: 1;
     overflow-y: auto;
@@ -1005,15 +1023,15 @@
   .s5-catalog-list li {
     display: flex;
     align-items: center;
-    gap: 0.6vw;
-    padding: 0.5vw 0;
+    gap: 9.6px;
+    padding: 6px 0;
     border-bottom: 1px dashed rgba(201, 137, 129, 0.18);
     font-size: var(--fs-tag);
     color: var(--c-ink-700);
   }
   .s5-catalog-list li:last-child { border-bottom: none; }
   .s5-cat-dot {
-    width: 0.6vw; height: 0.6vw;
+    width: 9.6px; height: 9.6px;
     border-radius: 50%;
     background: var(--c, var(--c-rose-500));
     flex-shrink: 0;
@@ -1029,11 +1047,11 @@
     font-weight: 700;
   }
   .s5-catalog-open {
-    margin-top: 0.9vw;
+    margin-top: 14.4px;
     background: linear-gradient(135deg, var(--c-rose-500), var(--c-rose-700));
     color: white;
     border: none;
-    padding: 0.6vw 1vw;
+    padding: 9.6px 16px;
     border-radius: var(--r-sm);
     font-size: var(--fs-tag);
     letter-spacing: 0.15em;
@@ -1041,7 +1059,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.4vw;
+    gap: 6.4px;
     transition: all 0.3s var(--ease-out);
   }
   .s5-catalog-open:hover {
@@ -1057,22 +1075,22 @@
     backdrop-filter: blur(8px);
     border-left: 4px solid var(--c-rose-500);
     border-radius: var(--r-sm);
-    padding: 0.6vw 1.2vw;
+    padding: 9.6px 19.2px;
     font-size: var(--fs-body);
     color: var(--c-ink-700);
     line-height: 1.5;
     display: flex;
     align-items: center;
-    gap: 0.7vw;
+    gap: 11.2px;
   }
   .s5-ops-hint strong {
     font-family: "Source Han Serif", serif;
     color: var(--c-ink-900);
     font-weight: 700;
-    margin-right: 0.3vw;
+    margin-right: 4.8px;
   }
   .s5-ops-hint .ops-icon {
-    font-size: 1.1vw;
+    font-size: 17.6px;
   }
 
   /* ============ S5 完整目录 Modal ============ */
@@ -1089,8 +1107,8 @@
   .s5-cat-modal.open { opacity: 1; pointer-events: auto; }
   .s5-cat-panel {
     position: relative;
-    width: 78vw;
-    height: 84vh;
+    width: 1248px;
+    height: 756px;
     background: linear-gradient(135deg, #fdf8f5 0%, #f9d4d4 100%);
     border-radius: var(--r-lg);
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
@@ -1098,7 +1116,7 @@
     overflow: hidden;
   }
   .s5-cat-header {
-    padding: 1vw 1.5vw;
+    padding: 16px 24px;
     background: white;
     border-bottom: 1px solid rgba(201, 137, 129, 0.2);
     display: flex; justify-content: space-between; align-items: center;
@@ -1113,21 +1131,21 @@
   }
   .s5-cat-h-title span {
     color: var(--c-rose-700);
-    font-size: 1.4vw;
+    font-size: 22.4px;
   }
   .s5-cat-h-sub {
     font-size: var(--fs-meta);
     color: var(--c-rose-700);
     letter-spacing: 0.05em;
-    margin-top: 0.2vw;
+    margin-top: 3.2px;
   }
   .s5-cat-close {
     background: rgba(201, 137, 129, 0.1);
     border: 1px solid rgba(201, 137, 129, 0.3);
     border-radius: var(--r-sm);
-    width: 2.6vw; height: 2.6vw;
+    width: 41.6px; height: 41.6px;
     color: var(--c-rose-500);
-    font-size: 1.4vw;
+    font-size: 22.4px;
     cursor: pointer;
     transition: all 0.25s;
     display: flex; align-items: center; justify-content: center;
@@ -1139,21 +1157,21 @@
   .s5-cat-body {
     flex: 1;
     overflow-y: auto;
-    padding: 1vw 1.5vw;
+    padding: 16px 24px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.6vw;
+    gap: 9.6px;
   }
   .s5-cat-row {
     background: rgba(255, 255, 255, 0.85);
     border: 1px solid rgba(201, 137, 129, 0.18);
     border-left: 3px solid var(--c-rose-500);
     border-radius: var(--r-sm);
-    padding: 0.6vw 0.9vw;
+    padding: 9.6px 14.4px;
     cursor: pointer;
     transition: all 0.2s;
     display: flex; align-items: center;
-    gap: 0.6vw;
+    gap: 9.6px;
   }
   .s5-cat-row:hover {
     background: white;
@@ -1161,8 +1179,8 @@
     box-shadow: var(--shadow-md);
   }
   .s5-cat-row-cover {
-    width: 4vw;
-    height: 5.6vw;
+    width: 64px;
+    height: 89.6px;
     background: linear-gradient(135deg, var(--c-cream-100), var(--c-rose-100));
     border-radius: var(--r-sm);
     overflow: hidden;
@@ -1176,22 +1194,22 @@
   .s5-cat-row-name {
     font-family: "Source Han Serif", serif;
     font-weight: 600;
-    font-size: 0.85vw;
+    font-size: 13.6px;
     color: var(--c-ink-900);
-    margin-bottom: 0.25vw;
+    margin-bottom: 4px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
   .s5-cat-row-meta {
-    font-size: 0.7vw;
+    font-size: 11.2px;
     color: var(--c-rose-700);
     letter-spacing: 0.05em;
   }
   .s5-cat-row-badge {
     flex-shrink: 0;
     font-family: "Source Han Serif", serif;
-    font-size: 1.2vw;
+    font-size: 19.2px;
     color: var(--c-rose-700);
     font-weight: 700;
   }
@@ -1210,13 +1228,13 @@
   .s5-lightbox.open { opacity: 1; pointer-events: auto; }
   .s5-lightbox .lb-stage {
     position: relative;
-    max-width: 80vw;
-    max-height: 80vh;
+    max-width: 1280px;
+    max-height: 720px;
     display: flex; align-items: center; justify-content: center;
   }
   .s5-lightbox .lb-stage img {
-    max-width: 80vw;
-    max-height: 78vh;
+    max-width: 1280px;
+    max-height: 702px;
     object-fit: contain;
     border-radius: 8px;
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55),
@@ -1230,10 +1248,10 @@
     background: rgba(58, 42, 42, 0.7);
     border: 1px solid rgba(232, 165, 165, 0.35);
     color: var(--c-rose-100);
-    width: 3.2vw; height: 3.2vw;
+    width: 51.2px; height: 51.2px;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 1.4vw;
+    font-size: 22.4px;
     display: flex; align-items: center; justify-content: center;
     transition: all 0.2s;
     z-index: 2;
@@ -1243,25 +1261,25 @@
     border-color: var(--c-rose-300);
     transform: scale(1.08);
   }
-  .s5-lightbox .lb-prev { left: 2vw; top: 50%; transform: translateY(-50%); }
-  .s5-lightbox .lb-next { right: 2vw; top: 50%; transform: translateY(-50%); }
+  .s5-lightbox .lb-prev { left: 32px; top: 50%; transform: translateY(-50%); }
+  .s5-lightbox .lb-next { right: 32px; top: 50%; transform: translateY(-50%); }
   .s5-lightbox .lb-prev:hover { transform: translateY(-50%) scale(1.08); }
   .s5-lightbox .lb-next:hover { transform: translateY(-50%) scale(1.08); }
   .s5-lightbox .lb-close {
-    top: 1.6vw; right: 2vw;
-    width: 2.6vw; height: 2.6vw;
-    font-size: 1.4vw;
+    top: 25.6px; right: 32px;
+    width: 41.6px; height: 41.6px;
+    font-size: 22.4px;
   }
   .s5-lightbox .lb-counter {
     position: absolute;
-    bottom: 1.6vw; left: 50%;
+    bottom: 25.6px; left: 50%;
     transform: translateX(-50%);
     color: var(--c-rose-100);
     font-family: "Source Han Serif", serif;
-    font-size: 0.9vw;
+    font-size: 14.4px;
     letter-spacing: 0.15em;
     background: rgba(58, 42, 42, 0.7);
-    padding: 0.4vw 1vw;
+    padding: 6.4px 16px;
     border-radius: 999px;
     border: 1px solid rgba(232, 165, 165, 0.25);
   }
@@ -1271,13 +1289,13 @@
   }
   .s5-lightbox .lb-caption {
     position: absolute;
-    bottom: 4.4vw; left: 50%;
+    bottom: 70.4px; left: 50%;
     transform: translateX(-50%);
     color: var(--c-rose-200);
-    font-size: 0.85vw;
+    font-size: 13.6px;
     letter-spacing: 0.05em;
     white-space: nowrap;
-    max-width: 70vw;
+    max-width: 1120px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1296,8 +1314,8 @@
   .s5-pdf-modal.open { opacity: 1; pointer-events: auto; }
   .s5-pdf-panel {
     position: relative;
-    width: 82vw;
-    height: 86vh;
+    width: 1312px;
+    height: 774px;
     background: linear-gradient(135deg, #fdf8f5 0%, #f9d4d4 100%);
     border-radius: var(--r-lg);
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
@@ -1305,7 +1323,7 @@
     overflow: hidden;
   }
   .s5-pdf-header {
-    padding: 1vw 1.5vw;
+    padding: 16px 24px;
     background: white;
     border-bottom: 1px solid rgba(201, 137, 129, 0.2);
     display: flex; justify-content: space-between; align-items: center;
@@ -1321,7 +1339,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-right: 1vw;
+    margin-right: 16px;
   }
   .s5-pdf-h-meta {
     font-size: var(--fs-meta);
@@ -1332,9 +1350,9 @@
     background: rgba(201, 137, 129, 0.1);
     border: 1px solid rgba(201, 137, 129, 0.3);
     border-radius: var(--r-sm);
-    width: 2.6vw; height: 2.6vw;
+    width: 41.6px; height: 41.6px;
     color: var(--c-rose-500);
-    font-size: 1.4vw;
+    font-size: 22.4px;
     cursor: pointer;
     transition: all 0.25s;
     display: flex; align-items: center; justify-content: center;
@@ -1354,15 +1372,15 @@
     flex: 1;
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
-    gap: 1vw;
+    gap: 16px;
     text-align: center;
     background: var(--c-cream-50);
     color: var(--c-ink-700);
   }
   .s5-pdf-error a {
     display: inline-block;
-    margin-top: 0.5vw;
-    padding: 0.5vw 1.5vw;
+    margin-top: 8px;
+    padding: 8px 24px;
     background: var(--c-rose-500);
     color: white;
     border-radius: var(--r-sm);
@@ -1377,13 +1395,13 @@
   .s5-pdf-actions {
     display: flex;
     align-items: center;
-    gap: 0.6vw;
+    gap: 9.6px;
   }
   .s5-pdf-act-btn {
     background: rgba(201, 137, 129, 0.1);
     border: 1px solid rgba(201, 137, 129, 0.3);
     border-radius: var(--r-sm);
-    padding: 0.5vw 1vw;
+    padding: 8px 16px;
     color: var(--c-rose-500);
     font-size: var(--fs-tag);
     text-decoration: none;
@@ -1405,7 +1423,7 @@
     padding: 1px 8px;
     border-radius: var(--r-pill);
     letter-spacing: 0.1em;
-    margin-left: 0.4vw;
+    margin-left: 6.4px;
     vertical-align: middle;
     cursor: help;
     font-family: var(--fs-meta), sans-serif;
@@ -1438,7 +1456,7 @@
     letter-spacing: 0.05em;
     line-height: 1.6;
     border-top: 1px dashed rgba(201, 137, 129, 0.3);
-    padding-top: 0.4vw;
+    padding-top: 6.4px;
     z-index: 4;
   }
   .ppt-footnote b { color: var(--c-rose-700); font-family: "Source Han Serif", serif; }
@@ -1449,8 +1467,8 @@
     backdrop-filter: blur(8px);
     border: 1px solid rgba(201, 137, 129, 0.22);
     border-radius: var(--r-md);
-    padding: 0.9vw 1.1vw;
-    margin-bottom: 0.8vw;
+    padding: 14.4px 17.6px;
+    margin-bottom: 12.8px;
     position: relative;
     overflow: hidden;
   }
@@ -1469,7 +1487,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.4vw;
+    margin-bottom: 6.4px;
   }
   .tier-name {
     font-family: "Source Han Serif", serif;
@@ -1482,7 +1500,7 @@
     font-size: var(--fs-tag-sm);
     color: var(--c-rose-700);
     background: rgba(201, 137, 129, 0.12);
-    padding: 0.1vw 0.6vw;
+    padding: 1.6px 9.6px;
     border-radius: var(--r-pill);
     letter-spacing: 0.08em;
   }
@@ -1494,7 +1512,7 @@
     font-size: var(--fs-tag);
     color: var(--c-ink-700);
     line-height: 1.55;
-    margin-bottom: 0.4vw;
+    margin-bottom: 6.4px;
   }
   .tier-value {
     font-size: var(--fs-tag-sm);
@@ -1507,24 +1525,24 @@
     background: rgba(244, 200, 200, 0.4);
     border: 1px dashed rgba(201, 137, 129, 0.4);
     border-radius: var(--r-sm);
-    padding: 0.6vw 0.9vw;
+    padding: 9.6px 14.4px;
     font-size: var(--fs-tag-sm);
     color: var(--c-ink-700);
     line-height: 1.6;
-    margin-bottom: 0.8vw;
+    margin-bottom: 12.8px;
     letter-spacing: 0.03em;
   }
   .s4-boundary .b-row {
     display: flex;
     align-items: flex-start;
-    gap: 0.3vw;
-    margin-bottom: 0.3vw;
+    gap: 4.8px;
+    margin-bottom: 4.8px;
   }
   .s4-boundary .b-row:last-child { margin-bottom: 0; }
   .s4-boundary strong { color: var(--c-rose-700); }
   .s4-boundary .warn {
     flex-shrink: 0;
-    margin-right: 0.1vw;
+    margin-right: 1.6px;
     color: var(--c-rose-500);
   }
 
@@ -1533,13 +1551,13 @@
     background: linear-gradient(135deg, rgba(201, 137, 129, 0.08), rgba(232, 165, 165, 0.05));
     border: 1px solid rgba(201, 137, 129, 0.25);
     border-radius: var(--r-md);
-    padding: 0.9vw 1.1vw;
+    padding: 14.4px 17.6px;
   }
   .ue-title {
     display: flex;
     align-items: center;
-    gap: 0.4vw;
-    margin-bottom: 0.5vw;
+    gap: 6.4px;
+    margin-bottom: 8px;
   }
   .ue-title strong {
     font-family: "Source Han Serif", serif;
@@ -1559,12 +1577,12 @@
     font-family: "Source Han Serif", serif;
     font-size: var(--fs-tag);
     color: var(--c-ink-900);
-    margin-bottom: 0.5vw;
+    margin-bottom: 8px;
   }
   .ue-table thead th {
     background: rgba(201, 137, 129, 0.12);
     color: var(--c-rose-700);
-    padding: 0.4vw 0.6vw;
+    padding: 6.4px 9.6px;
     text-align: left;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -1572,7 +1590,7 @@
     font-size: var(--fs-tag-sm);
   }
   .ue-table tbody td {
-    padding: 0.35vw 0.6vw;
+    padding: 5.6px 9.6px;
     border-bottom: 1px dashed rgba(201, 137, 129, 0.18);
     font-size: var(--fs-tag);
     color: var(--c-ink-800);
@@ -1587,9 +1605,9 @@
     display: block;
     font-family: "PingFang SC", sans-serif;
     font-weight: 400;
-    font-size: 0.6vw;
+    font-size: 9.6px;
     color: var(--c-ink-500);
-    margin-top: 0.1vw;
+    margin-top: 1.6px;
     letter-spacing: 0.05em;
   }
   .ue-note {
@@ -1597,7 +1615,7 @@
     color: var(--c-ink-600);
     line-height: 1.6;
     letter-spacing: 0.02em;
-    padding-top: 0.4vw;
+    padding-top: 6.4px;
     border-top: 1px dashed rgba(201, 137, 129, 0.2);
   }
   .ue-note strong { color: var(--c-rose-700); }
@@ -1605,8 +1623,8 @@
   /* ===== 阶段卡片 meta 标注 ===== */
   .rev-meta {
     display: block;
-    margin-top: 0.4vw;
-    font-size: 0.65vw;
+    margin-top: 6.4px;
+    font-size: 10.4px;
     color: var(--c-rose-700);
     letter-spacing: 0.08em;
     font-style: italic;
@@ -1619,19 +1637,19 @@
     background: linear-gradient(135deg, rgba(201, 137, 129, 0.1), rgba(244, 200, 200, 0.15));
   }
   .s4-rev-decision .num {
-    font-size: 1.5vw;
+    font-size: 24px;
     color: var(--c-rose-700);
   }
   .decision-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.5vw 1vw;
-    margin: 0.4vw 0;
+    gap: 8px 16px;
+    margin: 6.4px 0;
   }
   .decision-item {
     display: flex;
     align-items: flex-start;
-    gap: 0.5vw;
+    gap: 8px;
     font-size: var(--fs-tag-sm);
     color: var(--c-ink-700);
     line-height: 1.5;
@@ -1641,8 +1659,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 1.4vw;
-    height: 1.4vw;
+    width: 22.4px;
+    height: 22.4px;
     border-radius: 50%;
     font-family: "Source Han Serif", serif;
     font-weight: 700;
@@ -1651,7 +1669,7 @@
   }
   .d-tag-warn { background: linear-gradient(135deg, #d89595, #c98981); }
   .d-tag-ok   { background: linear-gradient(135deg, #9c7878, #7a5858); }
-  .d-tag-pause { background: linear-gradient(135deg, #c96868, #a04545); font-size: 0.95vw; }
+  .d-tag-pause { background: linear-gradient(135deg, #c96868, #a04545); font-size: 15.2px; }
   .decision-pause .d-text {
     color: var(--c-rose-700);
     font-weight: 500;
@@ -1664,14 +1682,14 @@
     top: 13%; left: 5%; right: 5%; bottom: 13%;
     display: grid;
     grid-template-columns: 1.6fr 1fr;
-    gap: 1.2vw;
+    gap: 19.2px;
   }
   .image-stage {
     background: rgba(255, 255, 255, 0.78);
     backdrop-filter: blur(6px);
     border: 1px solid rgba(201, 137, 129, 0.22);
     border-radius: var(--r-md);
-    padding: 0.8vw;
+    padding: 12.8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1686,11 +1704,11 @@
   }
   .image-stage .img-meta {
     position: absolute;
-    bottom: 1vw; right: 1vw;
+    bottom: 16px; right: 16px;
     background: rgba(58, 42, 42, 0.7);
     color: var(--c-rose-100);
     font-size: var(--fs-tag-sm);
-    padding: 0.3vw 0.8vw;
+    padding: 4.8px 12.8px;
     border-radius: var(--r-sm);
     letter-spacing: 0.05em;
   }
@@ -1700,7 +1718,7 @@
     border: 1px solid rgba(201, 137, 129, 0.25);
     border-left: 4px solid var(--c-rose-500);
     border-radius: var(--r-md);
-    padding: 1.2vw 1.4vw;
+    padding: 19.2px 22.4px;
     font-size: var(--fs-tag);
     color: var(--c-ink-700);
     line-height: 1.7;
@@ -1710,17 +1728,17 @@
     font-family: "Source Han Serif", serif;
     font-size: var(--fs-h3);
     color: var(--c-ink-900);
-    margin-bottom: 0.5vw;
+    margin-bottom: 8px;
     letter-spacing: 0.03em;
   }
   .image-notes h3 .accent { color: var(--c-rose-500); }
   .image-notes .notes-list {
     list-style: none;
     padding: 0;
-    margin: 0.4vw 0;
+    margin: 6.4px 0;
   }
   .image-notes .notes-list li {
-    padding: 0.3vw 0;
+    padding: 4.8px 0;
     border-bottom: 1px dashed rgba(201, 137, 129, 0.18);
     font-size: var(--fs-tag-sm);
     color: var(--c-ink-700);
@@ -1729,14 +1747,14 @@
   .image-notes .notes-list li b {
     color: var(--c-rose-700);
     font-family: "Source Han Serif", serif;
-    margin-right: 0.3vw;
+    margin-right: 4.8px;
   }
   .image-notes .notes-list li.warn {
     color: #a04545;
   }
   .image-notes .source-line {
-    margin-top: 0.8vw;
-    padding-top: 0.5vw;
+    margin-top: 12.8px;
+    padding-top: 8px;
     border-top: 1px solid rgba(201, 137, 129, 0.25);
     font-size: var(--fs-tag-sm);
     color: var(--c-rose-700);
@@ -1747,7 +1765,7 @@
     color: var(--c-ink-900);
     font-family: "Source Han Serif", serif;
     font-style: normal;
-    margin-right: 0.4vw;
+    margin-right: 6.4px;
   }
 
   /* ===== 通用图片 Lightbox(用于 Slide 6-12 图片放大预览)===== */
@@ -1766,15 +1784,15 @@
 
   .ilb-stage {
     position: relative;
-    width: 100vw; height: 100vh;
+    width: 1600px; height: 900px;
     display: flex; align-items: center; justify-content: center;
     cursor: grab;
   }
   .ilb-stage.dragging { cursor: grabbing; }
 
   .ilb-stage img {
-    max-width: 90vw;
-    max-height: 80vh;
+    max-width: 1440px;
+    max-height: 720px;
     object-fit: contain;
     border-radius: 8px;
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55),
@@ -1790,10 +1808,10 @@
     background: rgba(58, 42, 42, 0.7);
     border: 1px solid rgba(232, 165, 165, 0.35);
     color: var(--c-rose-100);
-    width: 3.2vw; height: 3.2vw;
+    width: 51.2px; height: 51.2px;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 1.6vw;
+    font-size: 25.6px;
     display: flex; align-items: center; justify-content: center;
     transition: all 0.2s;
     z-index: 2;
@@ -1806,35 +1824,35 @@
   }
 
   .ilb-close {
-    top: 1.6vw; right: 2vw;
-    font-size: 1.6vw;
+    top: 25.6px; right: 32px;
+    font-size: 25.6px;
   }
   .ilb-close:hover { background: #a04545; }
 
   .ilb-zoom-in {
-    bottom: 4vw; right: 6vw;
+    bottom: 64px; right: 96px;
   }
   .ilb-zoom-out {
-    bottom: 4vw; right: 10vw;
+    bottom: 64px; right: 160px;
   }
   .ilb-reset {
-    bottom: 4vw; left: 6vw;
-    font-size: 1.3vw;
+    bottom: 64px; left: 96px;
+    font-size: 20.8px;
   }
 
   .ilb-caption {
     position: absolute;
-    bottom: 1.6vw; left: 50%;
+    bottom: 25.6px; left: 50%;
     transform: translateX(-50%);
     color: var(--c-rose-100);
     font-family: "Source Han Serif", serif;
-    font-size: 0.95vw;
+    font-size: 15.2px;
     letter-spacing: 0.15em;
     background: rgba(58, 42, 42, 0.7);
-    padding: 0.5vw 1.2vw;
+    padding: 8px 19.2px;
     border-radius: 999px;
     border: 1px solid rgba(232, 165, 165, 0.25);
-    max-width: 70vw;
+    max-width: 1120px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -1843,13 +1861,13 @@
 
   .ilb-hint {
     position: absolute;
-    top: 1.6vw; left: 50%;
+    top: 25.6px; left: 50%;
     transform: translateX(-50%);
     color: var(--c-rose-200);
-    font-size: 0.78vw;
+    font-size: 12.48px;
     letter-spacing: 0.15em;
     background: rgba(58, 42, 42, 0.5);
-    padding: 0.3vw 1vw;
+    padding: 4.8px 16px;
     border-radius: 999px;
   }
 
@@ -1866,491 +1884,301 @@
   }
   .d-text strong { color: var(--c-ink-900); }
   .decision-foot {
-    margin-top: 0.4vw;
-    font-size: 0.65vw;
+    margin-top: 6.4px;
+    font-size: 10.4px;
     color: var(--c-rose-700);
     letter-spacing: 0.05em;
     font-style: italic;
-    padding-top: 0.4vw;
+    padding-top: 6.4px;
     border-top: 1px dashed rgba(201, 137, 129, 0.3);
+  }
+
+
+  /* V1.2: fixed landscape presentation, with an accessible reading alternative. */
+  html, body { width:100%; height:100%; user-select:text; }
+  button, select { font:inherit; }
+  button, a, select { -webkit-tap-highlight-color:transparent; }
+  :focus-visible { outline:3px solid #85504f; outline-offset:4px; }
+  .deck-viewport { position:absolute; overflow:hidden; left:50%; top:calc(50% - 25px); transform:translate(-50%,-50%); }
+  .deck { width:1600px; height:900px; transform-origin:top left; }
+  .slide { width:1600px; height:900px; flex:0 0 1600px; }
+  .slide .header { top:55px; }
+  .slide .footer { bottom:35px; font-size:14px; letter-spacing:1px; }
+  .slide .footer .quote { font-style:normal; }
+  .header-left h1 { font-size:49px; }
+  .header-left .chapter { font-size:15px; letter-spacing:3px; }
+  .header-left .sub { font-size:21px; line-height:1.5; max-width:1140px; }
+  .header-right .label { line-height:1.9; font-size:14px; letter-spacing:2px; }
+  .strategy { background:linear-gradient(120deg,#fdf8f5 0%,#f9eeee 65%,#f4d5d1 100%); }
+  .strategy-body { position:absolute; top:215px; left:104px; right:104px; bottom:110px; color:var(--c-ink-900); }
+  .strategy h2 { font-family:"Songti SC","STSong",serif; font-size:43px; line-height:1.35; font-weight:600; }
+  .strategy h3 { font-size:27px; line-height:1.4; }
+  .strategy p { font-size:23px; line-height:1.65; }
+  .strategy .eyebrow { font-size:17px; letter-spacing:2px; color:var(--c-rose-700); margin-bottom:20px; }
+  .strategy .lead { font-size:27px; line-height:1.65; margin:25px 0; }
+  .strategy .note { font-size:18px; line-height:1.65; color:var(--c-ink-600); margin-top:20px; }
+  .strategy .source-note { font-size:16px; line-height:1.7; color:var(--c-ink-600); margin-top:20px; }
+  .strategy a { color:var(--c-rose-900); text-underline-offset:4px; }
+  .split { display:grid; grid-template-columns:1fr 1.1fr; gap:70px; }
+  .plain-list { margin:28px 0 0; padding:0; list-style:none; }
+  .plain-list li { padding:15px 0; border-top:1px solid #d8baba; font-size:23px; line-height:1.65; }
+  .strategy-table { width:100%; border-collapse:collapse; font-size:22px; line-height:1.6; }
+  .strategy-table th { text-align:left; color:var(--c-rose-900); padding:16px 14px; border-bottom:2px solid #c98981; font-size:20px; }
+  .strategy-table td { padding:23px 14px; border-bottom:1px solid #dec9c6; vertical-align:top; }
+  .strategy-table small { font-size:18px; color:var(--c-ink-600); }
+  .strategy-table td:first-child { font-weight:600; }
+  .strategy-table .total { background:rgba(201,137,129,.14); font-weight:700; color:var(--c-rose-900); }
+  .cover-strategy .strategy-body { display:grid; grid-template-columns:1.2fr 1fr; gap:100px; top:230px; }
+  .cover-strategy .header-left h1 { font-size:62px; }
+  .cover-strategy .cover-copy h2 { font-size:89px; line-height:1.15; letter-spacing:3px; }
+  .cover-copy h2 span { color:var(--c-rose-700); }
+  .strategy .cover-status { font-size:18px; color:var(--c-ink-600); margin-top:25px; }
+  .cover-outline { border-left:1px solid #cfa6a2; padding:10px 0 0 65px; }
+  .cover-outline > div { position:relative; margin-bottom:43px; }
+  .cover-outline b { font-family:serif; font-size:17px; color:var(--c-rose-700); display:block; margin-bottom:8px; }
+  .cover-outline p { font-size:23px; margin-top:10px; }
+  .value-row { display:grid; grid-template-columns:65px 1.6fr 1fr; align-items:center; gap:25px; border-top:1px solid #d8baba; padding:26px 0; }
+  .value-row h2 { font-size:34px; margin-bottom:7px; }
+  .value-row p { font-size:22px; }
+  .row-no { font-size:26px; color:var(--c-rose-700); }
+  .measure { border-left:1px solid #d8baba; padding-left:40px; }
+  .measure b { display:block; font-size:25px; margin-bottom:9px; }
+  .measure span { font-size:20px; line-height:1.5; color:var(--c-ink-600); }
+  .strategy .callout { padding:19px 24px; background:rgba(201,137,129,.10); border-left:4px solid #a06565; margin-top:24px; font-size:23px; }
+  .package-layout { grid-template-columns:1fr 1.18fr; }
+  .big-price { font-family:Georgia,serif; font-size:117px; color:var(--c-rose-700); margin:25px 0 20px; line-height:1; }
+  .big-price > span { font-size:52px; }
+  .big-price small { font:24px sans-serif; }
+  .package-list > div { display:grid; grid-template-columns:115px 1fr; border-top:1px solid #d8baba; padding:20px 0; gap:24px; }
+  .package-list dt { font-size:24px; font-weight:600; color:var(--c-rose-900); }
+  .package-list dd { font-size:22px; line-height:1.65; }
+  .journey-steps { display:grid; grid-template-columns:repeat(4,1fr); gap:30px; list-style:none; padding:0; }
+  .journey-steps li { padding-top:14px; border-top:2px solid #c98981; }
+  .journey-steps b { font:20px Georgia,serif; color:var(--c-rose-700); }
+  .journey-steps h3 { margin:12px 0 10px; }
+  .journey-steps p { font-size:22px; }
+  .repeat-flow { display:grid; grid-template-columns:.8fr 1fr 1fr 1fr; gap:35px; align-items:start; padding:32px 0; margin-top:34px; border-top:1px solid #d8baba; border-bottom:1px solid #d8baba; }
+  .repeat-flow h2 { font-size:32px; }
+  .repeat-flow h3 { font-size:25px; }
+  .repeat-flow p { font-size:20px; margin-top:8px; }
+  .two-notes { display:grid; grid-template-columns:1fr 1fr; gap:60px; margin-top:28px; }
+  .two-notes p { font-size:20px; }
+  .economics-layout { grid-template-columns:1.15fr 1fr; gap:70px; }
+  .cost-table td { padding:13px 14px; }
+  .cost-table td:last-child { text-align:right; font-variant-numeric:tabular-nums; }
+  .scenario { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:17px 0; border-bottom:1px solid #d8baba; }
+  .scenario > span { font-size:21px; }
+  .scenario strong { font:43px Georgia,serif; color:var(--c-rose-700); white-space:nowrap; }
+  .scenario small { font:18px sans-serif; }
+  .scenario .negative { color:#9d3f3f; }
+  .strategy .compact { font-size:21px; line-height:1.6; padding:16px 20px; }
+  .budget-head { display:flex; gap:30px; margin:4px 0 25px; }
+  .budget-head strong { display:block; font:62px Georgia,serif; color:var(--c-rose-700); }
+  .budget-head span { display:block; font-size:18px; margin-top:10px; }
+  .budget-table td { padding:14px; }
+  .budget-table td:last-child { text-align:right; }
+  .pilot-stages > div { position:relative; padding:4px 0 29px 55px; margin-bottom:20px; border-bottom:1px solid #d8baba; }
+  .pilot-stages > div > span { position:absolute; left:0; color:var(--c-rose-700); font:35px Georgia,serif; }
+  .pilot-stages h3 { margin-bottom:10px; }
+  .pilot-stages p { font-size:23px; }
+  .decision-table td { padding:14px; font-size:21px; }
+  .decision-table td:first-child { font-weight:400; }
+  .future-row { display:grid; grid-template-columns:1fr 1fr; gap:55px; margin-top:28px; }
+  .future-row h3 { font-size:25px; margin-bottom:10px; }
+  .future-row p { font-size:21px; }
+  .image-slide-content { top:210px; bottom:112px; height:578px; grid-template-rows:minmax(0,1fr); }
+  .image-stage, .image-notes { min-height:0; height:100%; }
+  .image-stage img { height:100%; object-fit:contain; }
+  .archive-note { border-bottom:1px solid #d8baba; padding:0 0 10px; margin-bottom:12px; font-size:16px; font-weight:600; color:#7a4a4a; }
+  .image-stage img { cursor:zoom-in; }
+  .presentation-controls { position:fixed; bottom:0; width:100%; height:54px; background:#302323; color:#faefec; display:flex; align-items:center; justify-content:center; gap:10px; padding:7px 12px; z-index:30; }
+  .presentation-controls button, .presentation-controls select { color:#faefec; background:#4a3535; border:1px solid #755653; border-radius:5px; padding:6px 11px; min-height:36px; cursor:pointer; font-size:14px; }
+  .presentation-controls select { max-width:350px; }
+  .presentation-controls button:disabled { opacity:.4; cursor:default; }
+  #slideCount { min-width:55px; text-align:center; font-size:14px; font-variant-numeric:tabular-nums; }
+  .presentation-controls :focus-visible { outline-color:#f9d4d4; }
+  .sr-only { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+  .img-lightbox:not(.open), .s5-lightbox:not(.open), .s5-cat-modal:not(.open), .s5-pdf-modal:not(.open) { visibility:hidden; }
+  .img-lightbox.open,.s5-lightbox.open,.s5-cat-modal.open,.s5-pdf-modal.open { z-index:50; }
+  .s5-pdf-panel, .s5-cat-panel { max-width:95vw; max-height:92vh; }
+  .s5-lightbox .lb-stage img, .ilb-stage img { max-width:90vw; max-height:82vh; }
+  .s5-lightbox .lb-caption,.ilb-caption { max-width:80vw; }
+
+  /* Reading mode also gives narrow screens readable, selectable content. */
+  body.reading { overflow:auto; background:#fdf8f5; height:auto; }
+  body.reading .deck-viewport { position:static; transform:none; width:100% !important; height:auto !important; overflow:visible; padding-bottom:65px; }
+  body.reading .deck { display:block; width:100%; height:auto; transform:none !important; }
+  body.reading .slide { width:100%; height:auto; min-height:0; padding:45px max(24px,calc((100% - 1100px)/2)); overflow:visible; border-bottom:1px solid #d8baba; }
+  body.reading .header, body.reading .footer, body.reading .strategy-body, body.reading .image-slide-content { position:static; }
+  body.reading .header { display:block; margin-bottom:35px; }
+  body.reading .header-right { display:none; }
+  body.reading .header-left h1 { font-size:clamp(28px,4vw,43px); line-height:1.3; }
+  body.reading .header-left .sub { font-size:18px; line-height:1.6; }
+  body.reading .header-left .chapter { font-size:12px; }
+  body.reading .footer { display:flex; justify-content:space-between; margin-top:32px; gap:16px; font-size:12px; }
+  body.reading .footer .quote { display:none; }
+  body.reading .strategy h2 { font-size:32px; }
+  body.reading .strategy h3 { font-size:23px; }
+  body.reading .strategy p,body.reading .plain-list li,body.reading .package-list dd,body.reading .package-list dt { font-size:18px; }
+  body.reading .strategy .note,body.reading .strategy .source-note { font-size:15px; }
+  body.reading .cover-copy h2 { font-size:60px; }
+  body.reading .cover-strategy .strategy-body,body.reading .split { gap:35px; }
+  body.reading .cover-outline { padding-left:32px; }
+  body.reading .strategy-table { font-size:18px; }
+  body.reading .strategy-table th,body.reading .strategy-table td { font-size:17px; padding:12px 8px; }
+  body.reading .strategy-table small { font-size:15px; }
+  body.reading .big-price { font-size:78px; }
+  body.reading .value-row { grid-template-columns:45px 1.5fr 1fr; gap:16px; }
+  body.reading .measure { padding-left:22px; }
+  body.reading .measure b { font-size:21px; }
+  body.reading .measure span { font-size:17px; }
+  body.reading .budget-head strong { font-size:43px; }
+  body.reading .budget-head span { font-size:16px; }
+  body.reading .image-slide-content { grid-template-columns:1.4fr 1fr; grid-template-rows:auto; height:auto; }
+  body.reading .image-stage { min-height:250px; height:auto; }
+  body.reading .image-stage img { height:auto; max-height:600px; }
+  body.reading .image-notes { height:auto; overflow:visible; }
+  body.reading .image-notes .notes-list li,body.reading .image-notes .source-line { font-size:15px; }
+  body.reading .s5-kpi-bar,body.reading .s5-reports-wrap,body.reading .s5-ops-hint { position:static; width:100%; height:auto; margin-bottom:25px; }
+  body.reading .s5-reports-main,body.reading .s5-reports-grid { height:auto; max-height:none; overflow:visible; }
+  body.reading .s5-reports-grid { grid-template-rows:auto; }
+  body.reading .s5-card-charts { height:100px; grid-template-rows:100px; }
+  body.reading .s5-thumb { height:100px; }
+  body.reading .s5-card-body { padding:14px; gap:8px; }
+  body.reading .s5-card-title,body.reading .s5-card-meta { max-height:none; }
+  body.reading .s5-card-title { display:block; }
+  body.reading .s5-card-title { font-size:17px; }
+  body.reading .s5-catalog { max-height:none; }
+  @media (max-width:750px) {
+    body.reading .cover-strategy .strategy-body, body.reading .split, body.reading .future-row, body.reading .two-notes, body.reading .image-slide-content { display:grid; grid-template-columns:1fr; gap:25px; }
+    body.reading .cover-outline { padding-left:22px; }
+    body.reading .cover-outline > div { margin-bottom:24px; }
+    body.reading .value-row { grid-template-columns:35px 1fr; }
+    body.reading .measure { grid-column:2; padding:12px 0 0; border-left:0; }
+    body.reading .journey-steps { grid-template-columns:1fr 1fr; gap:20px; }
+    body.reading .repeat-flow { grid-template-columns:1fr; padding:25px 0; gap:18px; }
+    body.reading .repeat-flow h2 { font-size:27px; }
+    body.reading .package-list > div { grid-template-columns:82px 1fr; gap:12px; }
+    body.reading .budget-head { gap:24px; }
+    body.reading .budget-head strong { font-size:37px; }
+    body.reading .budget-head span { font-size:14px; }
+    body.reading .scenario { flex-wrap:wrap; }
+    body.reading .scenario strong { font-size:35px; }
+    body.reading .scenario > span { font-size:17px; }
+    body.reading .s5-kpi-bar { display:grid; grid-template-columns:1fr 1fr; }
+    body.reading .s5-reports-wrap { display:block; }
+    body.reading .s5-reports-grid { grid-template-columns:1fr; }
+    body.reading .s5-catalog { margin-top:24px; }
+    body.reading .image-stage .img-meta { font-size:11px; max-width:90%; }
+    .presentation-controls { gap:5px; padding:7px 6px; }
+    .presentation-controls button,.presentation-controls select { font-size:12px; padding:5px 7px; }
+    .presentation-controls select { min-width:0; flex:1; max-width:280px; }
+    #slideCount { min-width:42px; font-size:12px; }
+    #fullscreenToggle { display:none; }
+    .s5-pdf-h-title,.s5-cat-h-title { font-size:18px; }
+    .s5-pdf-h-meta,.s5-cat-h-sub { font-size:12px; }
+    .s5-pdf-header { flex-wrap:wrap; gap:12px; }
+    .s5-cat-row-name { font-size:15px; }
+    .s5-cat-row-meta { font-size:12px; }
+  }
+  @media (prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none !important; transition:none !important; scroll-behavior:auto !important; } }
+  @page { size:1600px 900px; margin:0; }
+  @media print {
+    html,body { width:1600px; height:auto; overflow:visible; background:white; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+    .presentation-controls,.img-lightbox,.s5-lightbox,.s5-cat-modal,.s5-pdf-modal { display:none !important; }
+    .deck-viewport { position:static; transform:none; width:1600px !important; height:auto !important; overflow:visible; }
+    .deck { display:block; width:1600px; height:auto; transform:none !important; }
+    .slide { width:1600px; height:900px; break-after:page; break-inside:avoid; }
+    .slide:last-child { break-after:auto; }
+    .s5-reports-grid { overflow:hidden; }
+    .image-notes { overflow:hidden; }
   }
 
 </style>
 </head>
 <body>
 
-<div class="swipe-debug" id="swipeDebug">LunaFlow · 商业模式 PPT</div>
 
-<div class="deck" id="deck">
+
+<main class="deck-viewport" id="deckViewport" aria-label="LunaFlow 演示文稿"><div class="deck" id="deck">
 
   <!-- ============================================================
        Slide 1 · 封面
        ============================================================ -->
-  <section class="slide s1">
-    <div class="s1-ring"></div>
-
-    <div class="s1-content">
-      <div class="s1-deco-line"></div>
-
-      <div class="s1-brand-block">
-        <div class="s1-brand-mark">
-          <span class="dot">·</span>LunaFlow
-        </div>
-        <div class="s1-brand-tagline">
-          <strong>女性经期智能管理</strong>
-          <span style="margin: 0 0.6vw; color: var(--c-rose-500);">/</span>
-          <em>Smart Menstrual Care</em>
-        </div>
-      </div>
-
-      <h1 class="s1-title">
-        以<span class="accent">经期管理</span>为入口<br>
-        为<span class="accent">女性健康</span>构建
-      </h1>
-
-      <div class="divider"><span>DATA · CARE · COMMERCE</span></div>
-
-      <p class="s1-subtitle">
-        一个融合 <strong>数据记录 · 健康关怀 · 商业服务</strong><br>
-        的女性全周期健康小程序
-      </p>
-
-      <div class="pillars">
-        <div class="s1-pillar">
-          <div class="num">01</div>
-          <div class="label">数据记录</div>
-          <div class="desc">智能预测经期 · 排卵期<br>症状与情绪多维日志</div>
-        </div>
-        <div class="s1-pillar">
-          <div class="num">02</div>
-          <div class="label">健康关怀</div>
-          <div class="desc">科普内容 · 医生问答<br>私密社区 · 情绪陪伴</div>
-        </div>
-        <div class="s1-pillar">
-          <div class="num">03</div>
-          <div class="label">验证路径</div>
-          <div class="desc">免费基础 · 9.9 元月卡 · 自愿连续包月<br>用品券自选 · 通知 + AI 整理</div>
-        </div>
-      </div>
-
-      <div class="s1-value">
-        <span class="v-label">帮助她们</span>
-        <strong>记录 · 理解 · 照顾自己</strong>
-      </div>
-    </div>
-
-    <div class="s1-visual"></div>
-
-    <div class="footer">
-      <div class="brand"><span></span><span>LUNAFLOW · 01 · 封面</span></div>
-      <div></div>
-      <div></div>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       Slide 2 · 痛点市场
-       ============================================================ -->
-  <section class="slide s2">
-    <div class="header">
-      <div class="header-left">
-        <div class="chapter">PART 02 · MARKET &amp; PAINPOINTS</div>
-        <h1>女性健康市场 <span class="accent">·</span> <span class="accent">未被解决的痛点</span></h1>
-        <div class="sub">万亿赛道 · 工具型产品缺位 · 情绪价值长期被忽视</div>
-      </div>
-      <div class="header-right">
-        <div class="num">¥ <span data-countup="1.0">1.0</span><small> 万亿</small><span class="audit-flag" title="见审查文档 §2.1 / §2.2 / §11.1">口径</span></div>
-        <div class="label">WOMEN HEALTH · 行业经济规模</div>
-        <div class="audit-data">WEF/BCG 估算·女性健康差距年度经济成本;非女性健康 APP 市场规模</div>
-      </div>
-    </div>
-
-    <div class="s2-main">
-      <!-- 左：叙事 + 市场数字 -->
-      <div class="s2-narrative">
-        <div class="s2-quote">
-          "她不是不需要被照顾<br>
-          只是 <span class="accent">没人为她设计</span>"
-        </div>
-        <div class="sub">
-          据 <strong>WEF/BCG 估算</strong>，女性健康差距每年带来约 <strong>1 万亿美元</strong>的全球生产力损失；
-          主流经期管理 App 的核心记录功能已普及，但在症状整理、隐私保护、医疗衔接等深层任务上完成度参差。
-          女性从青春期到围绝经期的 <strong>40+ 年</strong>，都面对周期管理的反复需求。
-          其中 <strong>30%–40%</strong> 受经前综合征(PMS)显著影响，但情绪波动为个体差异，不宜作为性别差异的通用结论。
-        </div>
-        <div class="audit-data">
-          · 1T 美元为经济成本估算(WEF/BCG)，非 APP 市场规模；后者约 48.6 亿美元(2026 年，BRI 估算)
-          · "拼凑感"系研究印象，非逐款实测结论；不同应用/系统工具的能力差异显著
-          · 3 倍情绪波动数字已删除(详见 §2.6)
-        </div>
-
-        <div class="s2-stats">
-          <div class="s2-stat">
-            <div class="num"><span data-countup="3.6">3.6</span><small> 亿</small><span class="audit-flag" title="见审查文档 §4.2">来源</span></div>
-            <div class="lbl">中国育龄女性(15–49 岁)</div>
-            <div class="audit-data">国家统计局·2023；本数字为人群规模，不等同于付费市场</div>
-          </div>
-          <div class="s2-stat">
-            <div class="num">~<span data-countup="40">40</span><small> 年</small></div>
-            <div class="lbl">女性经期管理周期(青春期–围绝经期)</div>
-            <div class="audit-data">·"7.2 年"未在审查文档可证据链中找到；予以删除，避免无来源数字进入 BP</div>
-          </div>
-          <div class="s2-stat">
-            <div class="num"><span data-countup="30">30</span>–<span data-countup="40">40</span><small> %</small><span class="audit-flag" title="见审查文档 §8.3 / §11.5">待验证</span></div>
-            <div class="lbl">受经前综合征(PMS)显著影响</div>
-            <div class="audit-data">·"80%"未注明具体研究，样本与定义不明；改用 PMS 比例作为更可验证的近似值</div>
-          </div>
-          <!-- 原"3 倍 情绪波动 vs 男性"已删除 -->
-          <!-- 理由:"情绪波动"是流传的伪科普，与 PMS 比例不同；已在 narrative 中说明 -->
-        </div>
-      </div>
-
-      <!-- 右：6 大痛点 -->
-      <div class="s2-painpoints">
-        <div class="s2-pp">
-          <div class="icon">📊</div>
-          <div class="name">记录维度单一</div>
-          <div class="desc">主流工具侧重"日期 + 流量"；情绪/症状/睡眠等结构化记录易中断；中断后回顾也困难</div>
-        </div>
-        <div class="s2-pp">
-          <div class="icon">🔮</div>
-          <div class="name">非规律周期预测</div>
-          <div class="desc">基于"28 天固定周期"的预测对 21–35 天波动范围的多样性不友好，需个体化模型验证</div>
-        </div>
-        <div class="s2-pp">
-          <div class="icon">💬</div>
-          <div class="name">交流与问诊意愿<span class="audit-flag" title="见审查文档 §4.2 / §5.4 / §11.3">假设</span></div>
-          <div class="desc">用户对私密交流与医生通道的接受度，是待验证需求，非已证实现状</div>
-        </div>
-        <div class="s2-pp">
-          <div class="icon">🛒</div>
-          <div class="name">按周期推荐</div>
-          <div class="desc">将卫生用品推荐与周期阶段匹配，作为商业化候选路径；实际需求与复购意愿需用户访谈验证</div>
-        </div>
-        <div class="s2-pp">
-          <div class="icon">🩺</div>
-          <div class="name">就诊资料整理</div>
-          <div class="desc">对 PCOS/痛经/更年期人群，价值不仅在预测，更在症状时间线整理与就诊摘要导出；数据接入需用户授权</div>
-        </div>
-        <div class="s2-pp">
-          <div class="icon">⏰</div>
-          <div class="name">提醒缺位</div>
-          <div class="desc">用户想被提醒记日期、记症状、准备就诊，但当前工具不做主动触达；每天打卡又太累</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="brand"><span></span><span>LUNAFLOW · MARKET</span></div>
-      <div class="quote">"工具已经普及，深层任务仍待完成 — 但商业价值需小额验证，不能先预设投流"</div>
-      <div class="page"><span>02</span> / 12 · PAINPOINTS</div>
-    </div>
-    <div class="ppt-footnote">
-      <b>数据使用说明：</b>
-      ① 本页数字均标注口径与来源；
-      ② 1T 美元为 WEF/BCG 估算的"经济成本"，非 APP 市场规模(后者 ~48.6 亿美元，BRI 估算)；
-      ③ "3 倍 情绪波动"等无证据数字已删除；
-      ④ 详情见 <b>经期管理与女性健康应用市场_观点审查与立项分析_2026-09-22.md</b> §11。
-    </div>
-  </section>
-
-  <!-- ============================================================
-       Slide 3 · 产品
-       ============================================================ -->
-  <section class="slide s3">
-    <div class="header">
-      <div class="header-left">
-        <div class="chapter">PART 03 · PRODUCT</div>
-        <h1>LunaFlow 产品 <span class="accent">·</span> <span class="accent">数据驱动的关怀</span></h1>
-        <div class="sub">智能记录 + 精准预测 + 健康关怀 + 商业服务 · 四大模块</div>
-      </div>
-      <div class="header-right">
-        <div class="num"><span data-countup="4">4</span><small> 模块</small></div>
-        <div class="label">PRODUCT PILLARS</div>
-      </div>
-    </div>
-
-    <div class="s3-main">
-      <!-- Hero：产品定位 + 可视化 -->
-      <div class="s3-hero">
-        <div class="s3-hero-text">
-          <div class="label">CORE VALUE</div>
-          <h2>通知让你<span class="accent">想起来</span><br>AI 让你这次回来<span class="accent">更值得</span></h2>
-          <p>
-            LunaFlow 不是经期记录器，而是基于个体多维日志的全周期伙伴。
-            通过症状-情绪-体征多维记录，把每月「被动应对」变成「主动规划」。
-            AI 模型将以任务改善（对话式记录 / 摘要可追溯 / 错误可纠正）为核心评价标准，而非标签承诺。
-          </p>
-          <div class="audit-data">
-            · "10 万+ 用户训练"在立项阶段无证据支撑，予以删除
-            · AI 任务边界见审查文档 §9.2：不猜测未提供的日期/症状/用药；不把"相关"写成"病因"；不编造检查结论
-          </div>
-        </div>
-        <div class="s3-hero-visual"></div>
-      </div>
-
-      <!-- 8 大核心功能（4 列 × 2 行） -->
-      <div class="s3-features">
-        <div class="s3-feat">
-          <div class="feat-icon">📅</div>
-          <div class="feat-name">智能记录</div>
-          <div class="feat-tag">DAILY</div>
-          <div class="feat-desc">3 秒打卡 · 经期/症状/情绪/用药/睡眠 5 维记录</div>
-        </div>
-        <div class="s3-feat">
-          <div class="feat-icon">🤖</div>
-          <div class="feat-name">个体化预测<span class="audit-flag" title="见审查文档 §6.4 / §11.5">待验证</span></div>
-          <div class="feat-tag">AI</div>
-          <div class="feat-desc">基于个体多维日志的周期模型 · 准确率以临床测试为准 · 不替代避孕/诊断</div>
-        </div>
-        <div class="s3-feat">
-          <div class="feat-icon">💡</div>
-          <div class="feat-name">健康科普</div>
-          <div class="feat-tag">CONTENT</div>
-          <div class="feat-desc">PMS/PCOS/更年期等内容 · 医生资质、来源与更新频率以版本记录为准 · 不替代个体诊疗</div>
-        </div>
-        <div class="s3-feat">
-          <div class="feat-icon">⏰</div>
-          <div class="feat-name">主动预约<span class="audit-flag" title="见新文档 §一 / §四">用户驱动</span></div>
-          <div class="feat-tag">SCHEDULE</div>
-          <div class="feat-desc">用户选择时间 → 系统按预约提醒一次 · 不做每日推送 · 不做无限连续提醒</div>
-        </div>
-        <div class="s3-feat">
-          <div class="feat-icon">🔔</div>
-          <div class="feat-name">通知服务<span class="audit-flag" title="见新文档 §四 / §五">短文案·低暴露</span></div>
-          <div class="feat-tag">NOTIFY</div>
-          <div class="feat-desc">简短文案 · 不展示健康细节 · 点开直达记录页 · 用户可关闭 · 不混用健康与商业</div>
-        </div>
-        <div class="s3-feat">
-          <div class="feat-icon">✏️</div>
-          <div class="feat-name">一句话整理<span class="audit-flag" title="见审查文档 §9.2 / 用户方向讨论">AI 辅助</span></div>
-          <div class="feat-tag">DRAFT</div>
-          <div class="feat-desc">写一句自动整理为可确认记录卡 · 不猜测未提供字段 · 用户可不用 AI</div>
-        </div>
-        <div class="s3-feat">
-          <div class="feat-icon">📊</div>
-          <div class="feat-name">个人回顾<span class="audit-flag" title="见新文档 §三">三阶段能力</span></div>
-          <div class="feat-tag">REVIEW</div>
-          <div class="feat-desc">① 检查完整 ② 整理变化（不解释因果） ③ 帮用户完成下一件事 · 不下诊断 · 可追溯原始</div>
-        </div>
-        <div class="s3-feat">
-          <div class="feat-icon">🩺</div>
-          <div class="feat-name">就诊准备<span class="audit-flag" title="见新文档 §一">用户触发</span></div>
-          <div class="feat-tag">VISIT</div>
-          <div class="feat-desc">用户主动设置 → 选择记录范围 → 形成可编辑可分享的就诊摘要 · 不替代医生 · 不下诊断</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="brand"><span></span><span>LUNAFLOW · PRODUCT</span></div>
-      <div class="quote">"好的通知让她每次回来，都少忘一件事、少填几项"</div>
-      <div class="page"><span>03</span> / 12 · PRODUCT</div>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       Slide 4 · 商业模式重构
-       ============================================================
-       重构依据：从"5 大变现引擎"→"3 阶段验证路径"
-       · 不预设单位经济，只展示情景测算
-       · 付费设计：免费基础 + 付费增强（¥59/¥99 为实验方案）
-       · 单位经济：有效用户付费率 × 贡献 - 免费用户成本 = 获客成本上限
-       · 验证：任务 → 付费 → 跨周期，每阶段设止损线
-       · 决策：四种测试结果对应四种动作
-       引用：审查文档 §9.4 / §9.5 / §10.3 / §10.4 / §10.5
-       ============================================================ -->
-  <section class="slide s4">
-    <div class="header">
-      <div class="header-left">
-        <div class="chapter">PART 04 · VALIDATION PATH</div>
-        <h1>商业模式 <span class="accent">·</span> <span class="accent">先验证，再放大</span></h1>
-        <div class="sub">付费设计 · 单位经济压力测试 · 五阶段验证 · 决策与暂停条件</div>
-      </div>
-      <div class="header-right">
-        <div class="num"><span data-countup="3">3</span><small> 阶段</small></div>
-        <div class="label">VALIDATION PHASES</div>
-      </div>
-    </div>
-
-    <div class="s4-main">
-      <!-- 左：付费设计 + 单位经济情景 -->
-      <div class="s4-intro">
-        <div class="label">PRICING</div>
-        <h2>免费基础 <span class="accent">+</span><br>9.9 元月卡 · 自愿连续包月</h2>
-        <div class="desc">
-          极简记录让用户愿意开始，AI 整理减少实际负担，
-          可信的历史记录让用户回来，自愿付费 + 真实省钱证明商业价值。
-          <strong>先做单次月卡，再开放自愿连续包月，最后小额投流。</strong>
-        </div>
-
-        <!-- 免费基础层 -->
-        <div class="s4-tier s4-tier-free">
-          <div class="tier-head">
-            <span class="tier-name">免费基础</span>
-            <span class="tier-tag">RELIABLE · 可靠记录</span>
-          </div>
-          <div class="tier-content">
-            日期记录 · 修改 · 历史查看 · 基础导出 · 权限范围内的提醒 · 有限的 AI 整理（用于首日体验）
-          </div>
-          <div class="tier-value">交付：可靠地把信息记下来</div>
-        </div>
-
-        <!-- 付费增强层 -->
-        <div class="s4-tier s4-tier-paid">
-          <div class="tier-head">
-            <span class="tier-name">付费增强</span>
-            <span class="tier-tag">9.9 元/月 · 月卡（测试价格）</span>
-          </div>
-          <div class="tier-content">
-            AI 增强整理 · 跨周期对比 · 可编辑的就诊准备资料 ·
-            <strong>每账期自选一张合作商家用品券</strong>（用户主动领取）
-          </div>
-          <div class="tier-value">交付：少整理 · 少遗漏 · 用品省钱 · 需要时容易说清楚</div>
-        </div>
-
-        <!-- 关键边界 -->
-        <div class="s4-boundary">
-          <div class="b-row"><span class="warn">⚠️</span>查阅 · 纠错 · 注销 · 数据删除 <strong>不应被设计成会员特权</strong>；不能靠提高迁移难度制造留存。</div>
-          <div class="b-row"><span class="warn">⚠️</span>自动续费须明确授权；<strong>"签约成功" ≠ "扣款成功"</strong>，不得仅凭签约认定当期会员已付款。</div>
-          <div class="b-row"><span class="warn">⚠️</span><strong>券面额 ≠ 实际省钱</strong>；判断标准是同款商品可实际买到的含运费到手价。</div>
-          <div class="b-row"><span class="warn">⚠️</span>广告归因不携带健康内容；仅账号标识加购买事件也需评估敏感性。</div>
-        </div>
-
-        <!-- 单位经济情景测算 -->
-        <div class="s4-unit-econ">
-          <div class="ue-title">
-            <span class="s5-dot-accent"></span>
-            <strong>单位经济 · 压力测试</strong>
-            <span class="ue-flag">[非已验证，仅为示例贡献]</span>
-          </div>
-          <table class="ue-table">
-            <thead>
-              <tr>
-                <th>情景</th>
-                <th>平台补贴<br><span class="ue-th-sub">/ 张</span></th>
-                <th>核销率</th>
-                <th>每位会员<br>月贡献</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>基础示例</strong></td>
-                <td>3 元</td>
-                <td>50%</td>
-                <td><strong style="color: var(--c-rose-700)">6.4 元</strong></td>
-              </tr>
-              <tr>
-                <td><strong>全部使用</strong></td>
-                <td>3 元</td>
-                <td>100%</td>
-                <td><strong style="color: var(--c-rose-700)">4.9 元</strong></td>
-              </tr>
-              <tr>
-                <td><strong>高补贴 + 全用</strong></td>
-                <td>10 元</td>
-                <td>100%</td>
-                <td><strong style="color: #a06565">−2.1 元</strong></td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="ue-note">
-            公式：<strong>9.9 − 2 − 补贴 × 核销率 = 月贡献</strong>（9.9 元月费 − 2 元直接成本 − 平台期望补贴）。
-            <strong>不依赖</strong>用户忘记领券或忘记取消；模型应在用户积极使用权益时仍成立。
-            按付费队列观察：<strong>队列贡献 = 实收会员 + 已结算佣金 − 直接服务 − 权益补贴 − 广告获客</strong>，不把一次付费乘以假定的无限续费月份。
-            <strong>未覆盖</strong>：获客、研发、合规、固定人员等费用。
-          </div>
-        </div>
-      </div>
-
-      <!-- 右：三阶段验证 + 决策规则 -->
-      <div class="s4-revenue">
-        <div class="s4-rev">
-          <div class="num">阶段 1<small>~20–30 人</small></div>
-          <div class="name">落实真实权益 + 验证任务</div>
-          <div class="desc">
-            先与少量商家谈清优惠、库存、结算、退款与售后；用真实商品下单验证同款到手价。
-            工具部分：找目标用户对比"普通按钮 vs AI 一句话整理"，观察能否独立完成、是否愿意下次继续用。
-            <strong>新增：通知机制 A/B 测试</strong> — 比较"普通提醒 vs AI 整理后回顾"两组，看是否真的降低记录负担。
-            <span class="rev-meta">DISCOVERY · 探索样本 + 商家供券真实化 + 通知形式</span>
-          </div>
-          <div class="stage">权益 · 任务 · 通知</div>
-        </div>
-
-        <div class="s4-rev">
-          <div class="num">¥3000<small>广告上限</small></div>
-          <div class="name">单次月卡 → 重复价值 → 自愿连续包月</div>
-          <div class="desc">
-            先做<strong>单次月卡</strong>（不默认连续包月）；观察 2-3 个账期的实付、领券与核销数据。
-            在支付权限与续费流程全部跑通后，开放<strong>主动签约的连续包月</strong>，区分主动续购与自动续费群组。
-            最后小额投流：固定主要人群 · 产品版本 · 价格；只换素材。
-            <span class="rev-meta">PAYMENT · 队列贡献观察（非单次乘以续费月数）</span>
-          </div>
-          <div class="stage">付费 · 续费 · 投流</div>
-        </div>
-
-        <div class="s4-rev">
-          <div class="num">60–90<small>天</small></div>
-          <div class="name">验证跨账期留存</div>
-          <div class="desc">
-            订阅账期与月经周期<strong>分别统计</strong>。周期不规律者按真实任务发生统计，不强按 28 天算流失。
-            关注：工具记录是否继续 / 用户是否主动续购 / 券实际节省 / 当期队列贡献。
-            区分三种行为：回来继续记录 / 回来修改错误 / 仅被提醒后点开。
-            <span class="rev-meta">RETENTION · 跨账期窗口</span>
-          </div>
-          <div class="stage">留存 · 贡献</div>
-        </div>
-
-        <div class="s4-rev s4-rev-decision">
-          <div class="num">→ <small>决策</small></div>
-          <div class="name">四种结果，四种动作</div>
-          <div class="decision-list">
-            <div class="decision-item">
-              <span class="d-tag d-tag-warn">A</span>
-              <span class="d-text">点击不错，但很少完成真实记录 → <strong>优先修改承诺与首屏，暂停扩大投放</strong></span>
-            </div>
-            <div class="decision-item">
-              <span class="d-tag d-tag-warn">B</span>
-              <span class="d-text">使用与回访不错，但付费很弱 → <strong>继续验证收费价值，不靠买量扩大免费服务成本</strong></span>
-            </div>
-            <div class="decision-item">
-              <span class="d-tag d-tag-warn">C</span>
-              <span class="d-text">有真实付费，但 CAC 持续高于上限 → <strong>优化渠道/转化/价值，不假设续费弥补</strong></span>
-            </div>
-            <div class="decision-item">
-              <span class="d-tag d-tag-ok">D</span>
-              <span class="d-text">多批用户持续使用，扣除成本后仍有余量，审核与数据处理稳定 → <strong>才考虑逐步扩大预算</strong></span>
-            </div>
-            <div class="decision-item decision-pause">
-              <span class="d-tag d-tag-pause">!</span>
-              <span class="d-text">应<strong>立即暂停</strong>扩大投放：券后价与公开渠道无优势 / 首月便宜次月无同等权益 / 用户只领券不用工具 / 较多用户不知道在自动扣款 / 支付权限·退款·隐私方案未跑通 / <strong>通知被频繁关闭或投诉骚扰</strong> / <strong>AI 整理被发现虚构</strong>而非"标注缺失"</span>
-            </div>
-          </div>
-          <div class="decision-foot">
-            付费广告带来的用户要单独计算，不要把自然流量、朋友推荐和原有用户回流混进去。
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="brand"><span></span><span>LUNAFLOW · VALIDATION</span></div>
-      <div class="quote">"卖「省心 + 真实省钱」，不是卖「自动扣款的资格」"</div>
-      <div class="page"><span>04</span> / 12 · VALIDATION</div>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       Slide 5 · 研报数据全景
-       数据由 charts_manifest.js + renderS5() 动态填充
-       交互：图表缩略点击 → lightbox 全屏灯箱 / 「查看 PDF」→ PDF modal
-       ============================================================ -->
+<section class="slide strategy cover-strategy" id="overview" data-title="LunaFlow">
+      <header class="header"><div class="header-left"><div class="chapter">LUNAFLOW / V1.2</div><h1>LunaFlow</h1><div class="sub">极简经期记录与用品补给</div></div><div class="header-right"><div class="label">2026.09.23<br>商业验证方案</div></div></header>
+      <div class="strategy-body">
+<div class="cover-copy"><p class="eyebrow">首发实验 / 按次购买 / 主动复购</p><h2>记得省心<br><span>补给有数</span></h2><p class="lead">用一份真实可交付的用品组合，<br>验证首单成交与再次购买。</p><p class="cover-status">价格、供货与经营效果均待验证。<br>现有仓库为产品方案与演示资料。</p></div>
+<div class="cover-outline"><div><b>01</b><h3>用品促成首单</h3><p>规格清楚、到手价可比，一次付款。</p></div><div><b>02</b><h3>服务帮助复购</h3><p>保存常用组合，自选提醒，再次确认购买。</p></div><div><b>03</b><h3>工具独立验证</h3><p>记录与回顾是否有用，会员是否值得买，分别取证。</p></div></div>
+</div>
+      <footer class="footer"><div class="brand">LUNAFLOW</div><div class="quote">首轮聚焦一个组合、一个供应商、一条交易链路</div><div class="page"><span>01</span> / 16</div></footer>
+    </section>
+<section class="slide strategy " id="audience" data-title="首发用户与购买任务">
+      <header class="header"><div class="header-left"><div class="chapter">LUNAFLOW / V1.2</div><h1>首发用户与购买任务</h1><div class="sub">人群选择是假设，以访谈、真实订单和复购数据检验</div></div><div class="header-right"><div class="label">2026.09.23<br>商业验证方案</div></div></header>
+      <div class="strategy-body">
+<div class="split"><div><p class="eyebrow">第一批用户</p><h2>有常用偏好<br>近期需要补货</h2><p class="lead">面向成年用户，先服务一个具体购买场景。</p><ul class="plain-list"><li>已有品牌或规格偏好，愿意比较同款到手价。</li><li>需要补货，希望少一次挑选和重复填写。</li><li>可以单独购买用品，自愿决定是否使用记录工具。</li></ul></div>
+<div><table class="strategy-table"><thead><tr><th>真实任务</th><th>交付与验证</th></tr></thead><tbody><tr><td>这次买得明白</td><td>看清品牌、片数、运费和售后<br><small>观察实付与退款</small></td></tr><tr><td>下次买得省事</td><td>保存常用组合，可改规格或跳过<br><small>观察主动二次购买</small></td></tr><tr><td>需要时回顾记录</td><td>一键记录、本人确认、按需整理<br><small>观察有效使用与单独付费</small></td></tr></tbody></table><p class="note">用品消耗与囤货因人而异。每次月经不等于每月购买，也不据此推算固定续费。</p></div></div>
+</div>
+      <footer class="footer"><div class="brand">LUNAFLOW</div><div class="quote">首单价值应当在商品详情页就能被理解</div><div class="page"><span>02</span> / 16</div></footer>
+    </section>
+<section class="slide strategy " id="product" data-title="产品价值分别验证">
+      <header class="header"><div class="header-left"><div class="chapter">LUNAFLOW / V1.2</div><h1>产品价值分别验证</h1><div class="sub">经期记录保留独立价值，补给交易允许直接完成</div></div><div class="header-right"><div class="label">2026.09.23<br>商业验证方案</div></div></header>
+      <div class="strategy-body">
+<div class="value-row"><span class="row-no">01</span><div><h2>用品交易</h2><p>明确组合与到手价，订单、履约和售后形成闭环。</p></div><div class="measure"><b>首单贡献</b><span>扣除履约与退款后还能留下多少</span></div></div>
+<div class="value-row"><span class="row-no">02</span><div><h2>补货服务</h2><p>常用规格保存、自选时间提醒、按上次组合再次购买。</p></div><div class="measure"><b>主动复购</b><span>用户确认后再次付款，可跳过或推迟</span></div></div>
+<div class="value-row"><span class="row-no">03</span><div><h2>经期工具</h2><p>免费基础记录，AI 生成可修改草稿，数据充足时按需回顾。</p></div><div class="measure"><b>有效使用与独立付费</b><span>需要时再次完成任务，愿为增强服务付费</span></div></div>
+<p class="callout">商品复购、工具有效、会员成立，需要各自的证据。用户只买用品时，先按用品业务评价。</p>
+</div>
+      <footer class="footer"><div class="brand">LUNAFLOW</div><div class="quote">首轮可用现成合规交易工具，完整小程序按证据逐步建设</div><div class="page"><span>03</span> / 16</div></footer>
+    </section>
+<section class="slide strategy " id="package" data-title="首发经期用品补给包">
+      <header class="header"><div class="header-left"><div class="chapter">LUNAFLOW / V1.2</div><h1>首发经期用品补给包</h1><div class="sub">原包装用品组合配补货服务，首轮按次购买</div></div><div class="header-right"><div class="label">2026.09.23<br>商业验证方案</div></div></header>
+      <div class="strategy-body">
+<div class="split package-layout"><div class="price-block"><p class="eyebrow">用于倒推供应条件的测试价格</p><div class="big-price"><span>¥</span>39.9<small> / 次</small></div><h2>一份明确的用品组合</h2><p class="lead">先做一个日用 / 夜用组合，<br>合作供应商一件代发。</p><p class="note">品牌、规格、片数、供价和代发能力待落实。此处未构成在售承诺。</p></div>
+<div><dl class="package-list"><div><dt>买到什么</dt><dd>具体品牌、规格、片数和原包装商品。详情页明示运费、发货与售后。</dd></div><div><dt>配套服务</dt><dd>保存常用组合、自选补货提醒、确认后按上次组合再买。</dd></div><div><dt>可选工具</dt><dd>免费经期记录与有限 AI 整理体验。填写记录和绑定伴侣均不作购买前置。</dd></div><div><dt>供应前提</dt><dd>取得持续可用的老客供价，比较同款含运费价格，完成真实下单。</dd></div></dl><p class="note">首轮轻量履约：不囤货、不定制包装。无法证明价格或服务优势时，暂缓投放。</p></div></div>
+</div>
+      <footer class="footer"><div class="brand">LUNAFLOW</div><div class="quote">同款价格与履约体验，决定这份组合是否值得买</div><div class="page"><span>04</span> / 16</div></footer>
+    </section>
+<section class="slide strategy " id="journey" data-title="首单与主动复购流程">
+      <header class="header"><div class="header-left"><div class="chapter">LUNAFLOW / V1.2</div><h1>首单与主动复购流程</h1><div class="sub">首单一次付款，后续每次补购都由用户确认</div></div><div class="header-right"><div class="label">2026.09.23<br>商业验证方案</div></div></header>
+      <div class="strategy-body">
+<p class="eyebrow">首单交易</p><ol class="journey-steps"><li><b>01</b><h3>广告到达</h3><p>展示真实商品、规格与价格。</p></li><li><b>02</b><h3>商品详情</h3><p>看清组合、总价及售后规则。</p></li><li><b>03</b><h3>一次付款</h3><p>完成本次订单，支付后履约。</p></li><li><b>04</b><h3>收到用品</h3><p>核验品质与承诺，反馈问题。</p></li></ol>
+<div class="repeat-flow"><h2>再次需要时</h2><div><h3>保存常用组合</h3><p>用户主动选择，可随时修改。</p></div><div><h3>预约一次提醒</h3><p>按可用权限发送，允许推迟或关闭。</p></div><div><h3>确认再购买</h3><p>明示当次总价，可换规格或跳过。</p></div></div>
+<div class="two-notes"><p><b>经期记录独立使用</b><br>购买用品无需提供健康记录，补货提醒与月经预测分开。</p><p><b>自动续费后续评估</b><br>取得权限并验证持续价值后，由用户主动选择，可便捷取消。</p></div>
+</div>
+      <footer class="footer"><div class="brand">LUNAFLOW</div><div class="quote">不设置先开会员、再领券、再付款的首单前置链路</div><div class="page"><span>05</span> / 16</div></footer>
+    </section>
+<section class="slide strategy " id="economics" data-title="每单贡献与获客空间">
+      <header class="header"><div class="header-left"><div class="chapter">LUNAFLOW / V1.2</div><h1>每单贡献与获客空间</h1><div class="sub">以下均为测算假设，需替换为真实报价和经营数据</div></div><div class="header-right"><div class="label">2026.09.23<br>商业验证方案</div></div></header>
+      <div class="strategy-body">
+<div class="split economics-layout"><div><table class="strategy-table cost-table"><thead><tr><th>按平台销售商品的口径</th><th>元 / 单</th></tr></thead><tbody><tr><td>售价</td><td>39.9</td></tr><tr><td>商品采购</td><td>−18.0</td></tr><tr><td>包装、拣货与物流</td><td>−5.0</td></tr><tr><td>支付、税费、客服与退款净损耗</td><td>−2.5</td></tr><tr><td>配套数字服务</td><td>−1.5</td></tr><tr class="total"><td>投流前单笔贡献</td><td>12.9</td></tr></tbody></table><p class="note">按全部交付及服务成本计提。尚未扣除广告、研发和固定运营，贡献不等于净利润。退款不得重复扣减。</p></div>
+<div><p class="eyebrow">获客成本决定首单余量</p><div class="scenario"><span>获客 10 元 / 人</span><strong>+2.9<small> 元</small></strong></div><div class="scenario"><span>获客 20 元 / 人</span><strong class="negative">−7.1<small> 元</small></strong></div><div class="scenario"><span>履约等总成本增加 5 元</span><strong>7.9<small> 元贡献 / 单</small></strong></div><p class="callout compact">实际贡献支撑获客预算。首单亏损时，不能用未经观察的未来续费解释放量。</p><p class="note">若商家收款、LunaFlow 只收佣金，应改用「已结算佣金 − 平台成本」。商品成交额不计作平台收入。</p></div></div>
+</div>
+      <footer class="footer"><div class="brand">LUNAFLOW</div><div class="quote">9.9 元旧月卡全核销贡献示例为 4.9 元，暂不作为首发买量主品</div><div class="page"><span>06</span> / 16</div></footer>
+    </section>
+<section class="slide strategy " id="pilot" data-title="首轮小额试验">
+      <header class="header"><div class="header-left"><div class="chapter">LUNAFLOW / V1.2</div><h1>首轮小额试验</h1><div class="sub">先落实供应，再分批投放，观察 60—90 天主动复购</div></div><div class="header-right"><div class="label">2026.09.23<br>商业验证方案</div></div></header>
+      <div class="strategy-body">
+<div class="split"><div><div class="budget-head"><div><strong>2,000</strong><span>元增量试验费用上限</span></div><div><strong>1,500</strong><span>元另备周转资金，约数</span></div></div><table class="strategy-table budget-table"><tbody><tr><td>样品、真实下单与比价</td><td>300 元</td></tr><tr><td>简单素材与商品页</td><td>300 元</td></tr><tr><td>广告消耗，分批投入</td><td>1,000 元</td></tr><tr><td>售后与实验预备</td><td>400 元</td></tr></tbody></table><p class="note">资金准备约 3,500 元，其中周转资金可循环。预算以已有主体和可用交易工具为前提，不含从零开发人工，也非平台最低充值额。</p></div>
+<div class="pilot-stages"><div><span>1</span><h3>供应证据</h3><p>比较三家报价，确认授权、老客价格、运费、售后及结算，完成真实订单。</p></div><div><span>2</span><h3>首单验证</h3><p>固定组合、价格和页面，分批比较两种素材。分别记录付费渠道实付、退款与获客成本。</p></div><div><span>3</span><h3>复购观察</h3><p>观察同批用户 60—90 天主动二次购买，同时独立记录工具使用。未到补货时间不判流失。</p></div></div></div>
+</div>
+      <footer class="footer"><div class="brand">LUNAFLOW</div><div class="quote">预算内样本不足时保留“证据不足”，不推算长期 LTV</div><div class="page"><span>07</span> / 16</div></footer>
+    </section>
+<section class="slide strategy " id="decisions" data-title="实验决策与后续产品">
+      <header class="header"><div class="header-left"><div class="chapter">LUNAFLOW / V1.2</div><h1>实验决策与后续产品</h1><div class="sub">先回答首单和复购，再决定工具会员与连续服务</div></div><div class="header-right"><div class="label">2026.09.23<br>商业验证方案</div></div></header>
+      <div class="strategy-body">
+<table class="strategy-table decision-table"><thead><tr><th>观察结果</th><th>下一步</th></tr></thead><tbody><tr><td>实付、履约、退款正常，已观察贡献覆盖获客</td><td><b>小步增加预算</b>，继续核对供价与复购</td></tr><tr><td>愿意购买，但贡献不足以覆盖获客</td><td><b>调整供应、组合或渠道</b>，暂停放量</td></tr><tr><td>商品复购成立，工具使用较弱</td><td><b>按用品业务经营</b>，独立验证工具价值</td></tr><tr><td>供价无优势、履约失约或存在支付与隐私问题</td><td><b>暂停相关交易或投放</b>，先解决问题</td></tr></tbody></table>
+<div class="future-row"><div><h3>后续数字会员</h3><p>9.9 元个人 / 14.9 元关怀为 V1.1 测试价。先证明增强服务可独立付费，伴侣授权单独管理。</p></div><div><h3>后续自愿续费</h3><p>确认商户权限、扣费提醒和便捷取消。基础数据管理不设会员门槛，健康记录不用于广告营销。</p></div></div>
+<p class="source-note">依据：<a href="report/LunaFlow_首发补给包与主动复购验证方案_V1.2.md">本次 V1.2 方案</a>、<a href="report/LunaFlow_完整产品与会员方案_V1.1.md">V1.1 产品设计</a>、<a href="https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_9a25ec2d27654df8b1c1eba936f4be7a.html" target="_blank" rel="noopener">2025 年续费规则修订</a>、<a href="https://pay.wechatpay.cn/doc/v2/merchant/4011986709" target="_blank" rel="noopener">微信支付接入要求</a>。后附研报与 V1.1 图稿保留作参考。</p>
+</div>
+      <footer class="footer"><div class="brand">LUNAFLOW</div><div class="quote">下一步先取得可复核的供货条件，形成第一笔真实订单</div><div class="page"><span>08</span> / 16</div></footer>
+    </section>
   <section class="slide s5">
     <div class="header">
       <div class="header-left">
-        <div class="chapter">PART 05 · MARKET &amp; REPORTS</div>
-        <h1>女性健康市场容量 <span class="accent">·</span> <span class="accent">研报数据全景</span></h1>
-        <div class="sub" id="s5-sub-line">NAS+OCR 抓取中 · 数据加载完成后自动更新</div>
+        <div class="chapter">REFERENCE / 01</div>
+        <h1>参考资料 <span class="accent">·</span> <span class="accent">研报数据全景</span></h1>
+        <div class="sub" id="s5-sub-line">仓库参考资料目录，正在载入索引</div>
       </div>
       <div class="header-right">
         <div class="num" id="s5-report-count"><span data-countup="0">0</span> <small>/ 份研报</small></div>
@@ -2397,11 +2225,11 @@
         </div>
       </div>
 
-      <!-- 右：8 大主题分类 -->
+      <!-- 右：主题分类 -->
       <aside class="s5-catalog">
         <div class="s5-catalog-title">
           <span class="s5-dot-accent"></span>
-          <strong>8 大主题</strong>
+          <strong>主题分类</strong>
           <span class="label-sub">完整目录</span>
         </div>
         <ul class="s5-catalog-list" id="s5-catalog-list">
@@ -2417,16 +2245,16 @@
     <!-- 底部行业结论 -->
     <div class="s5-ops-hint">
       <span class="ops-icon">💡</span>
-      <strong>行业共识：</strong>
+      <strong>使用边界：</strong>
       <span id="s5-ops-hint-text">
-        数据加载完成后由 build_cover_manifest.js 注入行业结论（参考 buying cover.html 同位置结构）。
+        研报用于提出问题与核对来源，经营效果由真实试验验证。
       </span>
     </div>
 
     <div class="footer">
       <div class="brand"><span></span><span>LUNAFLOW · REPORTS</span></div>
-      <div class="quote">"用研报数据，喂饱经营决策"</div>
-      <div class="page"><span>05</span> / 12 · REPORTS</div>
+      <div class="quote">研报为研究参考，首发决策依据真实交易</div>
+      <div class="page"><span>09</span> / 16</div>
     </div>
   </section>
 
@@ -2437,7 +2265,7 @@
   <section class="slide s6">
     <div class="header">
       <div class="header-left">
-        <div class="chapter">PART 06 · COMPETITIVE LANDSCAPE</div>
+        <div class="chapter">REFERENCE / 02</div>
         <h1>女性健康市场 <span class="accent">·</span> <span class="accent">玩家地图与原始数据</span></h1>
         <div class="sub">竞争分析起点 · 数据口径审查前的事实底稿</div>
       </div>
@@ -2452,7 +2280,7 @@
         <img src="image/ChatGPT Image 2026年9月22日 16_09_48 (2).png" alt="经期管理与女性健康应用市场全景图">
         <span class="img-meta">原始数据底稿 · 2026-09-22</span>
       </div>
-      <div class="image-notes">
+      <div class="image-notes"><p class="archive-note">资料图与原始设计供参考；首发交易和价格以第 4—8 页为准。</p>
         <h3>本图 <span class="accent">·</span> 6 大模块与口径问题</h3>
         <ul class="notes-list">
           <li><b>① 市场大盘：</b>48.6 亿→253 亿、CAGR 19.8%、北美 41.3%；来自 BRI 2024–2033 旧版数据</li>
@@ -2472,7 +2300,7 @@
     <div class="footer">
       <div class="brand"><span></span><span>LUNAFLOW · COMPETITIVE</span></div>
       <div class="quote">"看懂竞争 · 纠正误区 · 找到具体任务 · 验证持续付费"</div>
-      <div class="page"><span>06</span> / 12 · COMPETITIVE</div>
+      <div class="page"><span>10</span> / 16</div>
     </div>
   </section>
 
@@ -2483,7 +2311,7 @@
   <section class="slide s7">
     <div class="header">
       <div class="header-left">
-        <div class="chapter">PART 07 · AUDITED ROADMAP</div>
+        <div class="chapter">REFERENCE / 03</div>
         <h1>审查修订 <span class="accent">·</span> <span class="accent">一图看懂立项逻辑</span></h1>
         <div class="sub">从原始假设到验证假设 · 13 项关键修正</div>
       </div>
@@ -2498,7 +2326,7 @@
         <img src="image/经期管理市场_审查修订版_一图看懂.png" alt="经期管理市场审查修订版一图看懂">
         <span class="img-meta">审查修订版 · 依据 2026-09-22</span>
       </div>
-      <div class="image-notes">
+      <div class="image-notes"><p class="archive-note">资料图与原始设计供参考；首发交易和价格以第 4—8 页为准。</p>
         <h3>6 个原图模块 + 13 项修正</h3>
         <ul class="notes-list">
           <li><b>01 竞争地图：</b>不只两款 App；不同模式并存（综合平台/订阅健康/医疗避孕/机构服务/免费替代）</li>
@@ -2518,7 +2346,7 @@
     <div class="footer">
       <div class="brand"><span></span><span>LUNAFLOW · AUDIT</span></div>
       <div class="quote">"不是先做一个经期日历，而是解决一个值得持续付费的具体任务"</div>
-      <div class="page"><span>07</span> / 12 · AUDIT</div>
+      <div class="page"><span>11</span> / 16</div>
     </div>
   </section>
 
@@ -2529,7 +2357,7 @@
   <section class="slide s8">
     <div class="header">
       <div class="header-left">
-        <div class="chapter">PART 08 · PRODUCT V1.0</div>
+        <div class="chapter">REFERENCE / 04</div>
         <h1>AI 让经期记录更简单、更有价值</h1>
         <div class="sub">早版产品全景 · 8 模块 · 5 阶段验证 · 投流测算假设</div>
       </div>
@@ -2544,7 +2372,7 @@
         <img src="image/简单记录.png" alt="AI 让经期记录更简单更有价值">
         <span class="img-meta">产品早版设想 · 微信小程序</span>
       </div>
-      <div class="image-notes">
+      <div class="image-notes"><p class="archive-note">资料图与原始设计供参考；首发交易和价格以第 4—8 页为准。</p>
         <h3>V1.0 阶段 <span class="accent">·</span> 市场设想与商业假设</h3>
         <ul class="notes-list">
           <li><b>① 用户的真实困扰：</b>功能太复杂 / 逐项填写耗时 / 时间久了记不清 / 去看医生说不清楚</li>
@@ -2566,7 +2394,7 @@
     <div class="footer">
       <div class="brand"><span></span><span>LUNAFLOW · V1.0</span></div>
       <div class="quote">"小而美的开始：先让用户愿意用，再验证是否能持续付费，最后让广告放大已成立的价值"</div>
-      <div class="page"><span>08</span> / 12 · V1.0 BLUEPRINT</div>
+      <div class="page"><span>12</span> / 16</div>
     </div>
   </section>
 
@@ -2577,7 +2405,7 @@
   <section class="slide s9">
     <div class="header">
       <div class="header-left">
-        <div class="chapter">PART 09 · PRODUCT V1.1</div>
+        <div class="chapter">REFERENCE / 05</div>
         <h1>产品全景图 V1.1 <span class="accent">·</span> <span class="accent">模型迭代说明</span></h1>
         <div class="sub">从 V1.0 → V1.1 · 增加伴侣关怀 + 自选用品权益 + 14.9 元会员</div>
       </div>
@@ -2592,7 +2420,7 @@
         <img src="image/产品全景.png" alt="LunaFlow 产品全景图 V1.1">
         <span class="img-meta">产品验证方案 V1.1 · 2026-09-22</span>
       </div>
-      <div class="image-notes">
+      <div class="image-notes"><p class="archive-note">资料图与原始设计供参考；首发交易和价格以第 4—8 页为准。</p>
         <h3>V1.0 → V1.1 <span class="accent">·</span> 关键迭代差异</h3>
         <ul class="notes-list">
           <li><b>新增 1 · 伴侣关怀会员（14.9 元/月）：</b>一份会员两端使用；接收方只看已授权关怀卡</li>
@@ -2600,7 +2428,7 @@
           <li><b>新增 3 · 商业逻辑闭环：</b>每会员账期贡献示例 个人 6.4 元 / 关怀 10.4 元</li>
           <li><b>新增 4 · 边界声明：</b>本人控制分享 / 随时暂停解绑 / 不诊断 / 不做关系评分 / 通知供券续费待验证</li>
           <li><b>4 大模块：</b>01 记录省心（少操作·少填表）/ 02 回顾清楚（需要时·说得清）/ 03 关怀少猜测（少解释·知道怎么帮）/ 04 用品真省钱（买对用品·真实省钱）</li>
-          <li><b>会员体系：</b>免费基础 0 元 / 个人安心会员 9.9 元/月 / 伴侣关怀会员 14.9 元/月</li>
+          <li><b>后续会员假设（V1.1）：</b>免费基础 0 元 / 个人安心会员 9.9 元/月 / 伴侣关怀会员 14.9 元/月</li>
           <li><b>商业逻辑：</b>每会员账期示例 个人 6.4 元 = 9.9 − 2 − 1.5；关怀 10.4 元 = 14.9 − 3 − 1.5</li>
           <li><b>验证路径：</b>任务原型 → 单次月卡 → 观察续购 → 小额试投</li>
         </ul>
@@ -2613,7 +2441,7 @@
     <div class="footer">
       <div class="brand"><span></span><span>LUNAFLOW · V1.1</span></div>
       <div class="quote">"一个人记录省心，两个人关怀少猜测"</div>
-      <div class="page"><span>09</span> / 12 · V1.1 ITERATION</div>
+      <div class="page"><span>13</span> / 16</div>
     </div>
   </section>
 
@@ -2624,7 +2452,7 @@
   <section class="slide s10">
     <div class="header">
       <div class="header-left">
-        <div class="chapter">PART 10 · COMMERCIAL RELATIONS</div>
+        <div class="chapter">REFERENCE / 06</div>
         <h1>三方角色 <span class="accent">·</span> <span class="accent">付款 ≠ 分享授权</span></h1>
         <div class="sub">记录者 / 接收方 / 付款方 · 边界设计 · 商业关系闭环</div>
       </div>
@@ -2639,7 +2467,7 @@
         <img src="image/产品与商业全景.png" alt="产品与商业全景 · 三方角色关系图">
         <span class="img-meta">产品与商业全景 · 概念与测试方案</span>
       </div>
-      <div class="image-notes">
+      <div class="image-notes"><p class="archive-note">资料图与原始设计供参考；首发交易和价格以第 4—8 页为准。</p>
         <h3>四方角色 <span class="accent">·</span> 责任与边界</h3>
         <ul class="notes-list">
           <li><b>① 记录者（本人）：</b>少填表、少解释；分享什么由本人决定；原始健康记录不共享；已截图内容无法保证收回</li>
@@ -2647,9 +2475,9 @@
           <li><b>③ 付款方（本人或伴侣）：</b>可以赠送服务，但不获得健康查看权；付款 ≠ 分享授权 ≠ 健康信息处理同意</li>
           <li><b>④ 商家（用品合作）：</b>只处理必要交易信息；不接收症状、经期、病史用于营销</li>
           <li><b>四道边界：</b>付款 ≠ 分享授权 | 不做诊断 | 不卖隐私 | 不承诺无限通知</li>
-          <li><b>会员体系：</b>免费基础 0 元 / 个人安心 9.9 元/月 / 伴侣关怀 14.9 元/月</li>
-          <li><b>商业逻辑（示例）：</b>每会员账期 个人 6.4 元 | 关怀 10.4 元（不等于净利润）</li>
-          <li><b>验证路径：</b>任务体验 → 真实付费 → 跨周期使用 → 小额投流</li>
+          <li><b>后续会员假设（V1.1）：</b>免费基础 0 元 / 个人安心 9.9 元/月 / 伴侣关怀 14.9 元/月</li>
+          <li><b>旧月卡测算（非首发包）：</b>每会员账期 个人 6.4 元 | 关怀 10.4 元（不等于净利润）</li>
+          <li><b>本次首发：</b>供应与履约确认 → 按次购买 → 主动复购观察；工具会员另行验证</li>
         </ul>
         <div class="source-line">
           <b>核心边界：</b>本人控制分享 | 随时暂停/解绑 | 不诊断、不做关系评分 | 通知、供券、续费待验证<br>
@@ -2661,7 +2489,7 @@
     <div class="footer">
       <div class="brand"><span></span><span>LUNAFLOW · ROLES</span></div>
       <div class="quote">"双方自愿参与 · 一份会员 · 两端使用"</div>
-      <div class="page"><span>10</span> / 12 · COMMERCIAL RELATIONS</div>
+      <div class="page"><span>14</span> / 16</div>
     </div>
   </section>
 
@@ -2672,7 +2500,7 @@
   <section class="slide s11">
     <div class="header">
       <div class="header-left">
-        <div class="chapter">PART 11 · FUNCTION FLOW</div>
+        <div class="chapter">REFERENCE / 07</div>
         <h1>5 步流程 <span class="accent">+</span> <span class="accent">三道权限边界</span></h1>
         <div class="sub">从私人记录到一次具体帮助 · 先确认再分享 · 先授权再提醒</div>
       </div>
@@ -2687,7 +2515,7 @@
         <img src="image/功能流程权限.png" alt="功能、流程与权限详细图">
         <span class="img-meta">V1.1 · 功能方案 · 5 步 + 3 道边界</span>
       </div>
-      <div class="image-notes">
+      <div class="image-notes"><p class="archive-note">资料图与原始设计供参考；首发交易和价格以第 4—8 页为准。</p>
         <h3>5 步流程 <span class="accent">·</span> 从私人记录到一次帮助</h3>
         <ul class="notes-list">
           <li><b>① 私人记录（仅本人可见）：</b>"今天有点不舒服,想早点休息,希望有人帮忙做晚饭"；日期本人确认；感受只按原话；未知项保持空白；AI 整理后必须本人确认保存</li>
@@ -2708,7 +2536,7 @@
     <div class="footer">
       <div class="brand"><span></span><span>LUNAFLOW · FLOW</span></div>
       <div class="quote">"从私人记录到一次具体帮助 · 先确认再分享 · 先授权再提醒"</div>
-      <div class="page"><span>11</span> / 12 · FLOW &amp; PERMISSION</div>
+      <div class="page"><span>15</span> / 16</div>
     </div>
   </section>
 
@@ -2719,7 +2547,7 @@
   <section class="slide s12">
     <div class="header">
       <div class="header-left">
-        <div class="chapter">PART 12 · FUNCTION SPEC</div>
+        <div class="chapter">REFERENCE / 08</div>
         <h1>F01–F34 <span class="accent">·</span> <span class="accent">34 项功能与验证时序</span></h1>
         <div class="sub">3 角色 / 5 类功能 / 验证优先级与 MVP 路线</div>
       </div>
@@ -2734,16 +2562,16 @@
         <img src="image/功能详细图.png" alt="功能详细图 F01-F34">
         <span class="img-meta">V1.1 · 方案示意 · 34 项功能与验收</span>
       </div>
-      <div class="image-notes">
+      <div class="image-notes"><p class="archive-note">资料图与原始设计供参考；首发交易和价格以第 4—8 页为准。</p>
         <h3>3 角色 × 5 类功能 <span class="accent">·</span> 验证优先级</h3>
         <ul class="notes-list">
           <li><b>记录者（F01–F12）：</b>F01 基础账户 / F02–F05 记录与本人确认 / F06–F08 私人时间线与回顾 / F09 双方确认连接 / F10–F12 选择需求再看预览</li>
           <li><b>权限与 AI（F09–F16）：</b>双方确认连接 / 隐私隔离 5 步（本人选 → 服务端过滤 → AI 草稿 → 本人预览确认 → 接收方查看） / 随时撤回解绑</li>
           <li><b>关怀接收方（F11–F15）：</b>只看授权请求选择行动 / 接收方自己预约提醒 / 自愿反馈确认后再更新偏好</li>
           <li><b>通知与任务（F17–F20）：</b>预约 → 资格校验 → 模板通知 → 返回任务；正文不暴露健康细节；权限不足时保留站内</li>
-          <li><b>会员与用品（F21–F28）：</b>个人 9.9 元/月 · 关怀 14.9 元/月（测试价）；单次月卡 → 自选用券 → 礼赠/升级；连续包月按规则开放</li>
+          <li><b>后续会员设计（F21–F28）：</b>个人 9.9 元/月 · 关怀 14.9 元/月（测试价）；单次月卡 → 自选用券 → 礼赠/升级；连续包月按规则开放</li>
           <li><b>后台支撑（F29–F34）：</b>订单与权益 / AI 质量与成本 / 通知任务队列 / 商家与对账 / 客服与售后 / 权限与审计</li>
-          <li><b>验证时序建议：</b>Phase 1 F01-F09 + F16（单人流程）/ Phase 2 F10-F15（双端）/ Phase 3 F17-F28（通知会员）/ Phase 4 F29-F34（后台）/ Phase 5 A/B 测试 + 上线检查</li>
+          <li><b>首轮范围：</b>先用可用交易工具验证商品订单、履约和售后；基础记录独立试用，双端关怀与会员按证据推进。订单后台与权限保护属于上线前置。</li>
           <li class="warn"><b>核心边界：</b>付款 ≠ 续费签约 ≠ 健康信息同意 ≠ 微信消息订阅授权（4 件事分开管理）</li>
         </ul>
         <div class="source-line">
@@ -2756,11 +2584,11 @@
     <div class="footer">
       <div class="brand"><span></span><span>LUNAFLOW · SPEC</span></div>
       <div class="quote">"34 项功能 · 3 角色 · 5 类 · 验证时序分阶段实施"</div>
-      <div class="page"><span>12</span> / 12 · F01–F34</div>
+      <div class="page"><span>16</span> / 16</div>
     </div>
   </section>
 
-</div>
+</div></main>
 
 <!-- ============================================================
      通用图片 Lightbox（用于 Slide 6-12 的调研图片放大预览）
@@ -2803,7 +2631,7 @@
     <div class="s5-cat-header">
       <div>
         <div class="s5-cat-h-title">完整研报目录 · <span id="s5-cat-h-count">21</span> 份</div>
-        <div class="s5-cat-h-sub">近 12 月精选 · 按图表数降序 · 点击任意行可弹出 PDF 预览</div>
+        <div class="s5-cat-h-sub">原始资料归档，含跨主题材料 · 点击任意行查看 PDF</div>
       </div>
       <button class="s5-cat-close" id="s5-cat-close" aria-label="关闭">×</button>
     </div>
@@ -2831,28 +2659,19 @@
     </div>
     <iframe class="s5-pdf-frame" id="s5-pdf-frame" src="about:blank" title="PDF Preview"></iframe>
     <div class="s5-pdf-error" id="s5-pdf-error" style="display:none">
-      <div style="font-size:1.2vw;color:var(--c-ink-700);margin-bottom:1vw">📄 浏览器安全策略阻止了内嵌 PDF 预览</div>
-      <div style="font-size:var(--fs-tag);color:var(--c-ink-500);margin-bottom:1.5vw">请点击下方按钮在新窗口打开，或下载后查看</div>
+      <div style="font-size:19.2px;color:var(--c-ink-700);margin-bottom:16px">📄 浏览器安全策略阻止了内嵌 PDF 预览</div>
+      <div style="font-size:var(--fs-tag);color:var(--c-ink-500);margin-bottom:24px">请点击下方按钮在新窗口打开，或下载后查看</div>
       <a id="s5-pdf-fallback" href="#" target="_blank" rel="noopener">在新窗口打开 PDF</a>
     </div>
   </div>
 </div>
 
-<!-- 分页指示器 -->
-<div class="pager">
-  <div class="pager-dot active" data-idx="0"></div>
-  <div class="pager-dot" data-idx="1"></div>
-  <div class="pager-dot" data-idx="2"></div>
-  <div class="pager-dot" data-idx="3"></div>
-  <div class="pager-dot" data-idx="4"></div>
-  <div class="pager-dot" data-idx="5"></div>
-  <div class="pager-dot" data-idx="6"></div>
-  <div class="pager-dot" data-idx="7"></div>
-  <div class="pager-dot" data-idx="8"></div>
-  <div class="pager-dot" data-idx="9"></div>
-  <div class="pager-dot" data-idx="10"></div>
-  <div class="pager-dot" data-idx="11"></div>
-</div>
+<nav class="presentation-controls" aria-label="演示控制">
+<button id="prevSlide" aria-label="上一页">←</button>
+<label class="sr-only" for="slideSelect">幻灯片目录</label><select id="slideSelect"></select>
+<span id="slideCount" aria-live="polite"></span><button id="nextSlide" aria-label="下一页">→</button>
+<button id="readingToggle" aria-pressed="false">阅读模式</button><button id="fullscreenToggle">全屏</button><button id="printDeck">打印</button>
+</nav>
 
 <!-- 研报图表清单（由 build_cover_manifest.py 生成） -->
 <script src="分析报告/charts_manifest.js" onerror="console.warn('[LunaFlow] charts_manifest.js 未生成，等待 OCR 完成')"></script>
@@ -2864,58 +2683,186 @@
  * ============================================================ */
 (function(){
   const deck = document.getElementById('deck');
-  const dots = document.querySelectorAll('.pager-dot');
-  const TOTAL = 12;
-  let cur = 0;
+  const viewport = document.getElementById('deckViewport');
+  const slides = Array.from(deck.querySelectorAll(':scope > .slide'));
+  const TOTAL = slides.length;
+  const select = document.getElementById('slideSelect');
+  const counter = document.getElementById('slideCount');
+  const previous = document.getElementById('prevSlide');
+  const next = document.getElementById('nextSlide');
+  const readingButton = document.getElementById('readingToggle');
+  const controls = document.querySelector('.presentation-controls');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let cur = 0, reading = window.innerWidth < 900, PPT_LOCK = false;
+  let canvasScale = 1, printing = false;
 
-  // 全局锁定标志：当 lightbox 或 modal 打开时，PPT 翻页被暂停
-  let PPT_LOCK = false;
-
+  slides.forEach((slide, i) => {
+    if (!slide.id) slide.id = `reference-${i - 7}`;
+    const title = slide.dataset.title || slide.querySelector('h1')?.textContent.replace(/\s+/g,' ').trim() || `第 ${i + 1} 页`;
+    const option = document.createElement('option');
+    option.value = i;
+    option.textContent = `${String(i + 1).padStart(2,'0')}  ${title}`;
+    select.append(option);
+    slide.setAttribute('aria-label', `${i + 1} / ${TOTAL} ${title}`);
+    const footer = slide.querySelector('.page');
+    if (footer) footer.innerHTML = `<span>${String(i + 1).padStart(2,'0')}</span> / ${TOTAL}`;
+  });
   function isModalOpen(){
-    return PPT_LOCK ||
-           document.querySelector('.img-lightbox.open') ||
-           document.querySelector('.s5-lightbox.open') ||
-           document.querySelector('.s5-pdf-modal.open') ||
-           document.querySelector('.s5-cat-modal.open');
+    return PPT_LOCK || document.querySelector('.img-lightbox.open, .s5-lightbox.open, .s5-pdf-modal.open, .s5-cat-modal.open');
   }
-
+  function updateState(){
+    select.value = String(cur);
+    counter.textContent = `${cur + 1} / ${TOTAL}`;
+    previous.disabled = cur === 0;
+    next.disabled = cur === TOTAL - 1;
+    slides.forEach((slide,i) => {
+      const hidden = !reading && !printing && i !== cur;
+      slide.inert = hidden;
+      slide.setAttribute('aria-hidden', String(hidden));
+    });
+  }
+  function fit(){
+    if (reading || printing) return;
+    canvasScale = Math.min(window.innerWidth / 1600, (window.innerHeight - 54) / 900);
+    viewport.style.width = `${1600 * canvasScale}px`;
+    viewport.style.height = `${900 * canvasScale}px`;
+    deck.style.transform = `scale(${canvasScale}) translateX(-${cur * 1600}px)`;
+  }
+  function saveHash(){
+    const hash = '#' + slides[cur].id;
+    if (location.hash !== hash) history.replaceState(null, '', hash);
+  }
   function go(i){
-    if (i < 0 || i >= TOTAL) return;
-    if (isModalOpen()) return;  // 任何 modal 打开时禁止切页
+    if (!Number.isInteger(i) || i < 0 || i >= TOTAL || isModalOpen()) return;
     cur = i;
-    deck.style.transform = `translateX(-${i * 100}vw)`;
-    dots.forEach((d, j) => d.classList.toggle('active', j === i));
+    updateState();
+    fit();
+    saveHash();
+    if (reading) slides[cur].scrollIntoView({behavior:reduceMotion.matches ? 'auto' : 'smooth',block:'start'});
   }
+  function applyReading(){
+    document.body.classList.toggle('reading',reading);
+    readingButton.setAttribute('aria-pressed',String(reading));
+    readingButton.textContent = reading ? '演示模式' : '阅读模式';
+    if (!reading) window.scrollTo(0,0);
+    updateState(); fit();
+  }
+  const initial = slides.findIndex(s => '#' + s.id === location.hash);
+  if (initial >= 0) cur = initial;
+  applyReading();
+  if (reading && initial >= 0) requestAnimationFrame(() => slides[cur].scrollIntoView());
+  window.addEventListener('resize', fit);
+  window.addEventListener('hashchange', () => {
+    const i = slides.findIndex(s => '#' + s.id === location.hash);
+    if (i >= 0) go(i);
+  });
+  previous.addEventListener('click', () => go(cur-1));
+  next.addEventListener('click', () => go(cur+1));
+  select.addEventListener('change', () => go(Number(select.value)));
+  readingButton.addEventListener('click', () => { reading = !reading; applyReading(); if (reading) slides[cur].scrollIntoView(); });
+  const fullButton = document.getElementById('fullscreenToggle');
+  if (!document.fullscreenEnabled) fullButton.hidden = true;
+  fullButton.addEventListener('click', async () => {
+    try { if (document.fullscreenElement) await document.exitFullscreen(); else await document.documentElement.requestFullscreen(); }
+    catch (_) { fullButton.textContent = '全屏不可用'; }
+  });
+  document.addEventListener('fullscreenchange', () => { fullButton.textContent = document.fullscreenElement ? '退出全屏' : '全屏'; fit(); });
+  document.getElementById('printDeck').addEventListener('click', () => window.print());
+  window.addEventListener('beforeprint', () => { printing = true; document.body.classList.remove('reading'); updateState(); });
+  window.addEventListener('afterprint', () => { printing = false; applyReading(); });
 
-  // 滚轮
-  let lock = false;
+  function editable(target){ return target instanceof Element && !!target.closest('input,textarea,select,button,a,[contenteditable="true"]'); }
+  function nestedScroll(target, delta){
+    let el = target instanceof Element ? target : null;
+    while (el && el !== deck) {
+      const style = getComputedStyle(el);
+      if (/(auto|scroll)/.test(style.overflowY) && el.scrollHeight > el.clientHeight + 2) {
+        if ((delta > 0 && el.scrollTop + el.clientHeight < el.scrollHeight - 2) || (delta < 0 && el.scrollTop > 0)) return true;
+      }
+      el = el.parentElement;
+    }
+    return false;
+  }
+  let wheelLocked = false;
   window.addEventListener('wheel', e => {
-    if (isModalOpen()) return;
-    if (lock) return;
-    if (Math.abs(e.deltaY) < 10) return;
-    lock = true;
-    setTimeout(() => lock = false, 800);
-    if (e.deltaY > 0) go(cur + 1); else go(cur - 1);
-  }, { passive: true });
+    if (reading || printing || isModalOpen() || e.ctrlKey || editable(e.target) || nestedScroll(e.target,e.deltaY)) return;
+    if (wheelLocked || Math.abs(e.deltaY) < 12) return;
+    wheelLocked = true; setTimeout(() => wheelLocked = false, 650);
+    go(cur + (e.deltaY > 0 ? 1 : -1));
+  }, {passive:true});
+  let touchStart = null;
+  deck.addEventListener('touchstart',e => { touchStart = e.touches.length === 1 ? {x:e.touches[0].clientX,y:e.touches[0].clientY,target:e.target} : null; },{passive:true});
+  deck.addEventListener('touchend',e => {
+    if (!touchStart || reading || isModalOpen() || editable(touchStart.target)) return;
+    const dx = e.changedTouches[0].clientX - touchStart.x, dy = e.changedTouches[0].clientY - touchStart.y;
+    touchStart = null;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)*1.5) go(cur + (dx < 0 ? 1 : -1));
+  },{passive:true});
+  window.addEventListener('keydown',e => {
+    if (isModalOpen() || reading || e.defaultPrevented || editable(e.target) || (e.target instanceof Element && e.target.closest('[role="button"]'))) return;
+    const indexes = {ArrowRight:cur+1,PageDown:cur+1,' ':cur+1,ArrowLeft:cur-1,PageUp:cur-1,Home:0,End:TOTAL-1};
+    if (Object.hasOwn(indexes,e.key)) { e.preventDefault(); go(indexes[e.key]); }
+  });
+  let scrollScheduled = false;
+  window.addEventListener('scroll', () => {
+    if (!reading || scrollScheduled || isModalOpen()) return;
+    scrollScheduled = true;
+    requestAnimationFrame(() => {
+      let best = 0;
+      slides.forEach((slide,i) => { if (slide.getBoundingClientRect().top <= window.innerHeight * .35) best = i; });
+      cur = best; updateState(); saveHash(); scrollScheduled = false;
+    });
+  },{passive:true});
 
-  // 触摸
-  let sx = 0;
-  window.addEventListener('touchstart', e => { sx = e.touches[0].clientX; }, { passive: true });
-  window.addEventListener('touchend', e => {
-    if (isModalOpen()) return;
-    const dx = e.changedTouches[0].clientX - sx;
-    if (Math.abs(dx) > 60) dx < 0 ? go(cur + 1) : go(cur - 1);
-  }, { passive: true });
-
-  // 键盘（ESC 留给 modal 关闭）
-  window.addEventListener('keydown', e => {
-    if (isModalOpen()) return;
-    if (e.key === 'ArrowRight' || e.key === ' ') go(cur + 1);
-    else if (e.key === 'ArrowLeft') go(cur - 1);
+  // Keyboard access for retained image, chart, and report widgets.
+  document.querySelectorAll('.image-stage img').forEach(img => { img.tabIndex = 0; img.setAttribute('role','button'); img.setAttribute('aria-label',`放大查看：${img.alt}`); });
+  document.addEventListener('keydown',e => {
+    const button = e.target instanceof Element ? e.target.closest('[role="button"]') : null;
+    if (button && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); button.click(); }
   });
 
-  // 分页点击
-  dots.forEach(d => d.addEventListener('click', () => go(+d.dataset.idx)));
+  // Keep hidden dialogs and off-screen slides out of the keyboard focus order.
+  const dialogs = Array.from(document.querySelectorAll('.img-lightbox,.s5-lightbox,.s5-pdf-modal,.s5-cat-modal'));
+  let activeDialog = null, returnFocus = null;
+  function syncDialogs(){
+    const open = dialogs.filter(d => d.classList.contains('open'));
+    const top = open[open.length - 1] || null;
+    if (top !== activeDialog) {
+      if (!activeDialog && top) returnFocus = document.activeElement;
+      activeDialog = top;
+      if (top) {
+        top.inert = false;
+        top.removeAttribute('aria-hidden');
+        (top.querySelector('button,a,[tabindex="0"]') || top).focus();
+      } else {
+        viewport.inert = false; controls.inert = false;
+        if (returnFocus?.isConnected && !returnFocus.closest('[inert]')) returnFocus.focus();
+        else select.focus();
+        returnFocus = null;
+      }
+    }
+    dialogs.forEach(d => {
+      const hidden = d !== top;
+      d.inert = hidden;
+      if (hidden) d.setAttribute('aria-hidden','true'); else d.removeAttribute('aria-hidden');
+    });
+    viewport.inert = Boolean(top); controls.inert = Boolean(top);
+  }
+  dialogs.forEach(d => {
+    d.setAttribute('role','dialog'); d.setAttribute('aria-modal','true');
+    d.setAttribute('aria-label', ({'img-lightbox':'图片预览','s5-lightbox':'研报图表预览','s5-pdf-modal':'研报 PDF 预览','s5-cat-modal':'完整研报目录'})[d.id]);
+    d.tabIndex = -1;
+    new MutationObserver(syncDialogs).observe(d,{attributes:true,attributeFilter:['class']});
+  });
+  syncDialogs();
+  document.addEventListener('keydown',e => {
+    if (e.key !== 'Tab' || !activeDialog) return;
+    const focusable = Array.from(activeDialog.querySelectorAll('button,a[href],iframe,[tabindex="0"]')).filter(el => !el.disabled && el.getClientRects().length);
+    if (!focusable.length) { e.preventDefault(); activeDialog.focus(); return; }
+    const first = focusable[0], last = focusable[focusable.length-1];
+    if (e.shiftKey && (document.activeElement === first || document.activeElement === activeDialog)) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
 
   /* ====== 通用图片 Lightbox 控制（用于 Slide 6-12 调研图） ====== */
   (function setupImgLightbox(){
@@ -2942,6 +2889,7 @@
 
     function openLightbox(src, caption){
       lbImg.src = src;
+      lbImg.alt = caption || '调研图片';
       lbCap.textContent = caption || '';
       resetView();
       PPT_LOCK = true;
@@ -2951,7 +2899,7 @@
       lb.classList.remove('open');
       PPT_LOCK = false;
       // 延迟清空 src,让过渡动画完成
-      setTimeout(() => { lbImg.src = ''; }, 350);
+      setTimeout(() => { if (!lb.classList.contains('open')) lbImg.removeAttribute('src'); }, 350);
     }
 
     // 绑定图片点击事件(在 deck 内委托)
@@ -2966,6 +2914,7 @@
 
     // 关闭按钮 + 背景关闭
     lbClose.addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && lb.classList.contains('open')) closeLightbox(); });
     lb.addEventListener('click', e => { if (e.target === lb) closeLightbox(); });
 
     // 缩放按钮
@@ -3074,7 +3023,7 @@
   function renderS5(){
     if (!window.REPORT_LIST) {
       console.log('[LunaFlow] 等待 OCR 完成 + charts_manifest.js 加载…');
-      setTimeout(renderS5, 2000);
+      document.getElementById('s5-sub-line').textContent = '资料索引未载入，请保留相邻的分析报告目录后重新打开';
       return;
     }
     const reports = window.REPORT_LIST;
@@ -3085,7 +3034,7 @@
     document.getElementById('s5-report-count').innerHTML =
       `<span data-countup="${reports.length}">${reports.length}</span> <small>/ 份研报</small>`;
     document.getElementById('s5-sub-line').textContent =
-      `${reports.length} 份精选女性健康行业研报 · 多主题覆盖 · 点击图表全屏预览 · 一键打开 PDF`;
+      `${reports.length} 份归档资料，含跨主题材料 · 来源与适用性需核对 · 点击查看原始图表和 PDF`;
 
     // 2. 填充精选研报卡片：按图表数降序取前 8
     const grid = document.getElementById('s5-reports-grid');
@@ -3153,7 +3102,7 @@
     kpiBar.innerHTML = `
       <div class="s5-kpi">
         <div class="s5-kpi-num">${reports.length} <small>份</small></div>
-        <div class="s5-kpi-label">研报总数<span class="src">·近 12 月精选</span></div>
+        <div class="s5-kpi-label">资料总数<span class="src">·仓库归档，未按时效筛选</span></div>
       </div>
       <div class="s5-kpi">
         <div class="s5-kpi-num">${totalCharts} <small>图</small></div>
@@ -3168,14 +3117,14 @@
         <div class="s5-kpi-label">主题分类<span class="src">·自动分类</span></div>
       </div>
       <div class="s5-kpi">
-        <div class="s5-kpi-num">¥1.0T <small>经济规模</small><span class="audit-flag" title="见审查文档 §2.1 / §2.2 / §11.1">口径</span></div>
-        <div class="s5-kpi-label">女性健康行业经济成本<span class="src">·WEF/BCG 估算，非 APP 市场规模</span></div>
+        <div class="s5-kpi-num">待核验</div>
+        <div class="s5-kpi-label">适用性与时效<span class="src">·不据此推算付费规模</span></div>
       </div>
     `;
 
     // 5. 更新底部 ops-hint（用 innerHTML 注入 HTML 标签）
     document.getElementById('s5-ops-hint-text').innerHTML =
-      `${reports.length} 份研报覆盖女性健康多个细分；新方向把"通知 + AI 整理"作为核心体验——<strong>通知让用户被提醒，AI 让这次回来更值得</strong>。商业价值仍由具体任务完成度与持续付费意愿决定。`;
+      `归档资料用于研究与追溯，部分主题与首发包无直接关系。<strong>首单贡献、主动复购和工具使用分别以真实试验取证</strong>，不能由行业规模推定项目收入。`;
 
     // 6. 注册交互：图表缩略 → lightbox / 卡片按钮 → PDF modal / 全部图表 → lightbox 从 0 开始
     registerS5Interactions();
@@ -3326,7 +3275,7 @@
           <div class="s5-cat-row" role="button" tabindex="0"
                data-pdf="${r.name}" aria-label="打开《${r.name}》">
             <div class="s5-cat-row-cover">
-              ${cover ? `<img src="${cover}" alt="">` : '<div style="font-size:0.7vw;color:#a08585">无封面</div>'}
+              ${cover ? `<img src="${cover}" alt="">` : '<div style="font-size:11.2px;color:#a08585">无封面</div>'}
             </div>
             <div class="s5-cat-row-info">
               <div class="s5-cat-row-name">${r.name}</div>
